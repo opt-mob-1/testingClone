@@ -1,0 +1,59 @@
+sites/default/files/**/*
+sites/*/files
+sites/*/private
+files/*
+sites/*/settings.local.php
+sites/*/services.local.yml
+/sites/default/**/files
+/sites/default/**/private
+
+# Ignore node modules
+node_modules
+vendor/*
+vendor/**/*
+
+# Ignore phpstorm auto gen files
+.idea/*
+**/.idea/
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# OS generated files #
+######################
+.DS_Store*
+**/.DS_Store
+ehthumbs.db
+Icon
+
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+.sass-cache
+
+# Things in the core directory that Drupal 8 commits in the repository.
+!core/**/*.gz
+sites/all/themes/getitfree/panels/
+.gitignore
+sites/all/themes/zeeto/images/

@@ -1,0 +1,41 @@
+global-styling:
+  version: 1.1
+  fonts:
+    css:
+      theme:
+        //fonts.googleapis.com/css?family=Source+Sans:300,400,400i,700,700i,900,900i|Montserrat:400,400i,700,700i,800: { type: external }
+
+
+  css:
+    base:
+    # 1. Foundation: Normalize, Bootstrap, Global Classes, Font Awesome
+    # 2. Settings: Global variables and common elements used throughout this property
+    # 3. Theme: Styling of all pattern library elements as well as design elements consistent across this variation
+    # 4. Templates : Template stylesheets
+    # 5. Components: Component stylesheets
+    # 6. Modules: Module stylesheets
+
+    # 1. Foundation
+      //maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: { type: external }
+
+    # 2. Property Settings
+      css/settings/settings.css: {}
+
+    # 3. Theme
+
+    # 4. Templates
+
+    # 5. Components
+
+    # 6. Modules
+
+
+global-js:
+  version: 1.x
+  js:
+
+  dependencies:
+    - core/jquery
+
+
+# Add any external libraries and custom components below

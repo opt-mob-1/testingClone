@@ -1,0 +1,17 @@
+<?php
+/**
+* Implements hook_theme_suggestions_HOOK_alter().
+*/
+function zeeto_theme_suggestions_node_alter(array &$suggestions, array $variables) {
+  $suggestions[] = 'node__' . 'my_suggestion';
+}
+
+/**
+* Implements hook_theme_suggestions_alter().
+*/
+function zeeto_theme_suggestions_alter(array &$suggestions, array $variables, $hook) {
+  if (in_array($hook, array('node', 'taxonomy_term'))) {
+    $suggestions[] = $hook . '__' . 'my_first_suggestion';
+    $suggestions[] = $hook . '__' . 'my_second_suggestion';
+  }
+}

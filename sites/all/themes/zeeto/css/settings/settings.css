@@ -1,0 +1,12 @@
+/**** Global Styles Defined ****/
+/* Color Variables */
+/* Font Family Variables */
+body {
+  font-family: "Source Sans", Helvetica, Arial;
+  font-size: 1rem;
+  background: #f2f2f2;
+}
+
+.container {
+  background-color: #ffffff;
+}

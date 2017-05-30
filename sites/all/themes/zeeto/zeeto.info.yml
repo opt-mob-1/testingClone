@@ -1,0 +1,21 @@
+name: Zeeto
+type: theme
+description: Zeeto is a nested theme of Bootstrap. This theme is can be replicated for property sub-themes
+base theme: bootstrap
+screenshot: screenshot.png
+core: 8.x
+
+libraries:
+  - 'zeeto/global-styling'
+  - 'zeeto/global-js'
+
+regions:
+  header: Header
+  content: Content
+  footer: Footer
+stylesheets:
+  - css/settings/settings.css
+
+ckeditor_stylesheets:
+  - https://fonts.googleapis.com/css?family=Montserrat
+  - https://fonts.googleapis.com/css?family=Source+Sans
