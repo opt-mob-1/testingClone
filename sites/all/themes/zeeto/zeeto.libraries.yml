@@ -3,7 +3,7 @@ global-styling:
   fonts:
     css:
       theme:
-        //fonts.googleapis.com/css?family=Source+Sans:300,400,400i,700,700i,900,900i|Montserrat:400,400i,700,700i,800: { type: external }
+        //fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Source+Sans+Pro:400,600,700: { type: external }
 
 
   css:
@@ -20,6 +20,7 @@ global-styling:
 
     # 2. Property Settings
       css/settings/settings.css: {}
+      css/settings/mixins.css: {}
 
     # 3. Theme
 
@@ -30,12 +31,8 @@ global-styling:
     # 6. Modules
 
 
+# Add any external libraries and custom components below
 global-js:
   version: 1.x
   js:
-
-  dependencies:
-    - core/jquery
-
-
-# Add any external libraries and custom components below
+    js/libs/settings/settings.js: {}

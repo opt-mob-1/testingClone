@@ -57,6 +57,13 @@
  */
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+  {# Action Links #}
+  {% if action_links %}
+    {% block action_links %}
+      <ul class="action-links">{{ action_links }}</ul>
+    {% endblock %}
+  {% endif %}
+
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -73,7 +80,7 @@
         {% endif %}
         <div class="navbar-header">
           {{ page.navigation }}
-          {# .btn-navbar is used as the toggle for collapsed navbar content #}
+           .btn-navbar is used as the toggle for collapsed navbar content
           {% if page.navigation_collapsible %}
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
               <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
@@ -84,7 +91,7 @@
           {% endif %}
         </div>
 
-        {# Navigation (collapsible) #}
+         Navigation (collapsible)
         {% if page.navigation_collapsible %}
           <div id="navbar-collapse" class="navbar-collapse collapse">
             {{ page.navigation_collapsible }}
@@ -97,19 +104,29 @@
   {% endblock %}
 {% endif %}
 
-{# Header #}
-      {% if page.header %}
-        {% block header %}
-          <div class="col-sm-12" role="heading">
-            {{ page.header }}
-          </div>
-        {% endblock %}
-      {% endif %}
+ {# Header #}
+  {% if page.header %}
+    {% block header %}
+      <div role="heading">
+        {{ page.header }}
+      </div>
+    {% endblock %}
+  {% endif %}
+
 
 {# Main #}
 {% block main %}
-  <div role="main" class="main-container container {{ container }} js-quickedit-main-content">
+  <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
+
+      {# Sidebar First #}
+      {% if page.sidebar_first %}
+        {% block sidebar_first %}
+          <aside class="col-sm-3" role="complementary">
+            {{ page.sidebar_first }}
+          </aside>
+        {% endblock %}
+      {% endif %}
 
       {# Content #}
       {%
@@ -136,13 +153,12 @@
           {% endblock %}
         {% endif %}
 
-        {# Action Links #}
-        {% if action_links %}
-          {% block action_links %}
-            <ul class="action-links">{{ action_links }}</ul>
+       {# Help #}
+        {% if page.help %}
+          {% block help %}
+            {{ page.help }}
           {% endblock %}
         {% endif %}
-
 
         {# Content #}
         {% block content %}
@@ -151,6 +167,14 @@
         {% endblock %}
       </section>
 
+      {# Sidebar Second #}
+      {% if page.sidebar_second %}
+        {% block sidebar_second %}
+          <aside class="col-sm-3" role="complementary">
+            {{ page.sidebar_second }}
+          </aside>
+        {% endblock %}
+      {% endif %}
     </div>
   </div>
 {% endblock %}

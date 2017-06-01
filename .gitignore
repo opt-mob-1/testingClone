@@ -57,3 +57,4 @@ Thumbs.db
 sites/all/themes/getitfree/panels/
 .gitignore
 sites/all/themes/zeeto/images/
+!/sites/all/themes/zeeto/images/

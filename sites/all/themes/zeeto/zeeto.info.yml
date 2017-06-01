@@ -3,6 +3,9 @@ type: theme
 description: Zeeto is a nested theme of Bootstrap. This theme is can be replicated for property sub-themes
 base theme: bootstrap
 screenshot: screenshot.png
+logo:
+  path: 'themes/zeeto/images/zeeto-site-logo-orange.png'
+  use_default: false
 core: 8.x
 
 libraries:
