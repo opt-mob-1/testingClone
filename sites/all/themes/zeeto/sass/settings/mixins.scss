@@ -1,0 +1,20 @@
+@mixin font-size( $value: 12 ) {
+  font-size: value + px;
+  font−size:(value / 10) + rem;
+}
+
+@mixin border-radius ( $value: 3px ) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+  // keeps background from busting out of border
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+@mixin box-shadow( $horiz : 10px , $vert : 11px , $blur : 4px , $spread : -12px , $color : #000000 ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
+}

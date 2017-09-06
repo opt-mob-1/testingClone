@@ -1,0 +1,54 @@
+@import 'mixins.scss';
+
+/**** Global Styles Defined ****/
+
+/* Color Variables */
+$white: #ffffff;
+$whitesmoke: #f2f2f2;
+$dark-gray: #333333;
+$mid-gray: #666666;
+$light-gray: #999999;
+$xlight-gray: #e8e8e8;
+
+/* Font Family Variables */
+$font-1: 'Source Sans Pro', Helvetica, Arial;
+$font-2: 'Montserrat', sans-serif;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: $font-1;
+  font-size: 1.25rem;
+  background: $whitesmoke;
+  margin-top: 0;
+}
+.wrap {
+  min-height: 100%;
+  height: auto;
+}
+.main-container {
+  background-color: $white;
+  padding: 15px;
+  height: 100%;
+}
+header {
+  margin: 10px 0;
+  padding: 15px 0;
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid $xlight-gray;
+}
+footer.footer {
+  background: $dark-gray;
+  color: $white;
+  width: 100%;
+  a {
+    color: $whitesmoke;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
+
