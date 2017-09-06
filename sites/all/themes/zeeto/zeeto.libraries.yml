@@ -27,6 +27,15 @@ global-styling:
     # 4. Templates
 
     # 5. Components
+    component-libraries:
+      components:
+        paths:
+          - pattern-lab/source/_patterns/components
+      # Can specify specific components used if property does not require all components to load
+      # raining-image:
+        # paths:
+          #- pattern-lab/source/_patterns/components/raining-image
+
 
     # 6. Modules
 

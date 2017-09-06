@@ -1,0 +1,26 @@
+{% set paragraph = content.field_hero_button|field_value %}
+{% set button = {} %}
+
+{% for key, s in paragraph %}
+  {% set button = button|merge(
+  {
+  (key): {
+  'buttonUrl': s['#paragraph'].field_button_url.value,
+  'buttonLabel': s['#paragraph'].field_button_label.value
+  }
+  }
+  )
+  %}
+{% endfor %}
+
+{% include '@components/dynamic-hero/dynamic-hero.twig'
+with {
+"image": content.field_image_block,
+"headline": content.field_page_headline,
+"testimonial-image": content.field_testimonial_image,
+"testimonial-headline": content.field_testimonial_headline|field_value,
+"body-text": content.field_testimonial_body_text,
+"button": content.field_cta_button,
+"fb-like": content.field_fb_like_box,
+}
+%}
