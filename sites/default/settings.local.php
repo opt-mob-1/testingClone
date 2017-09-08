@@ -117,7 +117,7 @@ $settings['skip_permissions_hardening'] = TRUE;
 $databases['default']['default'] = array (
   'database' => 'publishercms',
   'username' => 'admin',
-  'password' => 'r3sid3nc3',
+  'password' => 'admin',
   'prefix' => '',
   'host' => '127.0.0.1',
   'port' => '3306',
@@ -127,3 +127,7 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/config';
+
+
+ini_set('memory_limit', '1024M');
+
