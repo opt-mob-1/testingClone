@@ -1,0 +1,21 @@
+uuid: 3b7c21c7-00a7-48dc-bf40-fda406a62bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.hero_full_width
+  module:
+    - text
+id: paragraph.hero_full_width.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: hero_full_width
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: e43a5fc8-f13f-4465-87d6-82f549e5ae3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.subheadline
+id: paragraph.subheadline.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: subheadline
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

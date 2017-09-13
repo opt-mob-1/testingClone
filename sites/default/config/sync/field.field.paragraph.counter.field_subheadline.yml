@@ -1,0 +1,21 @@
+uuid: 650e668a-423f-4360-9473-71c060cc97ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subheadline
+    - paragraphs.paragraphs_type.counter
+  module:
+    - text
+id: paragraph.counter.field_subheadline
+field_name: field_subheadline
+entity_type: paragraph
+bundle: counter
+label: Subheadline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

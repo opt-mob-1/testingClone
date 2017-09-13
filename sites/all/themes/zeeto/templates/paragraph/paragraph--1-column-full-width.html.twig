@@ -41,9 +41,14 @@
     <div class="{% spaceless %}{{ content.field_full_width }}{% endspaceless %}">
       <div class="row">
         <div class="col-xs-12">
-          {{ content }}
+          {{ content|without('field_full_width','field_blocks') }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          {{ content.field_blocks }}
         </div>
       </div>
     </div>
+  </div>
 </div>
-

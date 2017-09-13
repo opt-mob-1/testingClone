@@ -1,0 +1,22 @@
+uuid: 03a7ddca-a8e9-4254-83a4-5da659ceba74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header
+    - node.type.default_page
+  module:
+    - block_field
+id: node.default_page.field_header
+field_name: field_header
+entity_type: node
+bundle: default_page
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

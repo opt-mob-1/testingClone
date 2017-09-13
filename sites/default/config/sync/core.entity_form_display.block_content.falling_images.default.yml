@@ -1,0 +1,105 @@
+uuid: 323e2d28-36e3-4ea5-a1ae-eb6f2b5728ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.falling_images
+    - field.field.block_content.falling_images.body
+    - field.field.block_content.falling_images.field_append_to_element
+    - field.field.block_content.falling_images.field_elements_per_cycle
+    - field.field.block_content.falling_images.field_image_o
+    - field.field.block_content.falling_images.field_image_t
+    - field.field.block_content.falling_images.field_image_three
+    - field.field.block_content.falling_images.field_interval_speed
+    - field.field.block_content.falling_images.field_libraries
+    - field.field.block_content.falling_images.field_url
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - text
+id: block_content.falling_images.default
+targetEntityType: block_content
+bundle: falling_images
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_append_to_element:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_elements_per_cycle:
+    weight: 28
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_image_o:
+    weight: 31
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_image_t:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_image_three:
+    weight: 33
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_interval_speed:
+    weight: 29
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_libraries:
+    weight: 34
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_url:
+    weight: 30
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

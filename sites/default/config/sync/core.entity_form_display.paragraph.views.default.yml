@@ -1,0 +1,34 @@
+uuid: 37d0a169-c84e-4d15-829c-8e5786f9807d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.views.field_libraries
+    - field.field.paragraph.views.field_views
+    - paragraphs.paragraphs_type.views
+id: paragraph.views.default
+targetEntityType: paragraph
+bundle: views
+mode: default
+content:
+  field_libraries:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_views:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,83 @@
+uuid: ef2512e6-a636-432f-add5-85250aba164d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.3_columns_even.field_blocks
+    - field.field.paragraph.3_columns_even.field_full_width
+    - field.field.paragraph.3_columns_even.field_left_33_
+    - field.field.paragraph.3_columns_even.field_middle_33_
+    - field.field.paragraph.3_columns_even.field_right_33_
+    - field.field.paragraph.3_columns_even.field_wrapper_class
+    - paragraphs.paragraphs_type.3_columns_even
+  module:
+    - block_field
+    - paragraphs
+id: paragraph.3_columns_even.default
+targetEntityType: paragraph
+bundle: 3_columns_even
+mode: default
+content:
+  field_blocks:
+    weight: 3
+    settings:
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  field_full_width:
+    weight: 5
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_left_33_:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_middle_33_:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_right_33_:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,96 @@
+uuid: fc4e7577-8d61-4516-8304-e5f3a4e123b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.4_column_event.field_blocks
+    - field.field.paragraph.4_column_event.field_first
+    - field.field.paragraph.4_column_event.field_fourth
+    - field.field.paragraph.4_column_event.field_full_width
+    - field.field.paragraph.4_column_event.field_second
+    - field.field.paragraph.4_column_event.field_third
+    - field.field.paragraph.4_column_event.field_wrapper_class
+    - paragraphs.paragraphs_type.4_column_event
+  module:
+    - block_field
+    - paragraphs
+id: paragraph.4_column_event.default
+targetEntityType: paragraph
+bundle: 4_column_event
+mode: default
+content:
+  field_blocks:
+    weight: 4
+    settings:
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  field_first:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_fourth:
+    type: entity_reference_paragraphs
+    weight: 3
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_full_width:
+    weight: 6
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_second:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_third:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

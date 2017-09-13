@@ -1,0 +1,48 @@
+uuid: 940a6a9b-7d0b-4bb8-987d-91c2617fc741
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.navigation.field_libraries
+    - field.field.paragraph.navigation.field_nav_item
+    - field.field.paragraph.navigation.field_wrapper_class
+    - paragraphs.paragraphs_type.navigation
+  module:
+    - paragraphs
+id: paragraph.navigation.default
+targetEntityType: paragraph
+bundle: navigation
+mode: default
+content:
+  field_libraries:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_nav_item:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

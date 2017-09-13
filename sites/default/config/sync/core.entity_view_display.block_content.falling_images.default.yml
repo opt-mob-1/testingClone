@@ -1,0 +1,108 @@
+uuid: 4892dbd7-c15e-4b9a-931f-91b815d0dff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.falling_images
+    - field.field.block_content.falling_images.body
+    - field.field.block_content.falling_images.field_append_to_element
+    - field.field.block_content.falling_images.field_elements_per_cycle
+    - field.field.block_content.falling_images.field_image_o
+    - field.field.block_content.falling_images.field_image_t
+    - field.field.block_content.falling_images.field_image_three
+    - field.field.block_content.falling_images.field_interval_speed
+    - field.field.block_content.falling_images.field_libraries
+    - field.field.block_content.falling_images.field_url
+  module:
+    - image_url_formatter
+    - link
+    - text
+id: block_content.falling_images.default
+targetEntityType: block_content
+bundle: falling_images
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_append_to_element:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_elements_per_cycle:
+    weight: 2
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_image_o:
+    weight: 5
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_t:
+    weight: 6
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_three:
+    weight: 7
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_interval_speed:
+    weight: 3
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_libraries:
+    weight: 8
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_url:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

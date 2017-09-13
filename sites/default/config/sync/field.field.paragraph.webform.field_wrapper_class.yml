@@ -1,0 +1,19 @@
+uuid: 5700d9c8-b051-4eb2-8f25-5a1865e9b57a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.webform
+id: paragraph.webform.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: webform
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

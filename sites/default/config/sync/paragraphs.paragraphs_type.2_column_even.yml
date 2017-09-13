@@ -1,0 +1,7 @@
+uuid: 20dc8956-c581-4493-8cab-7dec6e38f6ff
+langcode: en
+status: true
+dependencies: {  }
+id: 2_column_even
+label: '2 Column Even'
+behavior_plugins: {  }

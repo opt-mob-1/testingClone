@@ -1,0 +1,27 @@
+uuid: ee20df79-5bea-4d04-b0dd-fb9429000748
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nav_item.field_url
+    - paragraphs.paragraphs_type.nav_item
+  module:
+    - link
+id: paragraph.nav_item.default
+targetEntityType: paragraph
+bundle: nav_item
+mode: default
+content:
+  field_url:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

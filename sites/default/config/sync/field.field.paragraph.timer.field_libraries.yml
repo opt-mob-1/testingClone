@@ -1,0 +1,21 @@
+uuid: 8a416dc0-7a55-4a80-8a1a-a370c073ec94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.timer
+id: paragraph.timer.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: timer
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: looping-timer
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 1a876a31-7423-4c86-971d-566ca379d41c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_footer
+    - node.type.default_page
+  module:
+    - block_field
+id: node.default_page.field_footer
+field_name: field_footer
+entity_type: node
+bundle: default_page
+label: Footer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

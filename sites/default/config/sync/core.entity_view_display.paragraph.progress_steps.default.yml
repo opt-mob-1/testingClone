@@ -1,0 +1,42 @@
+uuid: 9d84b9ee-8a67-4441-9518-67c68b034e1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.progress_steps.field_libraries
+    - field.field.paragraph.progress_steps.field_steps
+    - field.field.paragraph.progress_steps.field_wrapper_class
+    - paragraphs.paragraphs_type.progress_steps
+  module:
+    - entity_reference_revisions
+id: paragraph.progress_steps.default
+targetEntityType: paragraph
+bundle: progress_steps
+mode: default
+content:
+  field_libraries:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_steps:
+    type: entity_reference_revisions_entity_view
+    weight: 6
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

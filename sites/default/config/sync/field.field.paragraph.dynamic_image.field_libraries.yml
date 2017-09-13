@@ -1,0 +1,19 @@
+uuid: f0144294-c389-44d1-8b75-f0d689955a08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.dynamic_image
+id: paragraph.dynamic_image.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: dynamic_image
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

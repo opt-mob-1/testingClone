@@ -1,0 +1,11 @@
+uuid: 2e5e0883-97f9-4968-91c9-b7048fcdfcd3
+langcode: en
+status: true
+dependencies: {  }
+name: Variation
+type: variation
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

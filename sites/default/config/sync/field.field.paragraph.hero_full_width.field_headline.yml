@@ -1,0 +1,21 @@
+uuid: d2341aa6-88c2-43b4-b3ba-22351cb90fcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline
+    - paragraphs.paragraphs_type.hero_full_width
+  module:
+    - text
+id: paragraph.hero_full_width.field_headline
+field_name: field_headline
+entity_type: paragraph
+bundle: hero_full_width
+label: Headline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

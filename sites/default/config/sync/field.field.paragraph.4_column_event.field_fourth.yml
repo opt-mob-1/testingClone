@@ -1,0 +1,55 @@
+uuid: 618b7161-98d3-4e71-bf0c-82864bc6bc37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fourth
+    - paragraphs.paragraphs_type.4_column_event
+  module:
+    - entity_reference_revisions
+id: paragraph.4_column_event.field_fourth
+field_name: field_fourth
+entity_type: paragraph
+bundle: 4_column_event
+label: 'Fourth (25)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 11
+        enabled: false
+      2_column_25_75_:
+        weight: 12
+        enabled: false
+      2_column_even:
+        weight: 13
+        enabled: false
+      3_column_25_50_25_:
+        weight: 14
+        enabled: false
+      3_columns_even:
+        weight: 15
+        enabled: false
+      4_column_event:
+        weight: 16
+        enabled: false
+      headline:
+        weight: 17
+        enabled: false
+      image:
+        weight: 18
+        enabled: false
+      regions:
+        weight: 19
+        enabled: false
+      row:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

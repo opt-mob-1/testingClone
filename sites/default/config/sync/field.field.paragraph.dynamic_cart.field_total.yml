@@ -1,0 +1,21 @@
+uuid: a6480f48-750b-4e65-8361-90eef188f52b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_total
+    - paragraphs.paragraphs_type.dynamic_cart
+  module:
+    - text
+id: paragraph.dynamic_cart.field_total
+field_name: field_total
+entity_type: paragraph
+bundle: dynamic_cart
+label: Total
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

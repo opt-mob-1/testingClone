@@ -1,0 +1,54 @@
+uuid: 5bbd4ecd-7731-4f38-9d52-d982b766e09f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_column_even.field_full_width
+    - field.field.paragraph.2_column_even.field_left
+    - field.field.paragraph.2_column_even.field_right
+    - field.field.paragraph.2_column_even.field_wrapper_class
+    - paragraphs.paragraphs_type.2_column_even
+  module:
+    - entity_reference_revisions
+id: paragraph.2_column_even.default
+targetEntityType: paragraph
+bundle: 2_column_even
+mode: default
+content:
+  field_full_width:
+    weight: 2
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_left:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_right:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

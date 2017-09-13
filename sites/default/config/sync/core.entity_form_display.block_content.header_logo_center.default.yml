@@ -1,0 +1,64 @@
+uuid: 021258bf-fc56-48fb-b131-9117ef6838ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_logo_center
+    - field.field.block_content.header_logo_center.field_libraries
+    - field.field.block_content.header_logo_center.field_logo
+    - field.field.block_content.header_logo_center.field_paragraphs
+    - field.field.block_content.header_logo_center.field_wrapper_class
+    - image.style.thumbnail
+  module:
+    - image
+    - paragraphs
+id: block_content.header_logo_center.default
+targetEntityType: block_content
+bundle: header_logo_center
+mode: default
+content:
+  field_libraries:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_logo:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_paragraphs:
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: select
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_wrapper_class:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

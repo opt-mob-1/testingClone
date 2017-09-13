@@ -1,0 +1,7 @@
+uuid: 019ba9f1-b380-4d04-b48a-dae045e9ddef
+langcode: en
+status: true
+dependencies: {  }
+id: 4_column_event
+label: 'DO NOT USE'
+behavior_plugins: {  }

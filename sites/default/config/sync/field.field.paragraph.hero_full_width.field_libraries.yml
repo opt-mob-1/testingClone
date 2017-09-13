@@ -1,0 +1,19 @@
+uuid: 39de710a-8ad4-4766-9d35-d9962e5f9fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.hero_full_width
+id: paragraph.hero_full_width.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: hero_full_width
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,42 @@
+uuid: d4a8433c-5447-4ff2-b10b-ce7ab771fb8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.navigation.field_libraries
+    - field.field.paragraph.navigation.field_nav_item
+    - field.field.paragraph.navigation.field_wrapper_class
+    - paragraphs.paragraphs_type.navigation
+  module:
+    - entity_reference_revisions
+id: paragraph.navigation.default
+targetEntityType: paragraph
+bundle: navigation
+mode: default
+content:
+  field_libraries:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nav_item:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

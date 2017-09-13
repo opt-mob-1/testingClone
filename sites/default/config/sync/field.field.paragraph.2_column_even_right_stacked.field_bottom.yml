@@ -1,0 +1,70 @@
+uuid: 370b9788-1df9-4a5a-8d1d-4ad3b187db04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bottom
+    - paragraphs.paragraphs_type.2_column_even_right_stacked
+  module:
+    - entity_reference_revisions
+id: paragraph.2_column_even_right_stacked.field_bottom
+field_name: field_bottom
+entity_type: paragraph
+bundle: 2_column_even_right_stacked
+label: Bottom
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 16
+        enabled: false
+      2_column_25_75_:
+        weight: 17
+        enabled: false
+      2_column_75_25_:
+        weight: 18
+        enabled: false
+      2_column_even:
+        weight: 19
+        enabled: false
+      2_column_even_left_stacked:
+        weight: 20
+        enabled: false
+      2_column_even_right_stacked:
+        weight: 21
+        enabled: false
+      3_column_25_25_50_:
+        weight: 22
+        enabled: false
+      3_column_25_50_25_:
+        weight: 23
+        enabled: false
+      3_column_50_25_25_:
+        weight: 24
+        enabled: false
+      3_columns_even:
+        weight: 25
+        enabled: false
+      4_column_event:
+        weight: 26
+        enabled: false
+      headline:
+        weight: 27
+        enabled: false
+      image:
+        weight: 28
+        enabled: false
+      row:
+        weight: 29
+        enabled: false
+      views:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

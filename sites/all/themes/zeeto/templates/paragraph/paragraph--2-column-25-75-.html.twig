@@ -41,23 +41,17 @@
   <div class="region-grp">
     <div class="{% spaceless %}{{ content.field_full_width }}{% endspaceless %}">
       <div class="row">
-
-        {% if content.field_reverse_layout['0']['#markup'] == 'Yes' %}
-          <div class="col-xs-12 col-sm-9">
-            {{ content.field_right_75_ }}
-          </div>
-          <div class="col-xs-12 col-sm-3">
-            {{ content.field_left_25_ }}
-          </div>
-        {% endif %}
-        {% if field_reverse_layout['0']['#markup'] == 'No' %}
           <div class="col-xs-12 col-sm-3">
             {{ content.field_left_25_ }}
           </div>
           <div class="col-xs-12 col-sm-9">
             {{ content.field_right_75_ }}
           </div>
-        {% endif %}
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          {{ content.field_blocks }}
+        </div>
       </div>
     </div>
   </div>

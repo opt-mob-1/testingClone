@@ -1,0 +1,19 @@
+uuid: 02e989eb-f135-4d01-b143-f8f06fa3f13e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_append_to_element
+    - paragraphs.paragraphs_type.falling_images
+id: paragraph.falling_images.field_append_to_element
+field_name: field_append_to_element
+entity_type: paragraph
+bundle: falling_images
+label: 'Append To Element'
+description: "Append the falling images to a particular element of the page by class, id, or tag (i.e. body, section, container).\r\nTo target a class: '.classname'\r\nTo target an id: '#id'\r\nTo target a tag: 'body'\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

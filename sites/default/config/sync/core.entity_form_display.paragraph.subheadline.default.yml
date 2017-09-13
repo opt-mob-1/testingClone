@@ -1,0 +1,35 @@
+uuid: 63d2a9a1-4d01-4e87-8601-9ce819a1d1d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.subheadline.field_libraries
+    - field.field.paragraph.subheadline.field_subheadline
+    - paragraphs.paragraphs_type.subheadline
+  module:
+    - text
+id: paragraph.subheadline.default
+targetEntityType: paragraph
+bundle: subheadline
+mode: default
+content:
+  field_libraries:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_subheadline:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

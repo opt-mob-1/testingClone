@@ -1,0 +1,28 @@
+uuid: a7707806-3698-453e-b4f0-349cdf7c7bdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.default_page.field_extra_blocks
+    - field.field.node.default_page.field_footer
+    - field.field.node.default_page.field_header
+    - field.field.node.default_page.field_sections
+    - field.field.node.default_page.field_wrapper_class
+    - node.type.default_page
+  module:
+    - user
+id: node.default_page.teaser
+targetEntityType: node
+bundle: default_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_extra_blocks: true
+  field_footer: true
+  field_header: true
+  field_sections: true
+  field_wrapper_class: true

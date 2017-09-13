@@ -1,0 +1,23 @@
+uuid: 2de9351b-840a-473a-8cf2-f75062384240
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_views
+    - paragraphs.paragraphs_type.1_column_full_width
+id: paragraph.1_column_full_width.field_views
+field_name: field_views
+entity_type: paragraph
+bundle: 1_column_full_width
+label: Views
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

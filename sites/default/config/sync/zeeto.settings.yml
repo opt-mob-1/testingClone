@@ -1,0 +1,23 @@
+schemas:
+  bootstrap: 8000
+  zeeto: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://localhost:5555/sites/all/themes/bootstrap/favicon.ico'
+  use_default: 0
+features:
+  comment_user_picture: 0
+  comment_user_verification: 0
+  favicon: 0
+  node_user_picture: 1
+logo:
+  path: 'public://zeeto-site-logo-orange.png'
+  url: ''
+  use_default: 0
+fluid_container: 0
+forms_required_has_error: 1
+forms_smart_descriptions: 0
+table_responsive: '-1'
+table: ''
+breadcrumb: '0'

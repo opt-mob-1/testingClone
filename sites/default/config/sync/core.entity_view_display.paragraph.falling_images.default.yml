@@ -1,0 +1,110 @@
+uuid: c497cbfe-98ee-4ec3-ba77-a0a4ee1bad2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.falling_images.field_append_to_element
+    - field.field.paragraph.falling_images.field_elements_per_cycle
+    - field.field.paragraph.falling_images.field_image_four
+    - field.field.paragraph.falling_images.field_image_one
+    - field.field.paragraph.falling_images.field_image_three
+    - field.field.paragraph.falling_images.field_image_two
+    - field.field.paragraph.falling_images.field_interval_speed
+    - field.field.paragraph.falling_images.field_libraries
+    - field.field.paragraph.falling_images.field_url
+    - paragraphs.paragraphs_type.falling_images
+  module:
+    - image_url_formatter
+    - link
+id: paragraph.falling_images.default
+targetEntityType: paragraph
+bundle: falling_images
+mode: default
+content:
+  field_append_to_element:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_elements_per_cycle:
+    weight: 1
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_image_four:
+    weight: 7
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_one:
+    weight: 4
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_three:
+    weight: 6
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_two:
+    weight: 5
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_interval_speed:
+    weight: 2
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_libraries:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_url:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

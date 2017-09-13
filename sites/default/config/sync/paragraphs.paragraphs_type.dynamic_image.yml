@@ -1,0 +1,7 @@
+uuid: e437a904-53a8-409d-a5b8-34e9f36af9f3
+langcode: en
+status: true
+dependencies: {  }
+id: dynamic_image
+label: 'Dynamic Image'
+behavior_plugins: {  }

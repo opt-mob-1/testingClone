@@ -1,0 +1,7 @@
+uuid: dcee1bfc-46d2-4990-b676-2f6955b80510
+langcode: en
+status: true
+dependencies: {  }
+id: 2_column_even_right_stacked
+label: '2 Column Even Right Stacked'
+behavior_plugins: {  }

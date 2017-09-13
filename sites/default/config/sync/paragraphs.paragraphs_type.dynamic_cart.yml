@@ -1,0 +1,7 @@
+uuid: 3bae6e54-a77b-4d27-a2bb-d3fa39e9e1c3
+langcode: en
+status: true
+dependencies: {  }
+id: dynamic_cart
+label: 'Dynamic Cart'
+behavior_plugins: {  }

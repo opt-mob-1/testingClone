@@ -1,0 +1,23 @@
+uuid: 170eaa79-85ac-4e35-8b52-45f1b92ccfbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_url
+    - paragraphs.paragraphs_type.falling_images
+  module:
+    - link
+id: paragraph.falling_images.field_url
+field_name: field_url
+entity_type: paragraph
+bundle: falling_images
+label: URL
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

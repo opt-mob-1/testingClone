@@ -1,0 +1,7 @@
+uuid: 8197fc17-9c1b-4e29-8a52-5f74ed7b8db9
+langcode: en
+status: true
+dependencies: {  }
+id: star_rating
+label: 'Star Rating'
+behavior_plugins: {  }

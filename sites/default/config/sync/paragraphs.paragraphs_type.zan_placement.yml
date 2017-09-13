@@ -1,0 +1,7 @@
+uuid: 0e153f43-385d-40b7-ad8c-7220c398b41b
+langcode: en
+status: true
+dependencies: {  }
+id: zan_placement
+label: 'ZAN Placement'
+behavior_plugins: {  }

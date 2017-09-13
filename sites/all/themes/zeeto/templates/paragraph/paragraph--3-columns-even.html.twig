@@ -42,16 +42,20 @@
     <div class="{% spaceless %}{{ content.field_full_width }}{% endspaceless %}">
       <div class="row">
         <div class="col-xs-12 col-sm-4">
-          {{ content.field_left }}
+          {{ content.field_left_33_ }}
         </div>
         <div class="col-xs-12 col-sm-4">
-          {{ content.field_middle }}
+          {{ content.field_middle_33_ }}
         </div>
         <div class="col-xs-12 col-sm-4">
-          {{ content.field_right }}
+          {{ content.field_right_33_ }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          {{ content.field_blocks }}
         </div>
       </div>
     </div>
   </div>
 </div>
-

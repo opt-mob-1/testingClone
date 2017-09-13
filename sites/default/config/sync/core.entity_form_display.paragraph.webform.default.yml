@@ -1,0 +1,50 @@
+uuid: fa9880f1-802d-472f-9425-60dad0598b46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.webform.field_form
+    - field.field.paragraph.webform.field_libraries
+    - field.field.paragraph.webform.field_returning_visitor
+    - field.field.paragraph.webform.field_wrapper_class
+    - paragraphs.paragraphs_type.webform
+  module:
+    - webform
+id: paragraph.webform.default
+targetEntityType: paragraph
+bundle: webform
+mode: default
+content:
+  field_form:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+  field_libraries:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_returning_visitor:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_wrapper_class:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

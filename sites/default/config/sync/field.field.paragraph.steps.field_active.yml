@@ -1,0 +1,23 @@
+uuid: 22c671e4-1981-4336-bfe8-9d17c1b61218
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_active
+    - paragraphs.paragraphs_type.steps
+id: paragraph.steps.field_active
+field_name: field_active
+entity_type: paragraph
+bundle: steps
+label: Active
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

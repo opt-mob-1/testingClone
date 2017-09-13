@@ -1,0 +1,21 @@
+uuid: d854220b-786e-42bf-be95-d5729e6f68fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.popunder
+id: paragraph.popunder.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: popunder
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: popunder
+default_value_callback: ''
+settings: {  }
+field_type: string

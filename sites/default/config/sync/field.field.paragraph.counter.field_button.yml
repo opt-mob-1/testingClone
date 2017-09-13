@@ -1,0 +1,96 @@
+uuid: f2087406-673c-4b6f-b453-5bbde212fef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button
+    - paragraphs.paragraphs_type.button
+    - paragraphs.paragraphs_type.counter
+  module:
+    - entity_reference_revisions
+id: paragraph.counter.field_button
+field_name: field_button
+entity_type: paragraph
+bundle: counter
+label: Button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      button: button
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 24
+        enabled: false
+      2_column_25_75_:
+        weight: 25
+        enabled: false
+      2_column_75_25_:
+        weight: 26
+        enabled: false
+      2_column_even:
+        weight: 27
+        enabled: false
+      2_column_even_left_stacked:
+        weight: 28
+        enabled: false
+      2_column_even_right_stacked:
+        weight: 29
+        enabled: false
+      3_column_25_25_50_:
+        weight: 30
+        enabled: false
+      3_column_25_50_25_:
+        weight: 31
+        enabled: false
+      3_column_50_25_25_:
+        weight: 32
+        enabled: false
+      3_columns_even:
+        weight: 33
+        enabled: false
+      4_column_event:
+        weight: 34
+        enabled: false
+      button:
+        enabled: true
+        weight: 35
+      content:
+        weight: 36
+        enabled: false
+      counter:
+        weight: 37
+        enabled: false
+      headline:
+        weight: 38
+        enabled: false
+      image:
+        weight: 39
+        enabled: false
+      popunder:
+        weight: 40
+        enabled: false
+      row:
+        weight: 41
+        enabled: false
+      star_rating:
+        weight: 42
+        enabled: false
+      subheadline:
+        weight: 43
+        enabled: false
+      testimonial:
+        weight: 44
+        enabled: false
+      timer:
+        weight: 45
+        enabled: false
+      views:
+        weight: 46
+        enabled: false
+field_type: entity_reference_revisions

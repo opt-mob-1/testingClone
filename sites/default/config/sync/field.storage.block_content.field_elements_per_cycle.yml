@@ -1,0 +1,20 @@
+uuid: 329ff761-66d6-4598-9a93-d10042ba0f8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_elements_per_cycle
+field_name: field_elements_per_cycle
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

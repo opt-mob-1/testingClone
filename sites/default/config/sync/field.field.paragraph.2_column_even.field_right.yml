@@ -1,0 +1,37 @@
+uuid: 59716720-976c-4416-85ec-7e0b708d2f8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_right
+    - paragraphs.paragraphs_type.2_column_even
+  module:
+    - entity_reference_revisions
+id: paragraph.2_column_even.field_right
+field_name: field_right
+entity_type: paragraph
+bundle: 2_column_even
+label: Right
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 5
+        enabled: false
+      2_column_even:
+        weight: 6
+        enabled: false
+      regions:
+        weight: 7
+        enabled: false
+      row:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+uuid: 0fdc0bd0-c576-4a47-b250-040e6bfe2089
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_blocks
+    - paragraphs.paragraphs_type.2_column_even_left_stacked
+  module:
+    - block_field
+id: paragraph.2_column_even_left_stacked.field_blocks
+field_name: field_blocks
+entity_type: paragraph
+bundle: 2_column_even_left_stacked
+label: Blocks
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

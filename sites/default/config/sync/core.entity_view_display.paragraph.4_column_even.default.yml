@@ -1,0 +1,92 @@
+uuid: 2ce9134f-fc61-4647-857a-bf6e86431529
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.4_column_even.field_blocks
+    - field.field.paragraph.4_column_even.field_first
+    - field.field.paragraph.4_column_even.field_fourth
+    - field.field.paragraph.4_column_even.field_full_width
+    - field.field.paragraph.4_column_even.field_libraries
+    - field.field.paragraph.4_column_even.field_second
+    - field.field.paragraph.4_column_even.field_third
+    - field.field.paragraph.4_column_even.field_wrapper_class
+    - paragraphs.paragraphs_type.4_column_even
+  module:
+    - block_field
+    - entity_reference_revisions
+id: paragraph.4_column_even.default
+targetEntityType: paragraph
+bundle: 4_column_even
+mode: default
+content:
+  field_blocks:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+  field_first:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_fourth:
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_full_width:
+    weight: 7
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_libraries:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_second:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_third:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_wrapper_class:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

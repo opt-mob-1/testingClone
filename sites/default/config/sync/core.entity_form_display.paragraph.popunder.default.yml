@@ -1,0 +1,35 @@
+uuid: fb5aa6b6-60f3-4078-b5ea-5304b7fd0151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.popunder.field_libraries
+    - field.field.paragraph.popunder.field_url
+    - paragraphs.paragraphs_type.popunder
+  module:
+    - link
+id: paragraph.popunder.default
+targetEntityType: paragraph
+bundle: popunder
+mode: default
+content:
+  field_libraries:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_url:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

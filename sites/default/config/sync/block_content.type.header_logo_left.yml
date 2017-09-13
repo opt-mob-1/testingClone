@@ -1,0 +1,8 @@
+uuid: 8b834d45-998e-4bcd-9476-3b68ac1b05c7
+langcode: en
+status: true
+dependencies: {  }
+id: header_logo_left
+label: 'Header Logo Left'
+revision: 0
+description: ''

@@ -1,0 +1,21 @@
+uuid: ffd9c1ce-7f32-4987-9658-459a327aaa5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_count
+    - paragraphs.paragraphs_type.counter
+  module:
+    - text
+id: paragraph.counter.field_count
+field_name: field_count
+entity_type: paragraph
+bundle: counter
+label: Count
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

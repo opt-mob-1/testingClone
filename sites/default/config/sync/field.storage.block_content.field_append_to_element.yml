@@ -1,0 +1,21 @@
+uuid: fa7b152b-4639-499d-be4f-360199831c38
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_append_to_element
+field_name: field_append_to_element
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

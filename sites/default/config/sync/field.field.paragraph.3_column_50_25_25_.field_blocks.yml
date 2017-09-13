@@ -1,0 +1,22 @@
+uuid: 15793406-f46b-43af-ba19-a5bcfe060bce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_blocks
+    - paragraphs.paragraphs_type.3_column_50_25_25_
+  module:
+    - block_field
+id: paragraph.3_column_50_25_25_.field_blocks
+field_name: field_blocks
+entity_type: paragraph
+bundle: 3_column_50_25_25_
+label: Blocks
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

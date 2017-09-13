@@ -1,0 +1,21 @@
+uuid: e1637cf5-a34f-4bec-86cc-d9fc2a3ee83d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_shipping
+    - paragraphs.paragraphs_type.dynamic_cart
+  module:
+    - text
+id: paragraph.dynamic_cart.field_shipping
+field_name: field_shipping
+entity_type: paragraph
+bundle: dynamic_cart
+label: Shipping
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

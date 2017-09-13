@@ -1,0 +1,7 @@
+uuid: e8b3c055-805b-4c4b-8beb-6755edd67f92
+langcode: en
+status: true
+dependencies: {  }
+id: subheadline
+label: Subheadline
+behavior_plugins: {  }

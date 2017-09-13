@@ -1,0 +1,64 @@
+uuid: 2156b5e4-3df9-4f85-98df-9370410a9dc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_right
+    - paragraphs.paragraphs_type.2_column_even_left_stacked
+  module:
+    - entity_reference_revisions
+id: paragraph.2_column_even_left_stacked.field_right
+field_name: field_right
+entity_type: paragraph
+bundle: 2_column_even_left_stacked
+label: Right
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 14
+        enabled: false
+      2_column_25_75_:
+        weight: 15
+        enabled: false
+      2_column_75_25_:
+        weight: 16
+        enabled: false
+      2_column_even:
+        weight: 17
+        enabled: false
+      2_column_even_left_stacked:
+        weight: 18
+        enabled: false
+      3_column_25_25_50_:
+        weight: 19
+        enabled: false
+      3_column_25_50_25_:
+        weight: 20
+        enabled: false
+      3_column_50_25_25_:
+        weight: 21
+        enabled: false
+      3_columns_even:
+        weight: 22
+        enabled: false
+      4_column_event:
+        weight: 23
+        enabled: false
+      headline:
+        weight: 24
+        enabled: false
+      image:
+        weight: 25
+        enabled: false
+      row:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

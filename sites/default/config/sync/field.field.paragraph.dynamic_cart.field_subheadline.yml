@@ -1,0 +1,21 @@
+uuid: fa66433c-54a9-41c5-896a-c2014dc5c8a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subheadline
+    - paragraphs.paragraphs_type.dynamic_cart
+  module:
+    - text
+id: paragraph.dynamic_cart.field_subheadline
+field_name: field_subheadline
+entity_type: paragraph
+bundle: dynamic_cart
+label: Subheadline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

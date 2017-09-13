@@ -1,0 +1,51 @@
+uuid: d358a4cd-3442-4b94-83b8-5ab90f72fe0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dynamic_image.field_image
+    - field.field.paragraph.dynamic_image.field_libraries
+    - field.field.paragraph.dynamic_image.field_views
+    - field.field.paragraph.dynamic_image.field_wrapper_class
+    - paragraphs.paragraphs_type.dynamic_image
+  module:
+    - image
+id: paragraph.dynamic_image.default
+targetEntityType: paragraph
+bundle: dynamic_image
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_libraries:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_views:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_wrapper_class:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

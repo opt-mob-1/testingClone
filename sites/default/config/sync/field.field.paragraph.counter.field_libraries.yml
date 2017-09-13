@@ -1,0 +1,21 @@
+uuid: 3fd6e6fd-2364-44d0-a592-bb2a783e41d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.counter
+id: paragraph.counter.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: counter
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: counter
+default_value_callback: ''
+settings: {  }
+field_type: string

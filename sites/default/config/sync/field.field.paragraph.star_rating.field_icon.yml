@@ -1,0 +1,24 @@
+uuid: 76a28281-9daf-457f-9c25-fe8073ea912a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon
+    - paragraphs.paragraphs_type.star_rating
+  module:
+    - text
+id: paragraph.star_rating.field_icon
+field_name: field_icon
+entity_type: paragraph
+bundle: star_rating
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<i class="fa fa-star"></i>'
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text

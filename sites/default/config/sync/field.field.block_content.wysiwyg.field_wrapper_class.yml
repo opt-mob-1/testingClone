@@ -1,0 +1,19 @@
+uuid: 53789a05-5b31-49a4-a42b-1b6627c438f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.wysiwyg
+    - field.storage.block_content.field_wrapper_class
+id: block_content.wysiwyg.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: block_content
+bundle: wysiwyg
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 534f5e03-2a48-45b1-bee2-6d3cfb1161ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.4_column_event
+id: paragraph.4_column_event.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: 4_column_event
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,84 @@
+uuid: 13b0dd8d-fb8d-4f37-9c76-4004efc8522f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rating
+    - paragraphs.paragraphs_type.star_rating
+    - paragraphs.paragraphs_type.testimonial
+  module:
+    - entity_reference_revisions
+id: paragraph.testimonial.field_rating
+field_name: field_rating
+entity_type: paragraph
+bundle: testimonial
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      star_rating: star_rating
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 20
+        enabled: false
+      2_column_25_75_:
+        weight: 21
+        enabled: false
+      2_column_75_25_:
+        weight: 22
+        enabled: false
+      2_column_even:
+        weight: 23
+        enabled: false
+      2_column_even_left_stacked:
+        weight: 24
+        enabled: false
+      2_column_even_right_stacked:
+        weight: 25
+        enabled: false
+      3_column_25_25_50_:
+        weight: 26
+        enabled: false
+      3_column_25_50_25_:
+        weight: 27
+        enabled: false
+      3_column_50_25_25_:
+        weight: 28
+        enabled: false
+      3_columns_even:
+        weight: 29
+        enabled: false
+      4_column_event:
+        weight: 30
+        enabled: false
+      content:
+        weight: 31
+        enabled: false
+      headline:
+        weight: 32
+        enabled: false
+      image:
+        weight: 33
+        enabled: false
+      row:
+        weight: 34
+        enabled: false
+      star_rating:
+        enabled: true
+        weight: 35
+      subheadline:
+        weight: 36
+        enabled: false
+      testimonial:
+        weight: 37
+        enabled: false
+      views:
+        weight: 38
+        enabled: false
+field_type: entity_reference_revisions

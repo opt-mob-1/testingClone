@@ -1,0 +1,15 @@
+uuid: 200f2b47-20ed-4040-81be-811ea604b988
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.row
+id: paragraph.row.default
+targetEntityType: paragraph
+bundle: row
+mode: default
+content: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

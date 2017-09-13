@@ -1,0 +1,67 @@
+uuid: 1f151c31-e540-459f-bc3b-b2138ec2d467
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.counter.field_button
+    - field.field.paragraph.counter.field_count
+    - field.field.paragraph.counter.field_libraries
+    - field.field.paragraph.counter.field_subheadline
+    - field.field.paragraph.counter.field_wrapper_class
+    - paragraphs.paragraphs_type.counter
+  module:
+    - paragraphs
+    - text
+id: paragraph.counter.default
+targetEntityType: paragraph
+bundle: counter
+mode: default
+content:
+  field_button:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_count:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_libraries:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_subheadline:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_wrapper_class:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

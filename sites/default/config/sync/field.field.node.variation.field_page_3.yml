@@ -1,0 +1,28 @@
+uuid: bd0f8116-8604-4980-a8ba-a3273d9b534c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_3
+    - node.type.default_page
+    - node.type.variation
+id: node.variation.field_page_3
+field_name: field_page_3
+entity_type: node
+bundle: variation
+label: 'Page 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      default_page: default_page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

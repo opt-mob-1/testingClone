@@ -1,0 +1,19 @@
+uuid: 11051b73-35cc-4c02-a6da-d8864e74f59b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer
+    - field.storage.block_content.field_wrapper_class
+id: block_content.footer.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: block_content
+bundle: footer
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
