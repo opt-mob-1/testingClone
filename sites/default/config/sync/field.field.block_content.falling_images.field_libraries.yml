@@ -1,0 +1,19 @@
+uuid: 5f916cf6-6d05-478a-95b7-2ba97fe02941
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.falling_images
+    - field.storage.block_content.field_libraries
+id: block_content.falling_images.field_libraries
+field_name: field_libraries
+entity_type: block_content
+bundle: falling_images
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

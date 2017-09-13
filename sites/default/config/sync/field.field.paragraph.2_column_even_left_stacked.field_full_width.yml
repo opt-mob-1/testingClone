@@ -1,0 +1,23 @@
+uuid: ac6943db-0039-4b58-8a11-240e20909302
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_full_width
+    - paragraphs.paragraphs_type.2_column_even_left_stacked
+id: paragraph.2_column_even_left_stacked.field_full_width
+field_name: field_full_width
+entity_type: paragraph
+bundle: 2_column_even_left_stacked
+label: Full-width
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

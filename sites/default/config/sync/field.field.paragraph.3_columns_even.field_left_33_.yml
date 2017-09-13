@@ -1,0 +1,49 @@
+uuid: a3a89260-07e6-4538-b415-bf3fcbe85838
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_left_33_
+    - paragraphs.paragraphs_type.3_columns_even
+  module:
+    - entity_reference_revisions
+id: paragraph.3_columns_even.field_left_33_
+field_name: field_left_33_
+entity_type: paragraph
+bundle: 3_columns_even
+label: 'Left (33)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      2_column_25_75_:
+        weight: 9
+        enabled: false
+      1_column_full_width:
+        weight: 10
+        enabled: false
+      2_column_even:
+        weight: 11
+        enabled: false
+      3_columns_even:
+        weight: 12
+        enabled: false
+      headline:
+        weight: 13
+        enabled: false
+      image:
+        weight: 14
+        enabled: false
+      regions:
+        weight: 15
+        enabled: false
+      row:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

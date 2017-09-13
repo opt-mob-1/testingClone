@@ -1,0 +1,58 @@
+uuid: c68ad4da-fc05-4569-b4d1-6a9f4050feb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.timer.field_countdown_time
+    - field.field.paragraph.timer.field_expired_text
+    - field.field.paragraph.timer.field_headline
+    - field.field.paragraph.timer.field_libraries
+    - field.field.paragraph.timer.field_wrapper_class
+    - paragraphs.paragraphs_type.timer
+  module:
+    - text
+id: paragraph.timer.default
+targetEntityType: paragraph
+bundle: timer
+mode: default
+content:
+  field_countdown_time:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_expired_text:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_headline:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_libraries:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_wrapper_class:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

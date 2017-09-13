@@ -1,0 +1,21 @@
+uuid: 2013a009-8eeb-4788-87b1-8a0c437d2912
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subheadline
+    - paragraphs.paragraphs_type.hero_2_columns
+  module:
+    - text
+id: paragraph.hero_2_columns.field_subheadline
+field_name: field_subheadline
+entity_type: paragraph
+bundle: hero_2_columns
+label: Subheadline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

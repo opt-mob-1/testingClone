@@ -1,0 +1,19 @@
+uuid: bc539e89-e500-4b87-b2fd-c70ed25249c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.dynamic_cart
+id: paragraph.dynamic_cart.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: dynamic_cart
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

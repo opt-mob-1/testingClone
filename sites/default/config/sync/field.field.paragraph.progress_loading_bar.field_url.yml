@@ -1,0 +1,23 @@
+uuid: 68a66c3d-4771-4e8b-bcfe-ea4054d6dfe9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_url
+    - paragraphs.paragraphs_type.progress_loading_bar
+  module:
+    - link
+id: paragraph.progress_loading_bar.field_url
+field_name: field_url
+entity_type: paragraph
+bundle: progress_loading_bar
+label: URL
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

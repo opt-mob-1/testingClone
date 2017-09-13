@@ -1,0 +1,70 @@
+uuid: 0d020001-1fb9-480c-a0c5-791bf6c1fd81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_column_75_25_.field_blocks
+    - field.field.paragraph.2_column_75_25_.field_full_width
+    - field.field.paragraph.2_column_75_25_.field_left
+    - field.field.paragraph.2_column_75_25_.field_right
+    - field.field.paragraph.2_column_75_25_.field_wrapper_class
+    - paragraphs.paragraphs_type.2_column_75_25_
+  module:
+    - block_field
+    - paragraphs
+id: paragraph.2_column_75_25_.default
+targetEntityType: paragraph
+bundle: 2_column_75_25_
+mode: default
+content:
+  field_blocks:
+    weight: 2
+    settings:
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  field_full_width:
+    weight: 4
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_left:
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_right:
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_wrapper_class:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

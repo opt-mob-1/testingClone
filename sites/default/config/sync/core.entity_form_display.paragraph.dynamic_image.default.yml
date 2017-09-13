@@ -1,0 +1,55 @@
+uuid: c05ad00c-0cae-423e-aabe-46badfa61047
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dynamic_image.field_image
+    - field.field.paragraph.dynamic_image.field_libraries
+    - field.field.paragraph.dynamic_image.field_views
+    - field.field.paragraph.dynamic_image.field_wrapper_class
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.dynamic_image
+  module:
+    - image
+id: paragraph.dynamic_image.default
+targetEntityType: paragraph
+bundle: dynamic_image
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_libraries:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_views:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_wrapper_class:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

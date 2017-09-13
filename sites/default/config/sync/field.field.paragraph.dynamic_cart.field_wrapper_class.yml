@@ -1,0 +1,19 @@
+uuid: 79bf6d49-f1dd-4aeb-8150-a43b52cf285d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.dynamic_cart
+id: paragraph.dynamic_cart.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: dynamic_cart
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

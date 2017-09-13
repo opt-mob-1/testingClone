@@ -1,0 +1,31 @@
+uuid: 0ca9605e-7e48-485e-b144-7546bf1143b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.star_rating.field_icon
+    - field.field.paragraph.star_rating.field_libraries
+    - paragraphs.paragraphs_type.star_rating
+  module:
+    - text
+id: paragraph.star_rating.default
+targetEntityType: paragraph
+bundle: star_rating
+mode: default
+content:
+  field_icon:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_libraries:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

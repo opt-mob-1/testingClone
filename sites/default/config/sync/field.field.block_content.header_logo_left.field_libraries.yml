@@ -1,0 +1,19 @@
+uuid: 30814930-4513-4fa5-9f3b-ebec53e5e928
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_logo_left
+    - field.storage.block_content.field_libraries
+id: block_content.header_logo_left.field_libraries
+field_name: field_libraries
+entity_type: block_content
+bundle: header_logo_left
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

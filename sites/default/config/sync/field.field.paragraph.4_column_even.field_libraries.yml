@@ -1,0 +1,19 @@
+uuid: 1b4cf412-f2c9-4d88-9578-d8d3a9f4f818
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.4_column_even
+id: paragraph.4_column_even.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: 4_column_even
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

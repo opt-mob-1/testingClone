@@ -1,0 +1,28 @@
+uuid: cd2ff2e5-c8c1-40ba-b5b7-144facf5ad7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_status
+    - node.type.variation
+    - taxonomy.vocabulary.status
+id: node.variation.field_status
+field_name: field_status
+entity_type: node
+bundle: variation
+label: Status
+description: 'Apply a tag to the status of this Variation (i.e. Active, in Queue, Archived)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      status: status
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

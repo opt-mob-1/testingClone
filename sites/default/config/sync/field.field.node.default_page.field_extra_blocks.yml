@@ -1,0 +1,22 @@
+uuid: 667c2eb3-2e25-406b-be5c-1c649044a7f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extra_blocks
+    - node.type.default_page
+  module:
+    - block_field
+id: node.default_page.field_extra_blocks
+field_name: field_extra_blocks
+entity_type: node
+bundle: default_page
+label: 'Extra Blocks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

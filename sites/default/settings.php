@@ -766,12 +766,14 @@ $settings['file_scan_ignore_directories'] = [
 $databases['default']['default'] = array (
   'database' => 'publishercms',
   'username' => 'admin',
-  'password' => 'r3sid3nc3',
+  'password' => 'admin',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => '127.0.0.1',
   'port' => '3306',
+    'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_GxW5hbIKXbbmIg09nc-LKuZ4Mie_Wd2CMymjxvKjjWn6pM--MZyr_tWVagh-ZFiWB3CtaW3JAg/sync';
+//$config_directories['sync'] = 'sites/default/files/config_GxW5hbIKXbbmIg09nc-LKuZ4Mie_Wd2CMymjxvKjjWn6pM--MZyr_tWVagh-ZFiWB3CtaW3JAg/sync';
+$config_directories['sync'] = 'sites/default/config';

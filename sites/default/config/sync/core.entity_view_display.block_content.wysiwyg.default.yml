@@ -1,0 +1,40 @@
+uuid: b2e79638-c16f-4d8b-8b98-0e5fb464de79
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.wysiwyg
+    - field.field.block_content.wysiwyg.body
+    - field.field.block_content.wysiwyg.field_libraries
+    - field.field.block_content.wysiwyg.field_wrapper_class
+  module:
+    - text
+id: block_content.wysiwyg.default
+targetEntityType: block_content
+bundle: wysiwyg
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_libraries:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_wrapper_class:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

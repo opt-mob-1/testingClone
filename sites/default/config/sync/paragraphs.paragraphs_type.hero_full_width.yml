@@ -1,0 +1,7 @@
+uuid: 7c6a0932-ecb2-4634-bec4-2a1081f35674
+langcode: en
+status: true
+dependencies: {  }
+id: hero_full_width
+label: 'Hero Full Width'
+behavior_plugins: {  }

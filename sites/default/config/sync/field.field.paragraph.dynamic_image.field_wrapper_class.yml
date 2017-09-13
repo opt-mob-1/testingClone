@@ -1,0 +1,19 @@
+uuid: 5bd1dd91-6f06-46d9-9371-4c2f72e83766
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.dynamic_image
+id: paragraph.dynamic_image.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: dynamic_image
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,52 @@
+uuid: e3696077-f931-4595-9818-1f5b207f2530
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view paragraph content 1_column_full_width'
+  - 'view paragraph content 2_column_25_75_'
+  - 'view paragraph content 2_column_75_25_'
+  - 'view paragraph content 2_column_even'
+  - 'view paragraph content 2_column_even_left_stacked'
+  - 'view paragraph content 2_column_even_right_stacked'
+  - 'view paragraph content 3_column_25_25_50_'
+  - 'view paragraph content 3_column_25_50_25_'
+  - 'view paragraph content 3_column_50_25_25_'
+  - 'view paragraph content 3_columns_even'
+  - 'view paragraph content 4_column_even'
+  - 'view paragraph content button'
+  - 'view paragraph content content'
+  - 'view paragraph content counter'
+  - 'view paragraph content dynamic_cart'
+  - 'view paragraph content dynamic_image'
+  - 'view paragraph content falling_images'
+  - 'view paragraph content headline'
+  - 'view paragraph content hero_2_columns'
+  - 'view paragraph content hero_full_width'
+  - 'view paragraph content image'
+  - 'view paragraph content nav_item'
+  - 'view paragraph content navigation'
+  - 'view paragraph content popunder'
+  - 'view paragraph content progress_bar_steps'
+  - 'view paragraph content progress_loading_bar'
+  - 'view paragraph content regions'
+  - 'view paragraph content row'
+  - 'view paragraph content star_rating'
+  - 'view paragraph content steps'
+  - 'view paragraph content subheadline'
+  - 'view paragraph content testimonial'
+  - 'view paragraph content timer'
+  - 'view paragraph content views'
+  - 'view paragraph content webform'
+  - 'view paragraph content zan_placement'

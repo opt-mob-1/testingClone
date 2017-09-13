@@ -1,0 +1,43 @@
+uuid: f10f8573-bb41-49e8-ba20-9c49a7fb0df5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs
+    - paragraphs.paragraphs_type.1_column_full_width
+  module:
+    - entity_reference_revisions
+id: paragraph.1_column_full_width.field_paragraphs
+field_name: field_paragraphs
+entity_type: paragraph
+bundle: 1_column_full_width
+label: 'Full-Width Paragraphs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 3
+        enabled: false
+      row:
+        weight: 4
+        enabled: false
+      2_column_even:
+        weight: 8
+        enabled: false
+      headline:
+        weight: 9
+        enabled: false
+      image:
+        weight: 10
+        enabled: false
+      regions:
+        weight: 11
+        enabled: false
+field_type: entity_reference_revisions

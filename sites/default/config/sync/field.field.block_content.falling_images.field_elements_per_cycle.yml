@@ -1,0 +1,23 @@
+uuid: 9b81c0c9-46ea-4784-98c0-8ecf42eeee79
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.falling_images
+    - field.storage.block_content.field_elements_per_cycle
+id: block_content.falling_images.field_elements_per_cycle
+field_name: field_elements_per_cycle
+entity_type: block_content
+bundle: falling_images
+label: 'Elements Per Cycle'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

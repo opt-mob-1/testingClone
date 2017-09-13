@@ -1,0 +1,19 @@
+uuid: 1eb578a0-4d51-4447-bf1e-83f2fb1fdab4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.2_column_even_right_stacked
+id: paragraph.2_column_even_right_stacked.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: 2_column_even_right_stacked
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

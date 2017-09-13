@@ -1,0 +1,35 @@
+uuid: 45a8d1f2-7a21-4a2f-a0a7-a7b82c671f9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.star_rating.field_icon
+    - field.field.paragraph.star_rating.field_libraries
+    - paragraphs.paragraphs_type.star_rating
+  module:
+    - text
+id: paragraph.star_rating.default
+targetEntityType: paragraph
+bundle: star_rating
+mode: default
+content:
+  field_icon:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_libraries:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

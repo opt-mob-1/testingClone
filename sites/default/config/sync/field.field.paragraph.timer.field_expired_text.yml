@@ -1,0 +1,21 @@
+uuid: 097cd533-5d18-4a9c-89b7-f5adf0154b0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_expired_text
+    - paragraphs.paragraphs_type.timer
+  module:
+    - text
+id: paragraph.timer.field_expired_text
+field_name: field_expired_text
+entity_type: paragraph
+bundle: timer
+label: 'Expired Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

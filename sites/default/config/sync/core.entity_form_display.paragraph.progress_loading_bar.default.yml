@@ -1,0 +1,52 @@
+uuid: 9126ab85-f1c7-4d67-9bae-b8ea24eb604a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.progress_loading_bar.field_libraries
+    - field.field.paragraph.progress_loading_bar.field_redirect_time
+    - field.field.paragraph.progress_loading_bar.field_url
+    - field.field.paragraph.progress_loading_bar.field_wrapper_class
+    - paragraphs.paragraphs_type.progress_loading_bar
+  module:
+    - link
+id: paragraph.progress_loading_bar.default
+targetEntityType: paragraph
+bundle: progress_loading_bar
+mode: default
+content:
+  field_libraries:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_redirect_time:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_url:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_wrapper_class:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

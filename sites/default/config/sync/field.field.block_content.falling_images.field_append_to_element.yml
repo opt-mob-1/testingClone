@@ -1,0 +1,19 @@
+uuid: 659cee56-7c2a-482b-be62-4cf3566ab435
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.falling_images
+    - field.storage.block_content.field_append_to_element
+id: block_content.falling_images.field_append_to_element
+field_name: field_append_to_element
+entity_type: block_content
+bundle: falling_images
+label: 'Append To Element'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

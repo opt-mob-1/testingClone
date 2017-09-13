@@ -1,0 +1,116 @@
+uuid: a8ac72bc-04cc-40fa-a27f-bd97daf8b1b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_full_width.field_background_image
+    - field.field.paragraph.hero_full_width.field_button
+    - field.field.paragraph.hero_full_width.field_headline
+    - field.field.paragraph.hero_full_width.field_image
+    - field.field.paragraph.hero_full_width.field_libraries
+    - field.field.paragraph.hero_full_width.field_subheadline
+    - field.field.paragraph.hero_full_width.field_text
+    - field.field.paragraph.hero_full_width.field_views
+    - field.field.paragraph.hero_full_width.field_wrapper_class
+    - field.field.paragraph.hero_full_width.field_wysiwyg
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.hero_full_width
+  module:
+    - image
+    - paragraphs
+    - text
+id: paragraph.hero_full_width.default
+targetEntityType: paragraph
+bundle: hero_full_width
+mode: default
+content:
+  field_background_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_button:
+    weight: 6
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_headline:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_libraries:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_subheadline:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_text:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_views:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_wrapper_class:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_wysiwyg:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,132 @@
+uuid: b261b7ba-5bf1-4b1d-81df-8b9625181123
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_steps
+    - paragraphs.paragraphs_type.progress_steps
+    - paragraphs.paragraphs_type.steps
+  module:
+    - entity_reference_revisions
+id: paragraph.progress_steps.field_steps
+field_name: field_steps
+entity_type: paragraph
+bundle: progress_steps
+label: Steps
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      steps: steps
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 36
+        enabled: false
+      2_column_25_75_:
+        weight: 37
+        enabled: false
+      2_column_75_25_:
+        weight: 38
+        enabled: false
+      2_column_even:
+        weight: 39
+        enabled: false
+      2_column_even_left_stacked:
+        weight: 40
+        enabled: false
+      2_column_even_right_stacked:
+        weight: 41
+        enabled: false
+      3_column_25_25_50_:
+        weight: 42
+        enabled: false
+      3_column_25_50_25_:
+        weight: 43
+        enabled: false
+      3_column_50_25_25_:
+        weight: 44
+        enabled: false
+      3_columns_even:
+        weight: 45
+        enabled: false
+      4_column_event:
+        weight: 46
+        enabled: false
+      button:
+        weight: 47
+        enabled: false
+      content:
+        weight: 48
+        enabled: false
+      counter:
+        weight: 49
+        enabled: false
+      dynamic_cart:
+        weight: 50
+        enabled: false
+      dynamic_image:
+        weight: 51
+        enabled: false
+      falling_images:
+        weight: 52
+        enabled: false
+      headline:
+        weight: 53
+        enabled: false
+      hero_2_columns:
+        weight: 54
+        enabled: false
+      hero_full_width:
+        weight: 55
+        enabled: false
+      image:
+        weight: 56
+        enabled: false
+      navigation:
+        weight: 57
+        enabled: false
+      popunder:
+        weight: 58
+        enabled: false
+      progress_bar_steps:
+        weight: 59
+        enabled: false
+      progress_loading_bar:
+        weight: 60
+        enabled: false
+      progress_steps:
+        weight: 61
+        enabled: false
+      row:
+        weight: 62
+        enabled: false
+      star_rating:
+        weight: 63
+        enabled: false
+      steps:
+        enabled: true
+        weight: 64
+      subheadline:
+        weight: 65
+        enabled: false
+      testimonial:
+        weight: 66
+        enabled: false
+      timer:
+        weight: 67
+        enabled: false
+      views:
+        weight: 68
+        enabled: false
+      webform:
+        weight: 69
+        enabled: false
+      zan_placement:
+        weight: 70
+        enabled: false
+field_type: entity_reference_revisions

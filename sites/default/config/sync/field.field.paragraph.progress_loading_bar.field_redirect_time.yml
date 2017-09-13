@@ -1,0 +1,25 @@
+uuid: 740df42c-a6c5-4ed0-80c0-ca4c0223cbf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_redirect_time
+    - paragraphs.paragraphs_type.progress_loading_bar
+id: paragraph.progress_loading_bar.field_redirect_time
+field_name: field_redirect_time
+entity_type: paragraph
+bundle: progress_loading_bar
+label: 'Redirect Time'
+description: 'Specify in milliseconds the progress bar time. For example 5000 for 5 seconds. '
+required: false
+translatable: false
+default_value:
+  -
+    value: 5000
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

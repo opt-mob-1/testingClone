@@ -1,0 +1,8 @@
+uuid: 9517562c-cfcb-4119-b230-531d29d625e2
+langcode: en
+status: true
+dependencies: {  }
+id: wysiwyg
+label: WYSIWYG
+revision: 0
+description: ''

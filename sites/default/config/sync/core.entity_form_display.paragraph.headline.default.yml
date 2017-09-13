@@ -1,0 +1,35 @@
+uuid: 6a9c9233-3f1b-4000-9341-e9272e66d9ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.headline.field_headline
+    - field.field.paragraph.headline.field_libraries
+    - paragraphs.paragraphs_type.headline
+  module:
+    - text
+id: paragraph.headline.default
+targetEntityType: paragraph
+bundle: headline
+mode: default
+content:
+  field_headline:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_libraries:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

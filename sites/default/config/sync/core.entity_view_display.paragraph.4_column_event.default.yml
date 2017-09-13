@@ -1,0 +1,83 @@
+uuid: 940ee196-d416-4745-afde-0b0beae0bbf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.4_column_event.field_blocks
+    - field.field.paragraph.4_column_event.field_first
+    - field.field.paragraph.4_column_event.field_fourth
+    - field.field.paragraph.4_column_event.field_full_width
+    - field.field.paragraph.4_column_event.field_second
+    - field.field.paragraph.4_column_event.field_third
+    - field.field.paragraph.4_column_event.field_wrapper_class
+    - paragraphs.paragraphs_type.4_column_event
+  module:
+    - block_field
+    - entity_reference_revisions
+id: paragraph.4_column_event.default
+targetEntityType: paragraph
+bundle: 4_column_event
+mode: default
+content:
+  field_blocks:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+  field_first:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_fourth:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_full_width:
+    weight: 4
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_second:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_third:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

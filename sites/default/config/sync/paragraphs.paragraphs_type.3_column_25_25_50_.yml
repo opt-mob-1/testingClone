@@ -1,0 +1,7 @@
+uuid: 0c1af85f-079a-449a-8d98-b76458b9eeda
+langcode: en
+status: true
+dependencies: {  }
+id: 3_column_25_25_50_
+label: '3 Column (25/25/50)'
+behavior_plugins: {  }

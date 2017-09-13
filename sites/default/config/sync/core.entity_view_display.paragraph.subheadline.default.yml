@@ -1,0 +1,31 @@
+uuid: 562c542f-ee7f-46a8-9ffb-4940a488d5ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.subheadline.field_libraries
+    - field.field.paragraph.subheadline.field_subheadline
+    - paragraphs.paragraphs_type.subheadline
+  module:
+    - text
+id: paragraph.subheadline.default
+targetEntityType: paragraph
+bundle: subheadline
+mode: default
+content:
+  field_libraries:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_subheadline:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

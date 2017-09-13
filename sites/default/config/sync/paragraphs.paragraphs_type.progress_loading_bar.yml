@@ -1,0 +1,7 @@
+uuid: 35552b9c-f309-412e-919b-89049c06ce14
+langcode: en
+status: true
+dependencies: {  }
+id: progress_loading_bar
+label: 'Progress Loading Bar'
+behavior_plugins: {  }

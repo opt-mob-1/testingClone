@@ -1,0 +1,30 @@
+uuid: ca474bc3-ea16-456b-bdf9-1aaa47668491
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.views.field_libraries
+    - field.field.paragraph.views.field_views
+    - paragraphs.paragraphs_type.views
+id: paragraph.views.default
+targetEntityType: paragraph
+bundle: views
+mode: default
+content:
+  field_libraries:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_views:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

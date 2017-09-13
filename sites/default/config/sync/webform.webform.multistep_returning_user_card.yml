@@ -1,0 +1,105 @@
+uuid: 95f8a94b-5427-446c-bfd7-d88c5d32ed48
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+uid: 1
+template: false
+id: multistep_returning_user_card
+title: 'Multistep with Returning User Card'
+description: ''
+category: ''
+elements: "multi_step_section_1:\n  '#type': container\n  '#attributes':\n    class:\n      - clearfix\n  subheadline:\n    '#type': webform_markup\n    '#admin_title': Subheadline\n    '#markup': '<h2 class=\"subheadline\">Step 1: Enter shipping information to verify eligibility</h2>'\n  first_name:\n    '#type': textfield\n    '#title': 'First Name:'\n    '#required': true\n  last_name:\n    '#type': textfield\n    '#title': 'Last Name:'\n    '#required': true\n  zip:\n    '#type': tel\n    '#title': 'Zip:'\n    '#size': '5'\n    '#maxlength': '5'\n    '#required': true\n    '#required_error': 'Please enter your zipcode'\n  su_fb_like:\n    '#type': webform_markup\n    '#admin_title': 'FB Like Signup'\n    '#display_on': both\n    '#markup': \"<div id=\\\"fb-root\\\">&nbsp;</div>\\n\\n<div class=\\\"fb-like social-fb\\\" data-action=\\\"like\\\" data-href=\\\"https://www.facebook.com/FreeSamplesAtGetItFree/\\\" data-layout=\\\"standard\\\" data-share=\\\"false\\\" data-show-faces=\\\"true\\\" data-size=\\\"small\\\" data-width=\\\"210px\\\">&nbsp;</div>\"\n  next_step:\n    '#type': webform_markup\n    '#markup': '<a class=\"button\" href=\"#topPage\" id=\"next-step-1\">Continue <span class=\"button_icon\"><em aria-hidden=\"true\" class=\"fa fa-chevron-right\"> </em></span></a>'\nmulti_step_section_2:\n  '#type': container\n  '#attributes':\n    class:\n      - clearfix\n  subheadline_2:\n    '#type': webform_markup\n    '#admin_title': Subheadline\n    '#markup': '<h2 class=\"subheadline\">Step 1: Enter address to verify eligibility</h2>'\n  address:\n    '#type': textfield\n    '#title': 'Address:'\n    '#required': true\n  city:\n    '#type': textfield\n    '#title': 'City:'\n    '#required': true\n  state:\n    '#type': select\n    '#title': 'State:'\n    '#options': state_codes\n    '#empty_option': State\n    '#required': true\n  next_step2:\n    '#type': webform_markup\n    '#markup': '<a class=\"button\" href=\"#topPage\" id=\"next-step-2\">Continue <span class=\"button_icon\"><em aria-hidden=\"true\" class=\"fa fa-chevron-right\"> </em></span></a>'\nmulti_step_section_3:\n  '#type': container\n  '#attributes':\n    class:\n      - clearfix\n  subhealine_3:\n    '#type': webform_markup\n    '#admin_title': Subheadline\n    '#markup': '<h2 class=\"subheadline\">Step 1: Enter email to verify eligibility</h2>'\n  email:\n    '#type': email\n    '#title': 'E-mail:'\n    '#required': true\n  terms_conditions:\n    '#type': webform_markup\n    '#title': 'Terms & Conditions'\n    '#description': ''\n    '#title_display': inline\n    '#markup': '<div class=\"form-item-subscribe\" style=\"clear:both\">By clicking the Continue button, I have read and agree to GetItFree.us&#39;s&nbsp;<a href=\"https://www.getitfree.us/privacy\" target=\"_blank\">Privacy Policy</a>&nbsp;and&nbsp;<a href=\"https://www.getitfree.us/terms\" target=\"_blank\">Terms &amp; Conditions</a></div>'\n  next_step3:\n    '#type': webform_markup\n    '#markup': '<a class=\"button\" href=\"#topPage\" id=\"next-step-3\">Continue <span class=\"button_icon\"><em aria-hidden=\"true\" class=\"fa fa-chevron-right\"> </em></span></a>'\nmulti_step_section_4:\n  '#type': container\n  '#attributes':\n    class:\n      - clearfix\n  subheadline_4:\n    '#type': webform_markup\n    '#admin_title': Subheadline\n    '#markup': '<h2 class=\"subheadline\">Step 1: Enter your birthday to verify eligibility</h2>'\n  test_date_list:\n    '#type': datelist\n    '#title': 'Birthday:'\n    '#date_part_order':\n      - month\n      - day\n      - year\n    '#date_year_range': '1910:1999'\n  next_step4:\n    '#type': webform_markup\n    '#markup': \"<div class=\\\"js-monthHook\\\">&nbsp;</div>\\n\\n<div class=\\\"js-dayHook\\\">&nbsp;</div>\\n\\n<div class=\\\"js-yearHook\\\">&nbsp;</div>\\n<a class=\\\"button button-spacing\\\" href=\\\"#topPage\\\" id=\\\"next-step-4\\\">Continue <span class=\\\"button_icon\\\"><em aria-hidden=\\\"true\\\" class=\\\"fa fa-chevron-right\\\"> </em></span></a>\"\nmulti_step_section_5:\n  '#type': container\n  '#attributes':\n    class:\n      - clearfix\n  subheadline_5:\n    '#type': webform_markup\n    '#admin_title': Subheadline\n    '#markup': '<h2 class=\"subheadline\">Step 1: Enter your phone number to verify eligibility</h2>'\n  mobile_phone:\n    '#type': tel\n    '#title': 'Phone:'\n    '#required': true\n    '#required_error': 'Please enter your Phone'\n  next_step5:\n    '#type': webform_markup\n    '#markup': '<a class=\"button\" href=\"#topPage\" id=\"next-step-5\">Continue <span class=\"button_icon\"><em aria-hidden=\"true\" class=\"fa fa-chevron-right\"> </em></span></a>'\nmulti_step_section_6:\n  '#type': container\n  '#attributes':\n    class:\n      - 'clearfix genderContainer'\n  subheadline_6:\n    '#type': webform_markup\n    '#admin_title': Subheadline\n    '#markup': '<h2 class=\"subheadline\">Step 1: Enter gender to verify eligibility</h2>'\n  gender:\n    '#type': radios\n    '#title': 'Gender:'\n    '#options':\n      F: Female\n      M: Male\n    '#required': true\nuniversal_leadid:\n  '#type': hidden\n  '#attributes':\n    id: leadid_token\nredemption_sample_image:\n  '#type': hidden\n  '#attributes':\n    id: sample-image\nga_client_id:\n  '#type': hidden\n  '#attributes':\n    id: ga_client_id\nemail_opt:\n  '#type': hidden\n  '#value': '1'\n  '#attributes':\n    id: email_opt\nru_button_submit_hidden2:\n  '#type': webform_markup\n  '#markup': '<a class=\"ru-button-submit\" href=\"#\" id=\"ru-button-submit-hidden\">*</a>'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Continue\n  '#submit__attributes':\n    id: edit-submit\n"
+css: ".webform-submission-multi-step-web-form-form .headline, .webform-submission-full-registration-web-form-form .headline {\r\n    margin: 0 0 20px;\r\n}"
+javascript: "(function(d, s, id) {\r\n  var js, fjs = d.getElementsByTagName(s)[0];\r\n  if (d.getElementById(id)) return;\r\n  js = d.createElement(s); js.id = id;\r\n  js.src = \"//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8\";\r\n  fjs.parentNode.insertBefore(js, fjs);\r\n}(document, 'script', 'facebook-jssdk'));"
+settings:
+  ajax: false
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: true
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  submission_label: ''
+  submission_log: false
+  submission_user_columns: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_complete: true
+  wizard_complete_label: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  purge: none
+  purge_days: null
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+handlers: {  }

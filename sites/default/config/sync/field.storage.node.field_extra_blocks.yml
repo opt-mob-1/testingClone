@@ -1,0 +1,19 @@
+uuid: 1c57a6e9-5796-480f-9d80-58785af426c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_field
+    - node
+id: node.field_extra_blocks
+field_name: field_extra_blocks
+entity_type: node
+type: block_field
+settings: {  }
+module: block_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

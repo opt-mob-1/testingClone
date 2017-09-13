@@ -1,0 +1,7 @@
+uuid: 1887ec7d-e31e-4025-8ca1-5ad7f5cc7331
+langcode: en
+status: true
+dependencies: {  }
+id: nav_item
+label: 'Nav Item'
+behavior_plugins: {  }

@@ -1,0 +1,19 @@
+uuid: b0c54707-fd91-435a-98a7-ac52e06247c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wrapper_class
+    - node.type.default_page
+id: node.default_page.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: node
+bundle: default_page
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

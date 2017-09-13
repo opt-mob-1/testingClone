@@ -1,0 +1,19 @@
+uuid: 65e6acda-9737-46a7-bc39-3bc5ab1a8397
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.progress_loading_bar
+id: paragraph.progress_loading_bar.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: progress_loading_bar
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

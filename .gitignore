@@ -54,7 +54,5 @@ Thumbs.db
 
 # Things in the core directory that Drupal 8 commits in the repository.
 !core/**/*.gz
-sites/all/themes/getitfree/panels/
+modules/devel
 .gitignore
-sites/all/themes/zeeto/images/
-!/sites/all/themes/zeeto/images/

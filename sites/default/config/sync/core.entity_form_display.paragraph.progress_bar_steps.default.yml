@@ -1,0 +1,15 @@
+uuid: d59d9882-5697-499c-afb0-56f306c546a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.progress_bar_steps
+id: paragraph.progress_bar_steps.default
+targetEntityType: paragraph
+bundle: progress_bar_steps
+mode: default
+content: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

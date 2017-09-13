@@ -1,0 +1,19 @@
+uuid: 7dc6ee75-d1f0-4aed-9300-79ec5b77fe01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.button
+id: paragraph.button.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: button
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

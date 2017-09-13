@@ -1,0 +1,8 @@
+uuid: c3202e7a-1e53-44f6-b930-3f1fa7062f34
+langcode: en
+status: true
+dependencies: {  }
+id: header_logo_center
+label: 'Header Logo Center'
+revision: 0
+description: ''

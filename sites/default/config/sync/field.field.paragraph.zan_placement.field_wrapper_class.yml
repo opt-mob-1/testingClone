@@ -1,0 +1,19 @@
+uuid: b7869e4b-5ec0-49c2-b7fd-fe2732c98371
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.zan_placement
+id: paragraph.zan_placement.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: zan_placement
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

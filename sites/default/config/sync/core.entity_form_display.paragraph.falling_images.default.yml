@@ -1,0 +1,98 @@
+uuid: d7cf7220-352d-4465-98d3-e6e87a2857d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.falling_images.field_append_to_element
+    - field.field.paragraph.falling_images.field_elements_per_cycle
+    - field.field.paragraph.falling_images.field_image_four
+    - field.field.paragraph.falling_images.field_image_one
+    - field.field.paragraph.falling_images.field_image_three
+    - field.field.paragraph.falling_images.field_image_two
+    - field.field.paragraph.falling_images.field_interval_speed
+    - field.field.paragraph.falling_images.field_libraries
+    - field.field.paragraph.falling_images.field_url
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.falling_images
+  module:
+    - image
+    - link
+id: paragraph.falling_images.default
+targetEntityType: paragraph
+bundle: falling_images
+mode: default
+content:
+  field_append_to_element:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_elements_per_cycle:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_image_four:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_image_one:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_image_three:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_image_two:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_interval_speed:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_libraries:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_url:
+    weight: 7
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

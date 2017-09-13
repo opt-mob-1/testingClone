@@ -1,0 +1,44 @@
+uuid: 09ac68f7-976f-4091-b307-9fdd9b50ce61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.zan_placement.field_content
+    - field.field.paragraph.zan_placement.field_libraries
+    - field.field.paragraph.zan_placement.field_wrapper_class
+    - paragraphs.paragraphs_type.zan_placement
+  module:
+    - text
+id: paragraph.zan_placement.default
+targetEntityType: paragraph
+bundle: zan_placement
+mode: default
+content:
+  field_content:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_libraries:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_wrapper_class:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

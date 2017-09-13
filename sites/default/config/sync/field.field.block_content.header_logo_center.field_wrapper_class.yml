@@ -1,0 +1,19 @@
+uuid: 6546d56e-039f-456b-89ac-f26dfacb955e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_logo_center
+    - field.storage.block_content.field_wrapper_class
+id: block_content.header_logo_center.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: block_content
+bundle: header_logo_center
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

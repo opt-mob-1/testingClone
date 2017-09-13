@@ -1,0 +1,22 @@
+uuid: cf273432-78e0-4ed5-82b9-37ddf3d10638
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.wysiwyg
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.wysiwyg.body
+field_name: body
+entity_type: block_content
+bundle: wysiwyg
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

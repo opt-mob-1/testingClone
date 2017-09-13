@@ -1,0 +1,21 @@
+uuid: c7300c65-c044-47cf-8e42-6f619c7615a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_libraries
+    - paragraphs.paragraphs_type.falling_images
+id: paragraph.falling_images.field_libraries
+field_name: field_libraries
+entity_type: paragraph
+bundle: falling_images
+label: Libraries
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: falling-images
+default_value_callback: ''
+settings: {  }
+field_type: string

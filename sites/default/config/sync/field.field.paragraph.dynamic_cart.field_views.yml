@@ -1,0 +1,23 @@
+uuid: 3b025086-10f3-4288-b7f0-f0cd45ff8a9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_views
+    - paragraphs.paragraphs_type.dynamic_cart
+id: paragraph.dynamic_cart.field_views
+field_name: field_views
+entity_type: paragraph
+bundle: dynamic_cart
+label: Views
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: bc7775c8-65fe-442b-9f00-53ed7ce9a95a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_interval_speed
+    - paragraphs.paragraphs_type.falling_images
+id: paragraph.falling_images.field_interval_speed
+field_name: field_interval_speed
+entity_type: paragraph
+bundle: falling_images
+label: 'Interval Speed'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

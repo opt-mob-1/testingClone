@@ -1,10 +1,9 @@
 global-styling:
-  version: 1.1
+  version: 1.0
   fonts:
     css:
       theme:
-        //fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Source+Sans+Pro:400,600,700: { type: external }
-
+        '//fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Source+Sans+Pro:400,600,700': { type: external, minified: true }
 
   css:
     base:
@@ -22,26 +21,115 @@ global-styling:
       css/settings/settings.css: {}
       css/settings/mixins.css: {}
 
-    # 3. Theme
-
-    # 4. Templates
-
-    # 5. Components
-    component-libraries:
-      components:
-        paths:
-          - pattern-lab/source/_patterns/components
-      # Can specify specific components used if property does not require all components to load
-      # raining-image:
-        # paths:
-          #- pattern-lab/source/_patterns/components/raining-image
-
-
-    # 6. Modules
 
 
 # Add any external libraries and custom components below
-global-js:
-  version: 1.x
+#global-js:
+#  version: 1.x
+#  js:
+#    js/libs/settings/settings.js: {}
+#  dependencies:
+#      - core/jquery
+
+# Variation library for legacy variation view (z)
+variationView:
+  version: 1.0
   js:
-    js/libs/settings/settings.js: {}
+    js/libs/variationView.js: {}
+  dependencies:
+      - core/drupalSettings
+      - core/jquery
+
+
+# This library is called on the Raining Images Block Type
+falling-images:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/falling-images/style.css: {}
+  js:
+    js/paragraphs/falling-images/falling-images.js: { weight: -2 }
+  dependencies:
+    - core/jquery
+#    - getitfree/variationDefaults
+
+
+# Library for Popunder
+popunder:
+  version: 1.0
+  js:
+    js/paragraphs/popunder/browserDetect.js: {}
+    js/paragraphs/popunder/popunder.js: {}
+  dependencies:
+    - core/jquery
+
+# Library for Timer
+timer:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/timer/timer.css: {}
+  js:
+    js/paragraphs/timer/timer.js: {}
+  dependencies:
+    - core/jquery
+
+# Library for a Looping Timer
+looping-timer:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/timer/timer.css: {}
+  js:
+    js/paragraphs/timer/looping-timer.js: {}
+  dependencies:
+    - core/jquery
+
+# Library for an incrementing Counter
+counter:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/counter/counter.css: {}
+  js:
+    js/paragraphs/counter/counter.js: {}
+  dependencies:
+    - core/jquery
+
+# This library is called on the Signup Content Type
+# The library is highly dependent on pathOptions Library
+# Multistep form with Mobile styling
+#multistepForm_mobile:
+#  version: 1.0
+#  css:
+#    layout:
+#      css/paragraphs/multistepForm_mobile/mobile_styles.css: {}
+#  js:
+#    js/libs/vendor/jquery_validate.js: {}
+#    js/libs/zeeto/lead_id.js: {}
+#    js/paragraphs/multistepForm_mobile/mobile_formStepLogic.js: {}
+#    js/paragraphs/multistepForm_mobile/mobile_formSubmitLogic.js: {}
+#    js/libs/vendor/phone_mask.js: {}
+#  dependencies:
+#    - core/jquery
+#    - core/drupalSettings
+#    - getitfree/Survey
+#    - getitfree/variationDefaults
+
+# This library is called on the User Block Paragraph (Version 2.0)
+#multistepForm_desktop:
+#  version: 1.0
+#  css:
+#    layout:
+#      css/paragraphs/multistepForm_desktop/desktop_styles.css: {}
+#  js:
+#    js/libs/jquery_validate.js: {}
+#    js/libs/lead_id.js: {}
+#    js/paragraphs/multistepForm_desktop/desktop_formStepLogic.js: {}
+#    js/paragraphs/multistepForm_desktop/desktop_formSubmitLogic.js: {}
+#    js/libs/phone_mask.js: {}
+#  dependencies:
+#    - core/jquery
+#    - core/drupalSettings
+#    - getitfree/Survey
+#    - getitfree/variationDefaults

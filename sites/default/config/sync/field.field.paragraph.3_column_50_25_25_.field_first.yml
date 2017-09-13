@@ -1,0 +1,55 @@
+uuid: 69f9ed0b-3bf0-4d7c-a993-69d1270999c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_first
+    - paragraphs.paragraphs_type.3_column_50_25_25_
+  module:
+    - entity_reference_revisions
+id: paragraph.3_column_50_25_25_.field_first
+field_name: field_first
+entity_type: paragraph
+bundle: 3_column_50_25_25_
+label: 'First (50)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 11
+        enabled: false
+      2_column_25_75_:
+        weight: 12
+        enabled: false
+      2_column_even:
+        weight: 13
+        enabled: false
+      3_column_25_50_25_:
+        weight: 14
+        enabled: false
+      3_column_50_25_25_:
+        weight: 15
+        enabled: false
+      3_columns_even:
+        weight: 16
+        enabled: false
+      4_column_event:
+        weight: 17
+        enabled: false
+      headline:
+        weight: 18
+        enabled: false
+      image:
+        weight: 19
+        enabled: false
+      row:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

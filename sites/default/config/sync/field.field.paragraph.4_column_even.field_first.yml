@@ -1,0 +1,136 @@
+uuid: d18ca471-7109-4c85-87fd-42f81ec9ebaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_first
+    - paragraphs.paragraphs_type.4_column_even
+  module:
+    - entity_reference_revisions
+id: paragraph.4_column_even.field_first
+field_name: field_first
+entity_type: paragraph
+bundle: 4_column_even
+label: First
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      1_column_full_width:
+        weight: 38
+        enabled: false
+      2_column_25_75_:
+        weight: 39
+        enabled: false
+      2_column_75_25_:
+        weight: 40
+        enabled: false
+      2_column_even:
+        weight: 41
+        enabled: false
+      2_column_even_left_stacked:
+        weight: 42
+        enabled: false
+      2_column_even_right_stacked:
+        weight: 43
+        enabled: false
+      3_column_25_25_50_:
+        weight: 44
+        enabled: false
+      3_column_25_50_25_:
+        weight: 45
+        enabled: false
+      3_column_50_25_25_:
+        weight: 46
+        enabled: false
+      3_columns_even:
+        weight: 47
+        enabled: false
+      4_column_even:
+        weight: 48
+        enabled: false
+      4_column_event:
+        weight: 49
+        enabled: false
+      button:
+        weight: 50
+        enabled: false
+      content:
+        weight: 51
+        enabled: false
+      counter:
+        weight: 52
+        enabled: false
+      dynamic_cart:
+        weight: 53
+        enabled: false
+      dynamic_image:
+        weight: 54
+        enabled: false
+      falling_images:
+        weight: 55
+        enabled: false
+      headline:
+        weight: 56
+        enabled: false
+      hero_2_columns:
+        weight: 57
+        enabled: false
+      hero_full_width:
+        weight: 58
+        enabled: false
+      image:
+        weight: 59
+        enabled: false
+      nav_item:
+        weight: 60
+        enabled: false
+      navigation:
+        weight: 61
+        enabled: false
+      popunder:
+        weight: 62
+        enabled: false
+      progress_bar_steps:
+        weight: 63
+        enabled: false
+      progress_loading_bar:
+        weight: 64
+        enabled: false
+      progress_steps:
+        weight: 65
+        enabled: false
+      row:
+        weight: 66
+        enabled: false
+      star_rating:
+        weight: 67
+        enabled: false
+      steps:
+        weight: 68
+        enabled: false
+      subheadline:
+        weight: 69
+        enabled: false
+      testimonial:
+        weight: 70
+        enabled: false
+      timer:
+        weight: 71
+        enabled: false
+      views:
+        weight: 72
+        enabled: false
+      webform:
+        weight: 73
+        enabled: false
+      zan_placement:
+        weight: 74
+        enabled: false
+field_type: entity_reference_revisions

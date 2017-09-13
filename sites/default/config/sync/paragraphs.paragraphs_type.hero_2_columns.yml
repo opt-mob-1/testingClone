@@ -1,0 +1,7 @@
+uuid: aeb18a5b-f03d-4dc3-af2d-7805b381820b
+langcode: en
+status: true
+dependencies: {  }
+id: hero_2_columns
+label: 'Hero 2 Columns'
+behavior_plugins: {  }

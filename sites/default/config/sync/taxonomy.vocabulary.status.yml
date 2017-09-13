@@ -1,0 +1,9 @@
+uuid: 893d0db7-5ad6-4aa0-93df-34d358d96786
+langcode: en
+status: true
+dependencies: {  }
+name: Status
+vid: status
+description: 'Status of Variation'
+hierarchy: 0
+weight: 0

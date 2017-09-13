@@ -1,0 +1,60 @@
+uuid: d802eb98-5f69-4de1-b137-c293277f4020
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_column_even.field_full_width
+    - field.field.paragraph.2_column_even.field_left
+    - field.field.paragraph.2_column_even.field_right
+    - field.field.paragraph.2_column_even.field_wrapper_class
+    - paragraphs.paragraphs_type.2_column_even
+  module:
+    - paragraphs
+id: paragraph.2_column_even.default
+targetEntityType: paragraph
+bundle: 2_column_even
+mode: default
+content:
+  field_full_width:
+    weight: 2
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_left:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_right:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_wrapper_class:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

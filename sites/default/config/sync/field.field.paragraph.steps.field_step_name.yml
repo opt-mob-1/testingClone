@@ -1,0 +1,21 @@
+uuid: 9b708889-1564-4463-abf7-c269d0dfb2d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_step_name
+    - paragraphs.paragraphs_type.steps
+  module:
+    - text
+id: paragraph.steps.field_step_name
+field_name: field_step_name
+entity_type: paragraph
+bundle: steps
+label: 'Step Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

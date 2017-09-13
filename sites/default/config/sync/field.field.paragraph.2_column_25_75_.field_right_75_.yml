@@ -1,0 +1,46 @@
+uuid: dabe34ab-42f8-4bdf-b1eb-c5558ff00feb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_right_75_
+    - paragraphs.paragraphs_type.2_column_25_75_
+  module:
+    - entity_reference_revisions
+id: paragraph.2_column_25_75_.field_right_75_
+field_name: field_right_75_
+entity_type: paragraph
+bundle: 2_column_25_75_
+label: 'Right (75)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      2_column_even:
+        weight: 8
+        enabled: false
+      1_column_full_width:
+        weight: 9
+        enabled: false
+      2_column_25_75_:
+        weight: 10
+        enabled: false
+      headline:
+        weight: 11
+        enabled: false
+      image:
+        weight: 12
+        enabled: false
+      regions:
+        weight: 13
+        enabled: false
+      row:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

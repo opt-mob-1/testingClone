@@ -1,0 +1,25 @@
+uuid: ece16a38-8515-44ba-af31-5cb348aa62c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_countdown_time
+    - paragraphs.paragraphs_type.timer
+id: paragraph.timer.field_countdown_time
+field_name: field_countdown_time
+entity_type: paragraph
+bundle: timer
+label: 'Countdown Time'
+description: 'Please enter the time in seconds from which the time will countdown from.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 600
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

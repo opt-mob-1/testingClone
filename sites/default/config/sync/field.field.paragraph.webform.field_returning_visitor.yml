@@ -1,0 +1,23 @@
+uuid: f89bc0f5-8faa-450a-acea-8fdb3b971fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_returning_visitor
+    - paragraphs.paragraphs_type.webform
+id: paragraph.webform.field_returning_visitor
+field_name: field_returning_visitor
+entity_type: paragraph
+bundle: webform
+label: 'Returning Visitor'
+description: 'Select "yes" to allow custom returning visitor functionality '
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

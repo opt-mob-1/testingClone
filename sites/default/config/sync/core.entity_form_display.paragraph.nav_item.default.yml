@@ -1,0 +1,26 @@
+uuid: 27578aa0-0e4a-4eb4-a81c-f40af75891d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nav_item.field_url
+    - paragraphs.paragraphs_type.nav_item
+  module:
+    - link
+id: paragraph.nav_item.default
+targetEntityType: paragraph
+bundle: nav_item
+mode: default
+content:
+  field_url:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

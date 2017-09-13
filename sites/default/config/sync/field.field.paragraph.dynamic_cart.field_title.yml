@@ -1,0 +1,21 @@
+uuid: 74074d6a-86c4-4338-bc77-cc89314a52f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.dynamic_cart
+  module:
+    - text
+id: paragraph.dynamic_cart.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: dynamic_cart
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

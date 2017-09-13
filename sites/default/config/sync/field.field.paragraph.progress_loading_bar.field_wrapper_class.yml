@@ -1,0 +1,19 @@
+uuid: fd93f7c4-579e-49a9-98ba-03d73a86c058
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.progress_loading_bar
+id: paragraph.progress_loading_bar.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: progress_loading_bar
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
