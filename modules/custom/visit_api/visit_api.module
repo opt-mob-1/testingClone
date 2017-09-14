@@ -1,0 +1,17 @@
+<?php
+function visit_api_schema() {
+    $schema['visit_api'] = array(
+    // Example (partial) specification for table "node".
+        'description' => 'The table for the visit api.',
+        'fields' => array(
+            'visit_api_key' => array(
+            'description' => 'The visits api key.',
+            'type' => 'varchar',
+            'length' => 255,
+            'not null' => TRUE,
+            'default' => '',
+        ),
+    ),
+);
+return $schema;
+}

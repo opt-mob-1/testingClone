@@ -1,0 +1,19 @@
+uuid: c6165436-b269-47bc-951d-40cfb7d87bb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_libraries
+    - node.type.default_page
+id: node.default_page.field_libraries
+field_name: field_libraries
+entity_type: node
+bundle: default_page
+label: Libraries
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,8 @@
+visit_api.postVisit:
+  path: '/postVisit'
+  defaults:
+    _controller: '\Drupal\visit_api\Controller\Controller::postVisit'
+    _title: 'Post Visit'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'

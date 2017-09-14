@@ -24,12 +24,12 @@ global-styling:
 
 
 # Add any external libraries and custom components below
-#global-js:
-#  version: 1.x
-#  js:
-#    js/libs/settings/settings.js: {}
-#  dependencies:
-#      - core/jquery
+global-js:
+  version: 1.x
+  js:
+    js/libs/settings/settings.js: {}
+  dependencies:
+      - core/jquery
 
 # Variation library for legacy variation view (z)
 variationView:
@@ -39,7 +39,17 @@ variationView:
   dependencies:
       - core/drupalSettings
       - core/jquery
+      - zeeto/visitApi
 
+# Variation library for legacy variation view (z)
+visitApi:
+  version: 1.0
+  js:
+    js/libs/vendor/techDetection.js: {}
+    js/libs/visitAPI.js: {}
+  dependencies:
+      - core/drupalSettings
+      - core/jquery
 
 # This library is called on the Raining Images Block Type
 falling-images:
@@ -51,8 +61,6 @@ falling-images:
     js/paragraphs/falling-images/falling-images.js: { weight: -2 }
   dependencies:
     - core/jquery
-#    - getitfree/variationDefaults
-
 
 # Library for Popunder
 popunder:
