@@ -71,11 +71,14 @@
  */
 #}
 
+{{ content.field_libraries }}
+
 <header>
   {{ content.field_header }}
 </header>
 {{ content.extra_blocks }}
-<div class="{{ content.field_wrapper_class|field_value }}">
+
+<div class="{{ content.field_wrapper_class|field_value }} js-milestone" data-milestone="{{ content.field_milestone|field_value }}">
   <article{{ attributes.addClass(classes)}}>
     {{ content.field_sections }}
   </article>

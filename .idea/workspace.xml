@@ -2,128 +2,666 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57fd1df-fc41-4020-b251-76c7fb3e5eeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/json2/json2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/extra_image_field_classes/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/extra_image_field_classes/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/extra_image_field_classes/extra_image_field_classes.info.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/extra_image_field_classes/src/Plugin/Field/FieldFormatter/ExtraImageFieldClassesFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/falling-images/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/multistepForm_desktop/desktop_styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/multistepForm_mobile/mobile_styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/timer/timer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/jquery_validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/lead_id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/phone_mask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/variationView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/counter/counter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/falling-images/falling-images.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_desktop/desktop_formStepLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_desktop/desktop_formSubmitLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_mobile/mobile_formStepLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_mobile/mobile_formSubmitLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/popunder/browserDetect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/popunder/popunder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/timer/looping-timer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/timer/timer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/jquery_validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/lead_id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/phone_mask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/variationView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/counter/counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/counter/counter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/falling-images/falling-images.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/falling-images/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_desktop/desktop_formStepLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_desktop/desktop_formSubmitLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_desktop/desktop_styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_mobile/mobile_formStepLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_mobile/mobile_formSubmitLogic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_mobile/mobile_styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/popunder/browserDetect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/popunder/popunder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/looping-timer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/timer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/timer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--bare.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--block-content--header-logo-center.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--falling-images.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--footer.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--header-logo-left.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--wysiwyg.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-headline.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-libraries.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-subheadline.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-url.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--paragraph--field-active.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--paragraph--field-returning-visitor.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--variation.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-75-25-.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-even-left-stacked.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-even-right-stacked.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-column-25-25-50-.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-column-50-25-25-.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--button.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--counter.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--dynamic-cart.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--dynamic-image.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--falling-images.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--headline.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--hero-2-columns.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--hero-full-width.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--nav_item.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--navigation.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--popunder.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--progress-loading-bar.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--progress-steps.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--star-rating.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--steps.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--subheadline.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--testimonial.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--timer.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--webform.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--zan-placement.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/view/views-view--variation-view.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.assignwith/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.assignwith/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.assignwith/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.assignwith/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.isempty/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.isempty/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.isempty/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.isempty/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.pick/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.pick/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.pick/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/lodash.pick/package.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-columns-25-50-25-.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-column-25-50-25-.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/visit_api/src/Controller/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/visit_api/visit_api.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/visit_api/visit_api.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/visit_api/visit_api.routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/techDetection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/visitAPI.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/jquery_validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/lead_id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/phone_mask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_breadcrumbs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_local_actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_login.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_page_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_primary_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.adminimal_theme_secondary_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_account_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_branding.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_breadcrumbs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_local_actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_main_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_page_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_powered.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bartik_tools.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_account_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_branding.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_breadcrumbs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_local_actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_main_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_page_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_powered.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.bootstrap_tools.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_breadcrumbs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_local_actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_login.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_page_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_primary_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.seven_secondary_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_account_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_branding.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_breadcrumbs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_local_actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_main_menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_page_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_powered.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block.block.zeeto_tools.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block_content.type.basic.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block_content.type.falling_images.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block_content.type.footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block_content.type.header_logo_center.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block_content.type.header_logo_left.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/block_content.type.wysiwyg.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/bootstrap.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.fallback.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.html_date.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.html_datetime.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.html_month.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.html_time.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.html_week.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.html_year.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.html_yearless_date.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.long.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.medium.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.date_format.short.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.block_content.basic.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.block_content.falling_images.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.block_content.footer.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.block_content.header_logo_center.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.block_content.header_logo_left.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.block_content.wysiwyg.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.node.default_page.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.node.variation.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.1_column_full_width.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.2_column_25_75_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.2_column_75_25_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.2_column_even.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.2_column_even_left_stacked.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.2_column_even_right_stacked.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.3_column_25_25_50_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.3_column_25_50_25_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.3_column_50_25_25_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.3_columns_even.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.4_column_even.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.4_column_event.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.button.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.content.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.counter.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.dynamic_cart.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.dynamic_image.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.falling_images.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.headline.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.hero_2_columns.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.hero_full_width.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.image.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.nav_item.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.navigation.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.popunder.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.progress_bar_steps.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.progress_loading_bar.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.progress_steps.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.row.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.star_rating.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.steps.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.subheadline.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.testimonial.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.timer.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.views.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.webform.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.paragraph.zan_placement.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_display.user.user.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_form_mode.user.register.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.block_content.basic.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.block_content.falling_images.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.block_content.footer.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.block_content.header_logo_center.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.block_content.header_logo_left.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.block_content.wysiwyg.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.node.default_page.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.node.default_page.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.node.variation.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.1_column_full_width.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.2_column_25_75_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.2_column_75_25_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.2_column_even.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.2_column_even_left_stacked.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.2_column_even_right_stacked.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.3_column_25_25_50_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.3_column_25_50_25_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.3_column_50_25_25_.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.3_columns_even.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.4_column_even.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.4_column_event.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.button.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.content.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.counter.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.dynamic_cart.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.dynamic_image.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.falling_images.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.headline.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.hero_2_columns.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.hero_full_width.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.image.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.nav_item.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.navigation.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.popunder.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.progress_bar_steps.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.progress_loading_bar.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.progress_steps.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.row.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.star_rating.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.steps.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.subheadline.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.testimonial.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.timer.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.views.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.webform.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.paragraph.zan_placement.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.user.user.compact.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_display.user.user.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.block.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.block_content.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.block_content.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.file.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.menu_link_content.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.node.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.node.rss.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.node.search_index.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.node.search_result.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.node.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.node.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.paragraph.preview.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.paragraph.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.taxonomy_term.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.taxonomy_term.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.user.compact.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.user.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.entity_view_mode.user.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.extension.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/core.menu.static_menu_link_overrides.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/dblog.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/devel.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/devel.toolbar.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/editor.editor.basic_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/editor.editor.full_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.basic.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_append_to_element.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_elements_per_cycle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_image_o.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_image_t.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_image_three.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_interval_speed.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.falling_images.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.footer.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.footer.field_paragraphs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.footer.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_center.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_center.field_logo.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_center.field_paragraphs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_center.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_left.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_left.field_logo.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_left.field_navigation.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.header_logo_left.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.wysiwyg.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.wysiwyg.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.block_content.wysiwyg.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.default_page.field_extra_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.default_page.field_footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.default_page.field_header.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.default_page.field_sections.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.default_page.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_page_1.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_page_2.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_page_3.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_page_4.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_page_5.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_page_6.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_theme.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.node.variation.field_zvr_variationid.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.1_column_full_width.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.1_column_full_width.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.1_column_full_width.field_paragraphs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.1_column_full_width.field_views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.1_column_full_width.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_25_75_.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_25_75_.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_25_75_.field_left_25_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_25_75_.field_right_75_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_25_75_.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_75_25_.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_75_25_.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_75_25_.field_left.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_75_25_.field_right.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_75_25_.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even.field_left.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even.field_right.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_left_stacked.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_left_stacked.field_bottom.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_left_stacked.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_left_stacked.field_right.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_left_stacked.field_top.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_left_stacked.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_right_stacked.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_right_stacked.field_bottom.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_right_stacked.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_right_stacked.field_left.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_right_stacked.field_top.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.2_column_even_right_stacked.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_25_50_.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_25_50_.field_first.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_25_50_.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_25_50_.field_second.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_25_50_.field_third.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_25_50_.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_50_25_.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_50_25_.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_50_25_.field_left.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_50_25_.field_middle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_50_25_.field_right.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_25_50_25_.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_50_25_25_.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_50_25_25_.field_first.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_50_25_25_.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_50_25_25_.field_second.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_50_25_25_.field_third.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_column_50_25_25_.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_columns_even.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_columns_even.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_columns_even.field_left_33_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_columns_even.field_middle_33_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_columns_even.field_right_33_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.3_columns_even.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_first.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_fourth.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_second.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_third.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_even.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_event.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_event.field_first.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_event.field_fourth.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_event.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_event.field_second.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_event.field_third.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.4_column_event.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.button.field_button_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.button.field_button_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.button.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.button.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.button.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.content.field_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.counter.field_button.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.counter.field_count.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.counter.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.counter.field_subheadline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.counter.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_cost.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_headline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_shipping.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_subheadline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_total.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_cart.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_image.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_image.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_image.field_views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.dynamic_image.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_append_to_element.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_elements_per_cycle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_image_four.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_image_one.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_image_three.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_image_two.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_interval_speed.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.falling_images.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.headline.field_headline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.headline.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_background_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_button.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_headline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_subheadline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_2_columns.field_wysiwyg.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_background_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_button.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_headline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_subheadline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.hero_full_width.field_wysiwyg.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.image.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.nav_item.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.navigation.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.navigation.field_nav_item.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.navigation.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.popunder.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.popunder.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.progress_loading_bar.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.progress_loading_bar.field_redirect_time.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.progress_loading_bar.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.progress_loading_bar.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.progress_steps.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.progress_steps.field_steps.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.progress_steps.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.star_rating.field_icon.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.star_rating.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.steps.field_active.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.steps.field_step_name.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.steps.field_step_number.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.subheadline.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.subheadline.field_subheadline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.testimonial.field_author.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.testimonial.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.testimonial.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.testimonial.field_rating.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.testimonial.field_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.timer.field_countdown_time.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.timer.field_expired_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.timer.field_headline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.timer.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.timer.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.views.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.views.field_views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.webform.field_form.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.webform.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.webform.field_returning_visitor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.webform.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.zan_placement.field_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.zan_placement.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.paragraph.zan_placement.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.field.user.user.user_picture.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_append_to_element.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_elements_per_cycle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_image_o.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_image_t.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_image_three.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_interval_speed.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_logo.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_navigation.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_paragraphs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.block_content.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_extra_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_header.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_page_1.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_page_2.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_page_3.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_page_4.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_page_5.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_page_6.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_sections.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_theme.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.node.field_zvr_variationid.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_active.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_append_to_element.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_author.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_background_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_blocks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_bottom.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_button.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_button_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_button_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_cost.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_count.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_countdown_time.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_elements_per_cycle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_expired_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_first.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_form.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_fourth.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_headline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_icon.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_image_four.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_image_one.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_image_three.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_image_two.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_interval_speed.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_left.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_left_25_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_left_33_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_libraries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_middle.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_middle_33_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_nav_item.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_paragraphs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_rating.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_redirect_time.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_returning_visitor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_right.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_right_33_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_right_75_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_second.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_shipping.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_step_name.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_step_number.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_steps.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_subheadline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_third.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_top.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_total.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_url.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_wrapper_class.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.paragraph.field_wysiwyg.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field.storage.user.user_picture.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/field_ui.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/file.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/filter.format.basic_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/filter.format.full_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/filter.format.plain_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/filter.format.restricted_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/filter.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.style.large.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.style.max_1300x1300.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.style.max_2600x2600.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.style.max_325x325.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.style.max_650x650.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.style.medium.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/image.style.thumbnail.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/menu_ui.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/node.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/node.type.default_page.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/node.type.variation.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.1_column_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.2_column_25_75_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.2_column_75_25_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.2_column_even.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.2_column_even_left_stacked.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.2_column_even_right_stacked.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.3_column_25_25_50_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.3_column_25_50_25_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.3_column_50_25_25_.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.3_columns_even.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.4_column_even.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.4_column_event.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.button.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.counter.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.dynamic_cart.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.dynamic_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.falling_images.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.headline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.hero_2_columns.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.hero_full_width.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.nav_item.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.navigation.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.popunder.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.progress_bar_steps.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.progress_loading_bar.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.progress_steps.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.row.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.star_rating.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.steps.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.subheadline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.testimonial.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.timer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.views.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.webform.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/paragraphs.paragraphs_type.zan_placement.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/pathauto.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/responsive_image.styles.narrow.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/responsive_image.styles.wide.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/rest.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/serialization.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/seven.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_delete_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_make_sticky_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_make_unsticky_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_promote_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_publish_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_save_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_unpromote_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.node_unpublish_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.pathauto_update_alias_node.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.pathauto_update_alias_user.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.user_add_role_action.administrator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.user_block_user_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.user_cancel_user_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.user_remove_role_action.administrator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.user_unblock_user_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.webform_submission_delete_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.webform_submission_make_sticky_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.action.webform_submission_make_unsticky_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.authorize.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.cron.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.date.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.diff.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.file.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.image.gd.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.logging.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.mail.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.maintenance.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.menu.account.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.menu.admin.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.menu.devel.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.menu.footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.menu.main.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.menu.tools.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.performance.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.rss.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.site.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.theme.global.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/system.theme.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/taxonomy.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/taxonomy.vocabulary.status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/taxonomy.vocabulary.tags.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/text.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/update.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/user.flood.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/user.mail.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/user.role.administrator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/user.role.anonymous.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/user.role.authenticated.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/user.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.archive.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.block_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.content_recent.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.files.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.frontpage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.glossary.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.slideshow.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.taxonomy_term.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.user_admin_people.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.variation_view.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.who_s_new.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/views.view.who_s_online.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform.contact.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform.multistep_returning_user_card.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.country_codes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.country_names.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.creditcard_codes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.days.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.education.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.employment_status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.ethnicity.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.gender.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.industry.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.languages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.likert_agreement.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.likert_comparison.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.likert_importance.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.likert_quality.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.likert_satisfaction.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.likert_ten_scale.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.likert_would_you.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.marital_status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.months.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.phone_types.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.relationship.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.size.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.state_codes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.state_names.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.state_province_codes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.state_province_names.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.time_zones.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.titles.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/webform.webform_options.yes_no.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/config/sync/zeeto.settings.yml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/jquery_validate.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/jquery_validate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/lead_id.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/lead_id.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/phone_mask.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/phone_mask.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/gulpfile.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/settings/settings.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/settings/settings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/fined/README.md" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/fined/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/fined/index.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/fined/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/fined/package.json" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/fined/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/gulp/package.json" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/gulp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/.eslintrc" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/.npmignore" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/.travis.yml" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/lib/node-modules-paths.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/lib/node-modules-paths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/lib/sync.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/lib/sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/package.json" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/readme.markdown" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/readme.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/test/resolver.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/test/resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/test/resolver_sync.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/node_modules/resolve/test/resolver_sync.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--1-column-full-width.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--1-column-full-width.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-25-75-.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-25-75-.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-even.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-even.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-columns-even.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-columns-even.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--4-column-even.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--4-column-even.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/system/page.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/system/page.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.theme" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.theme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -135,71 +673,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views-view--variation-view.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/view/views-view--variation-view.html.twig">
+      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="92" column="15" lean-forward="false" selection-start-line="88" selection-start-column="3" selection-end-line="92" selection-end-column="15" />
+            <state relative-caret-position="617">
+              <caret line="777" column="90" lean-forward="false" selection-start-line="777" selection-start-column="56" selection-end-line="777" selection-end-column="90" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="region--footer.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/region--footer.html.twig">
+      <file leaf-file-name="core.extension.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/config/core.extension.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="27" column="90" lean-forward="false" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/system/page.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node--default-page.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zeeto.theme" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.theme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zeeto.info.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.info.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zeeto.settings.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/files/config_GxW5hbIKXbbmIg09nc-LKuZ4Mie_Wd2CMymjxvKjjWn6pM--MZyr_tWVagh-ZFiWB3CtaW3JAg/sync/zeeto.settings.yml">
+      <file leaf-file-name="zeeto.libraries.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="389">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!block;n#getAllUrlParams#0" expanded="false" />
+                <element signature="e#2556#3015#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="techDetection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/techDetection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitAPI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/visitAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="431" column="14" lean-forward="false" selection-start-line="431" selection-start-column="14" selection-end-line="431" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -208,28 +739,38 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="-19">
               <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <file leaf-file-name="variationView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/variationView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="778" column="53" lean-forward="true" selection-start-line="778" selection-start-column="53" selection-end-line="778" selection-end-column="53" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--variation.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--variation.html.twig">
+      <file leaf-file-name="node--default-page.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="68" column="3" lean-forward="false" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+            <state relative-caret-position="455">
+              <caret line="80" column="58" lean-forward="false" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/timer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -239,8 +780,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getit</find>
-      <find>{{ content.field_wrapper_class }}</find>
       <find>k</find>
       <find>rainingimage</find>
       <find>block</find>
@@ -252,7 +791,6 @@
       <find>a</find>
       <find>article</find>
       <find>c</find>
-      <find>config</find>
       <find>d</find>
       <find>default</find>
       <find>defaul</find>
@@ -269,6 +807,9 @@
       <find>/d</find>
       <find>/</find>
       <find>/config</find>
+      <find>config</find>
+      <find>getAll</find>
+      <find>startT</find>
     </findStrings>
     <replaceStrings>
       <replace>fallingimage</replace>
@@ -285,10 +826,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-headline.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-subheadline.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--dynamic-cart.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--hero-2-columns.html.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--steps.html.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--progress-steps.html.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--navigation.html.twig" />
@@ -326,16 +863,20 @@
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.theme" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--block-content--header-logo-center.html.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--variation.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/variationView.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--hero-full-width.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--1-column-full-width.html.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/view/views-view--variation-view.html.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/system/page.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig" />
         <option value="$PROJECT_DIR$/sites/default/files/config_GxW5hbIKXbbmIg09nc-LKuZ4Mie_Wd2CMymjxvKjjWn6pM--MZyr_tWVagh-ZFiWB3CtaW3JAg/sync/zeeto.settings.yml" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/lead_id.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/gulpfile.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/variationView.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/techDetection.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/visitAPI.js" />
       </list>
     </option>
   </component>
@@ -351,9 +892,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
+    <option name="x" value="112" />
     <option name="y" value="23" />
-    <option name="width" value="2150" />
+    <option name="width" value="1741" />
     <option name="height" value="1176" />
   </component>
   <component name="ProjectView">
@@ -447,7 +988,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,78 +1045,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zeeto" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zeeto" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paragraph" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,11 +1108,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="paragraphs" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="field" />
+              <option name="myItemId" value="timer" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -673,11 +1142,37 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="paragraphs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="block" />
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -713,18 +1208,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="json2" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visit_api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -737,11 +1250,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs" />
+      <recent name="$PROJECT_DIR$/modules/custom" />
       <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/templates/view" />
       <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/bootstrap/templates/block" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor" />
+      <recent name="$PROJECT_DIR$/sites/default" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -842,34 +1359,45 @@
       <workItem from="1496249249231" duration="11571000" />
       <workItem from="1496355406601" duration="2540000" />
       <workItem from="1504825076903" duration="1346000" />
-      <workItem from="1504890024200" duration="59040000" />
+      <workItem from="1504890024200" duration="60800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96861000" />
+    <option name="totallyTimeSpent" value="103931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="23" width="2150" height="1176" extended-state="0" />
-    <editor active="true" />
+    <frame x="112" y="23" width="1741" height="1176" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28431937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32077625" sideWeight="0.50615305" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15959409" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31436315" sideWeight="0.49384698" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33302584" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -883,83 +1411,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_desktop/desktop_formStepLogic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1559">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_desktop/desktop_formSubmitLogic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="136" column="44" lean-forward="false" selection-start-line="136" selection-start-column="44" selection-end-line="136" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--falling-images.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/falling-images/falling-images.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/falling-images/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--falling-images.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/default.settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/development.services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/falling-images/falling-images.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--wysiwyg.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +1429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +1436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +1443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +1450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +1457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +1464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +1471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
           <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,15 +1506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/default.services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,7 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-955">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +1527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,15 +1541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2037">
-          <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-537">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-537">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,19 +1566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--1-column-full-width.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,31 +1577,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/variationView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--system.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--system.html.twig" />
     <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-999">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,15 +1599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="27" column="90" lean-forward="false" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--variation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="68" column="3" lean-forward="false" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +1606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="92" column="15" lean-forward="false" selection-start-line="88" selection-start-column="3" selection-end-line="92" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,23 +1613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/system/page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,29 +1620,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.info.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/config/sync/zeeto.settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/default.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1767">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/default.settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/files/config_GxW5hbIKXbbmIg09nc-LKuZ4Mie_Wd2CMymjxvKjjWn6pM--MZyr_tWVagh-ZFiWB3CtaW3JAg/sync/zeeto.settings.yml">
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="122" column="17" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/system/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/lead_id.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="73" column="31" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/visit_api/src/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/techDetection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#getAllUrlParams#0" expanded="false" />
+            <element signature="e#2556#3015#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/variationView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--variation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="68" column="3" lean-forward="false" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="80" column="58" lean-forward="false" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/visitAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="431" column="14" lean-forward="false" selection-start-line="431" selection-start-column="14" selection-end-line="431" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="-19">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
@@ -1285,8 +1768,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="778" column="53" lean-forward="true" selection-start-line="778" selection-start-column="53" selection-end-line="778" selection-end-column="53" />
+        <state relative-caret-position="617">
+          <caret line="777" column="90" lean-forward="false" selection-start-line="777" selection-start-column="56" selection-end-line="777" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/config/core.extension.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

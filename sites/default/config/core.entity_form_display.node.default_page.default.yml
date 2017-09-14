@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.default_page.field_extra_blocks
     - field.field.node.default_page.field_footer
     - field.field.node.default_page.field_header
+    - field.field.node.default_page.field_libraries
+    - field.field.node.default_page.field_milestone
     - field.field.node.default_page.field_sections
     - field.field.node.default_page.field_wrapper_class
     - node.type.default_page
@@ -47,6 +49,22 @@ content:
       settings: {  }
     third_party_settings: {  }
     type: block_field_default
+    region: content
+  field_libraries:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_milestone:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_sections:
     type: entity_reference_paragraphs
