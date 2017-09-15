@@ -1,0 +1,9 @@
+uuid: f57dce4e-5aed-4758-9e49-411dbd885ee8
+langcode: en
+status: true
+dependencies: {  }
+name: Property
+vid: property
+description: 'List of properties'
+hierarchy: 0
+weight: 0

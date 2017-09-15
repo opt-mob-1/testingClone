@@ -6,3 +6,11 @@ visit_api.postVisit:
   methods: [POST]
   requirements:
     _permission: 'access content'
+
+visit_api.publisherAdminForm:
+ path: '/admin/config/system/publisher-admin'
+ defaults:
+   _form: 'Drupal\visit_api\Form\PublisherAdminForm'
+   _title: 'Publisher Admin'
+ requirements:
+   _permission: 'administer site configuration'

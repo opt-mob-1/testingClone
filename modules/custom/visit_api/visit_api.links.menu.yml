@@ -1,0 +1,6 @@
+visit_api.admin:
+  title: 'Publisher settings'
+  description: 'publisher settings admin link'
+  parent: system.admin_config_development
+  route_name: visit_api.publisherAdminForm
+  weight: 100

@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.variation.field_page_4
     - field.field.node.variation.field_page_5
     - field.field.node.variation.field_page_6
+    - field.field.node.variation.field_property
     - field.field.node.variation.field_status
     - field.field.node.variation.field_theme
     - field.field.node.variation.field_zvr_variationid
@@ -65,6 +66,15 @@ content:
     region: content
   field_page_6:
     weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_property:
+    weight: 35
     settings:
       match_operator: CONTAINS
       size: 60

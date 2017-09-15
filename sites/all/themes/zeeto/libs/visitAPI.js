@@ -249,6 +249,7 @@ var main = (function () {
         this.milestone = undefined;
         this.startTime = undefined;
         this.endTime = undefined;
+        this.publisher = undefined;
         this.acquisition = undefined;
         this.macroEvent = undefined;
         this.technology = undefined;
@@ -275,6 +276,9 @@ var main = (function () {
         }
 
         this.setMilestone();
+
+        // REMOVE THIS
+        this.publisher = 'samples';
 
         this.startTime = getCurrentTimeUTC();
 

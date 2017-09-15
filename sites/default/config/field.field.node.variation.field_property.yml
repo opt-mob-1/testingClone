@@ -1,0 +1,28 @@
+uuid: 0ac22172-034b-4c8b-becc-b7816f5b2805
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_property
+    - node.type.variation
+    - taxonomy.vocabulary.property
+id: node.variation.field_property
+field_name: field_property
+entity_type: node
+bundle: variation
+label: Property
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      property: property
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
