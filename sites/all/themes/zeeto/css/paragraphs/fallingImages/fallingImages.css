@@ -7,8 +7,8 @@
 
 .fallingImage {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   -webkit-animation: elementfall 6s linear infinite;
   animation: elementfall 6s linear infinite;
   /* image l-r speed */
@@ -31,7 +31,7 @@
 
 .fallingImage .fallingImage {
   position: absolute;
-  left: 0px;
+  left: 0;
 }
 
 .fallingImage .fallingImage.fast {
@@ -113,108 +113,108 @@
 
 @-webkit-keyframes dollar {
   0% {
-    left: 0px;
+    left: 0;
   }
   25% {
     left: 25px;
   }
   50% {
-    left: 0px;
+    left: 0;
   }
   75% {
     left: 10px;
   }
   100% {
-    left: 0px;
+    left: 0;
   }
 }
 
 @keyframes dollar {
   0% {
-    left: 0px;
+    left: 0;
   }
   25% {
     left: 25px;
   }
   50% {
-    left: 0px;
+    left: 0;
   }
   75% {
     left: 10px;
   }
   100% {
-    left: 0px;
+    left: 0;
   }
 }
 
 @-webkit-keyframes dollar-md {
   0% {
-    left: 0px;
+    left: 0;
   }
   25% {
     left: 10px;
   }
   50% {
-    left: 0px;
+    left: 0;
   }
   75% {
     left: 5px;
   }
   100% {
-    left: 0px;
+    left: 0;
   }
 }
 
 @keyframes dollar-md {
   0% {
-    left: 0px;
+    left: 0;
   }
   25% {
     left: 10px;
   }
   50% {
-    left: 0px;
+    left: 0;
   }
   75% {
     left: 5px;
   }
   100% {
-    left: 0px;
+    left: 0;
   }
 }
 
 @-webkit-keyframes dollar-fs {
   0% {
-    left: 0px;
+    left: 0;
   }
   25% {
     left: 5px;
   }
   50% {
-    left: 0px;
+    left: 0;
   }
   75% {
     left: 15px;
   }
   100% {
-    left: 0px;
+    left: 0;
   }
 }
 
 @keyframes dollar-fs {
   0% {
-    left: 0px;
+    left: 0;
   }
   25% {
     left: 5px;
   }
   50% {
-    left: 0px;
+    left: 0;
   }
   75% {
     left: 15px;
   }
   100% {
-    left: 0px;
+    left: 0;
   }
 }
