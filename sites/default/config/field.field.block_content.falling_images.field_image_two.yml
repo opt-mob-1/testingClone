@@ -1,17 +1,17 @@
-uuid: cc09f248-d81c-4f50-90d4-422b004db953
+uuid: a6192203-85db-43ef-b19c-36ca7f61291f
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.falling_images
-    - field.storage.block_content.field_image_o
+    - field.storage.block_content.field_image_two
   module:
     - image
-id: block_content.falling_images.field_image_o
-field_name: field_image_o
+id: block_content.falling_images.field_image_two
+field_name: field_image_two
 entity_type: block_content
 bundle: falling_images
-label: 'Image One'
+label: 'Image Two'
 description: ''
 required: false
 translatable: false

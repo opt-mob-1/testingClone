@@ -1,4 +1,4 @@
-uuid: 0ab44281-4503-4acb-9375-309a5ba1dee1
+uuid: d1a4f3c9-c212-489c-aae4-2972e8c6dd1d
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - block_content
     - file
     - image
-id: block_content.field_image_o
-field_name: field_image_o
+id: block_content.field_image_one
+field_name: field_image_one
 entity_type: block_content
 type: image
 settings:

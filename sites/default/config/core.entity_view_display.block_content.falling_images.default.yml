@@ -7,9 +7,10 @@ dependencies:
     - field.field.block_content.falling_images.body
     - field.field.block_content.falling_images.field_append_to_element
     - field.field.block_content.falling_images.field_elements_per_cycle
-    - field.field.block_content.falling_images.field_image_o
-    - field.field.block_content.falling_images.field_image_t
+    - field.field.block_content.falling_images.field_image_four
+    - field.field.block_content.falling_images.field_image_one
     - field.field.block_content.falling_images.field_image_three
+    - field.field.block_content.falling_images.field_image_two
     - field.field.block_content.falling_images.field_interval_speed
     - field.field.block_content.falling_images.field_libraries
     - field.field.block_content.falling_images.field_url
@@ -46,8 +47,8 @@ content:
     third_party_settings: {  }
     type: number_integer
     region: content
-  field_image_o:
-    weight: 5
+  field_image_four:
+    weight: 11
     label: hidden
     settings:
       url_type: '2'
@@ -56,8 +57,8 @@ content:
     third_party_settings: {  }
     type: image_url
     region: content
-  field_image_t:
-    weight: 6
+  field_image_one:
+    weight: 9
     label: hidden
     settings:
       url_type: '2'
@@ -68,6 +69,16 @@ content:
     region: content
   field_image_three:
     weight: 7
+    label: hidden
+    settings:
+      url_type: '2'
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_two:
+    weight: 10
     label: hidden
     settings:
       url_type: '2'
@@ -98,10 +109,10 @@ content:
     label: hidden
     settings:
       trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
     third_party_settings: {  }
     type: link
     region: content
