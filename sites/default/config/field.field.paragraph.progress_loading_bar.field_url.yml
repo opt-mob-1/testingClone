@@ -12,12 +12,12 @@ field_name: field_url
 entity_type: paragraph
 bundle: progress_loading_bar
 label: URL
-description: ''
+description: 'Enter a redirect URL to overwrite the VariationNextPage URL.'
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   link_type: 17
-  title: 1
+  title: 0
 field_type: link

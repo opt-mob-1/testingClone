@@ -52,15 +52,15 @@ visitApi:
       - core/jquery
 
 # This library is called on the Raining Images Block Type
-falling-images:
+fallingImages:
   version: 1.0
   css:
     layout:
-      css/paragraphs/falling-images/style.css: {}
+      css/paragraphs/fallingImages/fallingImages.css: {}
   js:
-    js/paragraphs/falling-images/falling-images.js: { weight: -2 }
+    js/paragraphs/fallingImages/fallingImages.js: {}
   dependencies:
-    - core/jquery
+    - zeeto/variationView
 
 # Library for Popunder
 popunder:
@@ -69,7 +69,7 @@ popunder:
     js/paragraphs/popunder/browserDetect.js: {}
     js/paragraphs/popunder/popunder.js: {}
   dependencies:
-    - core/jquery
+    - zeeto/variationView
 
 # Library for Timer
 timer:
@@ -80,18 +80,18 @@ timer:
   js:
     js/paragraphs/timer/timer.js: {}
   dependencies:
-    - core/jquery
+    - zeeto/variationView
 
 # Library for a Looping Timer
-looping-timer:
+loopingTimer:
   version: 1.0
   css:
     layout:
       css/paragraphs/timer/timer.css: {}
   js:
-    js/paragraphs/timer/looping-timer.js: {}
+    js/paragraphs/timer/loopingTimer.js: {}
   dependencies:
-    - core/jquery
+    - zeeto/variationView
 
 # Library for an incrementing Counter
 counter:
@@ -102,42 +102,33 @@ counter:
   js:
     js/paragraphs/counter/counter.js: {}
   dependencies:
-    - core/jquery
+    - zeeto/variationView
 
-# This library is called on the Signup Content Type
-# The library is highly dependent on pathOptions Library
-# Multistep form with Mobile styling
-#multistepForm_mobile:
-#  version: 1.0
-#  css:
-#    layout:
-#      css/paragraphs/multistepForm_mobile/mobile_styles.css: {}
-#  js:
-#    js/libs/vendor/jquery_validate.js: {}
-#    js/libs/zeeto/lead_id.js: {}
-#    js/paragraphs/multistepForm_mobile/mobile_formStepLogic.js: {}
-#    js/paragraphs/multistepForm_mobile/mobile_formSubmitLogic.js: {}
-#    js/libs/vendor/phone_mask.js: {}
-#  dependencies:
-#    - core/jquery
-#    - core/drupalSettings
-#    - getitfree/Survey
-#    - getitfree/variationDefaults
+# Library for Progress Bar
+progressLoadingBar:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/progressLoadingBar/progressLoadingBar.css: {}
+  js:
+    js/paragraphs/progressLoadingBar/progressLoadingBar.js: {}
+  dependencies:
+    - zeeto/variationView
 
-# This library is called on the User Block Paragraph (Version 2.0)
-#multistepForm_desktop:
-#  version: 1.0
-#  css:
-#    layout:
-#      css/paragraphs/multistepForm_desktop/desktop_styles.css: {}
-#  js:
-#    js/libs/jquery_validate.js: {}
+# Library for the Multistep Form
+multistepForm:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/multistepForm/multistepForm.css: {}
+  js:
+    js/libs/vendor/jquery_validate.js: {}
 #    js/libs/lead_id.js: {}
-#    js/paragraphs/multistepForm_desktop/desktop_formStepLogic.js: {}
-#    js/paragraphs/multistepForm_desktop/desktop_formSubmitLogic.js: {}
-#    js/libs/phone_mask.js: {}
-#  dependencies:
-#    - core/jquery
-#    - core/drupalSettings
-#    - getitfree/Survey
-#    - getitfree/variationDefaults
+    js/paragraphs/multistepForm/formStepLogic.js: {}
+    js/paragraphs/multistepForm/formSubmitLogic.js: {}
+    js/libs/vendor/phone_mask.js: {}
+  dependencies:
+    - zeeto/variationView
+
+
+
