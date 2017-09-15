@@ -2,8 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57fd1df-fc41-4020-b251-76c7fb3e5eeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/multistepForm.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/progressLoadingBar/progressLoadingBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/progressLoadingBar/progressLoadingBar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/form/form-element.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/config/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/config/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/core/console" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/core/server/router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/core/src/PatternLab/Installer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_annotations/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_data/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_data/listitems.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_layouts/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_macros/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_meta/_00-head.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_meta/_01-foot.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/00-colors.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/01-fonts.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/02-animations.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/00-atoms/01-global/03-visibility.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/01-molecules/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/02-organisms/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/03-templates/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/_patterns/04-pages/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/favicon_16x16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/favicon_32x32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_16x9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_4x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/fpo_square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/landscape-16x9-mountains.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-gear.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-ivy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-river.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/thumb-square-yosemite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/tout-4x3-climber.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/tout-4x3-climbers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/images/sample/tout-4x3-stream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/patternlab/source/js/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/falling-images/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/multistepForm_desktop/desktop_styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_mobile/mobile_formStepLogic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_mobile/mobile_formSubmitLogic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/config/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/config/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/core/console" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/core/server/router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/core/src/PatternLab/Installer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_annotations/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_data/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_data/listitems.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_layouts/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_macros/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_meta/_00-head.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_meta/_01-foot.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/00-atoms/01-global/00-colors.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/00-atoms/01-global/01-fonts.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/00-atoms/01-global/02-animations.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/00-atoms/01-global/03-visibility.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/01-molecules/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/02-organisms/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/03-templates/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/04-pages/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/components/dynamic-hero/dynamic-hero.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/components/dynamic-hero/dynamic-hero.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_patterns/components/dynamic-hero/dynamic-hero.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/clean_class.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/clean_id.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/format_date.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/placeholder.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/safe_join.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/t.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/filters/without.filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/functions/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/functions/link.function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/functions/path.function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/tags/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/tags/trans.tag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/_twig-components/tests/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/css/pattern-scaffolding.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/favicon_16x16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/favicon_32x32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/fpo_16x9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/fpo_4x3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/fpo_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/fpo_square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/landscape-16x9-mountains.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/thumb-square-fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/thumb-square-gear.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/thumb-square-ivy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/thumb-square-river.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/thumb-square-yosemite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/tout-4x3-climber.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/tout-4x3-climbers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/images/sample/tout-4x3-stream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/pattern-lab/source/js/.gitkeep" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_desktop/desktop_formStepLogic.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formStepLogic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm_desktop/desktop_formSubmitLogic.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm/formSubmitLogic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/falling-images/falling-images.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/falling-images/style.scss" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_desktop/desktop_formStepLogic.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm/formStepLogic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_desktop/desktop_formSubmitLogic.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formSubmitLogic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_desktop/desktop_styles.scss" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/multistepForm/multistepForm.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_mobile/mobile_styles.scss" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/multistepForm.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/looping-timer.js" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/loopingTimer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-libraries.html.twig" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-libraries.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" afterPath="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/config/core.entity_form_display.node.default_page.default.yml" afterPath="$PROJECT_DIR$/sites/default/config/core.entity_form_display.node.default_page.default.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/config/core.entity_view_display.paragraph.progress_loading_bar.default.yml" afterPath="$PROJECT_DIR$/sites/default/config/core.entity_view_display.paragraph.progress_loading_bar.default.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/config/field.field.paragraph.progress_loading_bar.field_libraries.yml" afterPath="$PROJECT_DIR$/sites/default/config/field.field.paragraph.progress_loading_bar.field_libraries.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/config/field.field.paragraph.progress_loading_bar.field_url.yml" afterPath="$PROJECT_DIR$/sites/default/config/field.field.paragraph.progress_loading_bar.field_url.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/config/webform.webform.multistep_returning_user_card.yml" afterPath="$PROJECT_DIR$/sites/default/config/webform.webform.multistep_returning_user_card.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,33 +145,81 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <file leaf-file-name="zeeto.libraries.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="774" column="22" lean-forward="false" selection-start-line="774" selection-start-column="22" selection-end-line="774" selection-end-column="22" />
-              <folding>
-                <marker date="1505423705000" expanded="true" signature="30871:30946" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.local.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/default/settings.local.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="122" column="17" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+            <state relative-caret-position="479">
+              <caret line="58" column="48" lean-forward="false" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="fallingImages.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone_mask.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/vendor/phone_mask.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5946">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formStepLogic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formStepLogic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3255">
+              <caret line="155" column="38" lean-forward="false" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formSubmitLogic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formSubmitLogic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="field--field-libraries.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-libraries.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-element.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/form/form-element.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1291">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multistepForm.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/multistepForm.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -51,44 +229,51 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>k</find>
-      <find>rainingimage</find>
-      <find>block</find>
-      <find>kint</find>
-      <find>&lt;header&gt;</find>
-      <find>&lt;</find>
-      <find>&lt;article</find>
-      <find>&lt;article&gt;</find>
-      <find>a</find>
-      <find>article</find>
-      <find>c</find>
-      <find>d</find>
-      <find>default</find>
-      <find>defaul</find>
-      <find>/co</find>
-      <find>/con</find>
-      <find>/c</find>
-      <find>/df</find>
-      <find>/default</find>
-      <find>/defaul</find>
-      <find>/defau</find>
-      <find>/defa</find>
-      <find>/def</find>
-      <find>/de</find>
-      <find>/d</find>
-      <find>/</find>
-      <find>/config</find>
-      <find>config</find>
       <find>getAll</find>
       <find>startT</find>
+      <find>rainingImage</find>
+      <find>falling_image_append_value</find>
+      <find>/config</find>
+      <find>user</find>
+      <find>.validate</find>
+      <find>variationNextPage</find>
+      <find>h</find>
+      <find>has-erro</find>
+      <find>e</find>
+      <find>has-</find>
+      <find>has-e</find>
+      <find>has-er</find>
+      <find>has-error</find>
+      <find>error</find>
+      <find>sample</find>
+      <find>Name</find>
+      <find>phone</find>
+      <find>edit-</find>
+      <find>appendTokenToRedirectUrl</find>
+      <find>form</find>
+      <find>.valid</find>
+      <find>gender</find>
+      <find>valida</find>
+      <find>setGender</find>
+      <find>submit</find>
+      <find>userData</find>
+      <find>gaClientId</find>
+      <find>0px</find>
     </findStrings>
     <replaceStrings>
+      <replace>fallingImageContainer</replace>
       <replace>fallingimage</replace>
+      <replace>fallingImage</replace>
+      <replace>name</replace>
+      <replace>0</replace>
+      <replace>0</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph</dir>
       <dir>$PROJECT_DIR$/sites/all/themes/zeeto/templates</dir>
       <dir>$PROJECT_DIR$/sites/all/themes/zeeto</dir>
+      <dir>$PROJECT_DIR$/sites/all/themes/zeeto/js</dir>
+      <dir>$PROJECT_DIR$/sites/all/themes/bootstrap</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -97,14 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--progress-steps.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--navigation.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--nav_item.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-libraries.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--popunder.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--button.html.twig" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/timer/timer.scss" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/timer/timer.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/counter/counter.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm_desktop/desktop_formStepLogic.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--wysiwyg.twig" />
@@ -143,11 +320,19 @@
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/gulpfile.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/variationView.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor/techDetection.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node/node--default-page.html.twig" />
         <option value="$PROJECT_DIR$/sites/all/themes/zeeto/libs/visitAPI.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages_style.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/progressLoadingBar/progressLoadingBar.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/progressLoadingBar/progressLoadingBar.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/multistepForm.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-libraries.html.twig" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formStepLogic.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formSubmitLogic.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml" />
+        <option value="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages.scss" />
       </list>
     </option>
   </component>
@@ -163,10 +348,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
+    <option name="x" value="30" />
     <option name="y" value="23" />
-    <option name="width" value="1741" />
-    <option name="height" value="1176" />
+    <option name="width" value="1630" />
+    <option name="height" value="1336" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -205,39 +390,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher-cms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,7 +480,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
+              <option name="myItemId" value="paragraph" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,7 +510,109 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="field" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paragraphs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paragraphs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="multistepForm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paragraphs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fallingImages" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,6 +667,18 @@
               <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -423,7 +690,193 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paragraphs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zeeto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paragraphs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fallingImages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publisher-cms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,16 +895,16 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs" />
-      <recent name="$PROJECT_DIR$/modules/custom" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/templates/view" />
-      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/templates/node" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor" />
       <recent name="$PROJECT_DIR$/sites/default" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/templates/form" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/zeeto/libs/vendor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -557,22 +1010,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103937000" />
+    <option name="totallyTimeSpent" value="120558000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="23" width="1741" height="1176" extended-state="0" />
+    <frame x="30" y="23" width="1630" height="1336" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23492245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27644837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33243" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29019293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -586,8 +1040,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33302584" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -605,104 +1059,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--wysiwyg.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/block/block--header-logo-left.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-even.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-even-left-stacked.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-even-right-stacked.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-column-25-25-50-.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-column-25-50-25-.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-column-50-25-25-.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--3-columns-even.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--4-column-even.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-25-75-.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--2-column-75-25-.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/local.services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -756,6 +1112,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,14 +1192,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="452">
           <caret line="122" column="17" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,13 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="73" column="31" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/visit_api/src/Controller/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -881,13 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/libs/settings/settings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -899,6 +1242,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -932,19 +1276,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="672">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="774" column="22" lean-forward="false" selection-start-line="774" selection-start-column="22" selection-end-line="774" selection-end-column="22" />
-          <folding>
-            <marker date="1505423705000" expanded="true" signature="30871:30946" ph="..." />
-          </folding>
+        <state relative-caret-position="617">
+          <caret line="777" column="90" lean-forward="false" selection-start-line="777" selection-start-column="56" selection-end-line="777" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -952,6 +1293,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--falling-images.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="37" column="2" lean-forward="false" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/progressLoadingBar/progressLoadingBar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/paragraph/paragraph--progress-loading-bar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/progressLoadingBar/progressLoadingBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/multistepForm/formStepLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/js/paragraphs/multistepForm/formStepLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/form/form-element.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1291">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/js/libs/vendor/phone_mask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5946">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/multistepForm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/templates/field/field--field-libraries.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formStepLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3255">
+          <caret line="155" column="38" lean-forward="false" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/multistepForm/formSubmitLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/zeeto.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="58" column="48" lean-forward="false" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zeeto/paragraphs/fallingImages/fallingImages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -40,7 +40,6 @@
 {% for item in items %}
   {# Retrives the value of the context within an array #}
   {% set file_name = item.content['#context'].value %}
-  {{ file_name }}
   {{ attach_library('zeeto/' ~ file_name) }}
 {% endfor %}
 
