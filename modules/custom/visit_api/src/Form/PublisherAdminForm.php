@@ -8,6 +8,7 @@ namespace Drupal\visit_api\Form;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Form\ConfigFormBase;
+use Drupal\Core\Database\Database;
 use Drupal\taxonomy\Entity\Term;
 
 /**
@@ -60,25 +61,33 @@ class PublisherAdminForm extends ConfigFormBase {
      */
     public function buildForm(array $form, FormStateInterface $form_state)
     {
+        $conn = Database::getConnection();
+        $record = array();
+        $query = $conn->select('visit_api', 'm')
+            ->orderBy('id', 'DESC')
+            ->fields('m');
+        $record = $query->execute()->fetchAssoc();
 
         // Publisher Name
         $form['publisher_custom']['publisher_name'] = array(
-            'title' => array(
+            'publisher_name' => array(
                 '#type' => 'textfield',
                 '#title' => t('Publisher Name'),
                 '#maxlength' => 255,
                 '#description' => t('Enter the name of your publisher'),
+                '#default_value' => (isset($record['publisher_name']) ? $record['publisher_name']:''),
                 '#required' => TRUE,
             ),
         );
 
         // Zeeto API Key
         $form['publisher_custom']['publisher_zeeto_key'] = array(
-            'title' => array(
+            'publisher_zeeto_key' => array(
                 '#type' => 'textfield',
                 '#title' => t('Zeeto API Key'),
                 '#maxlength' => 255,
                 '#description' => t('Enter the API key given by Zeeto.'),
+                '#default_value' => (isset($record['visit_api_key']) ? $record['visit_api_key']:''),
                 '#required' => TRUE,
             ),
         );
@@ -157,9 +166,9 @@ class PublisherAdminForm extends ConfigFormBase {
 //            ];
 //        }
 //        $form_state->setCached(FALSE);
-
-        $publisher_custom = $this->config('config.publisher_custom');
-        $site_name = $this->config('system.site')->get('name');
+//
+//        $publisher_custom = $this->config('config.publisher_custom');
+//        $site_name = $this->config('system.site')->get('name');
 
         return parent::buildForm($form, $form_state);
     }
@@ -185,11 +194,20 @@ class PublisherAdminForm extends ConfigFormBase {
 //                'vid' => $categories_vocabulary,
 //            ))->save();
 //        }
+        $pub_init = $this->config('config.publisher_custom')->get('pub_init');
 
-        $this->config('config.publisher_custom')
-            ->set('logo_title', $form_state->getValue(array('publisher_custom', 'logo', 'title')))
-            ->save();
-
+        $field=$form_state->getValues();
+        $publisher_name = $field['publisher_name'];
+        $publisher_zeeto_key = $field['publisher_zeeto_key'];
+        $fields  = array(
+                'publisher_name'   => $publisher_name,
+                'visit_api_key' =>  $publisher_zeeto_key,
+            );
+            $query = \Drupal::database();
+            $query ->insert('visit_api')
+                ->fields($fields)
+                ->execute();
+            drupal_set_message("succesfully saved");
         parent::submitForm($form, $form_state);
     }
 
