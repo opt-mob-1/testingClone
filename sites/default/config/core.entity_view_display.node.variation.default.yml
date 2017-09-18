@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.variation.field_funnel_length
     - field.field.node.variation.field_page_1
     - field.field.node.variation.field_page_2
     - field.field.node.variation.field_page_3
@@ -10,6 +11,7 @@ dependencies:
     - field.field.node.variation.field_page_5
     - field.field.node.variation.field_page_6
     - field.field.node.variation.field_property
+    - field.field.node.variation.field_redirect_url
     - field.field.node.variation.field_status
     - field.field.node.variation.field_theme
     - field.field.node.variation.field_zvr_variationid
@@ -21,25 +23,32 @@ targetEntityType: node
 bundle: variation
 mode: default
 content:
+  field_funnel_length:
+    weight: 12
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: content
   field_page_1:
     weight: 2
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_page_2:
-    weight: 4
-    label: above
+    weight: 3
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_page_3:
-    weight: 3
-    label: above
+    weight: 4
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
@@ -47,7 +56,7 @@ content:
     region: content
   field_page_4:
     weight: 5
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
@@ -55,7 +64,7 @@ content:
     region: content
   field_page_5:
     weight: 6
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
@@ -63,31 +72,39 @@ content:
     region: content
   field_page_6:
     weight: 7
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_property:
-    weight: 10
     label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_status:
+  field_property:
+    weight: 11
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_redirect_url:
     weight: 8
-    label: above
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_status:
+    weight: 9
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_theme:
-    weight: 9
-    label: above
+    weight: 10
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

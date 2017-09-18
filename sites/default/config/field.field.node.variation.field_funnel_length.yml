@@ -1,0 +1,23 @@
+uuid: df7e7428-6e51-470d-ac78-f22fb1c7591a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_funnel_length
+    - node.type.variation
+id: node.variation.field_funnel_length
+field_name: field_funnel_length
+entity_type: node
+bundle: variation
+label: 'Funnel Length'
+description: 'The number of pages in the funnel.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 6
+  prefix: ''
+  suffix: ''
+field_type: integer
