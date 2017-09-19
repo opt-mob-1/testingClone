@@ -1,0 +1,19 @@
+uuid: 545d3679-e55d-4fad-a3a2-97dcc8ad348e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_utm_content
+    - node.type.product
+id: node.product.field_utm_content
+field_name: field_utm_content
+entity_type: node
+bundle: product
+label: utm_content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

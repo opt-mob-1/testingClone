@@ -131,4 +131,36 @@ multistepForm:
     - zeeto/variationView
 
 
+# Library for Jumbotron
+jumbotron:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/jumbotron/jumbotron.css: {}
 
+
+# Library for Modal
+modal:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/modal/modal.css: {}
+  js:
+    js/paragraphs/modal/modal.js: {}
+  dependencies:
+    - zeeto/variationView
+
+# Library for Dynamic Image
+dynamicImage:
+  version: 1.0
+  js:
+    js/views/dynamicImage/dynamicImage.js: {}
+  dependencies:
+    - zeeto/variationView
+
+
+theme1:
+  version: 1.0
+  css:
+    layout:
+      css/childThemes/theme1.css: {}

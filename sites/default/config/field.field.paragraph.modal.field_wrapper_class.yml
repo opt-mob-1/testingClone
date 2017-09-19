@@ -1,0 +1,19 @@
+uuid: 1ba3c03f-d871-4dbf-b1ba-038257f39780
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wrapper_class
+    - paragraphs.paragraphs_type.modal
+id: paragraph.modal.field_wrapper_class
+field_name: field_wrapper_class
+entity_type: paragraph
+bundle: modal
+label: 'Wrapper Class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

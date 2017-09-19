@@ -69,9 +69,13 @@
  */
 #}
 
+{% if content.field_theme is not empty %}
+  {{ content.field_theme }}
+{% endif %}
+
 {{ content }}
 
-{{ content.field_theme[0]['#title'] }}
+{#{{ content.field_theme[0]['#title'] }}#}
 
 {#{% if content.field_library[0]['#title'] == 'Fall Theme' %}#}
   {#{{ attach_library('getitfree/fallTheme') }}#}

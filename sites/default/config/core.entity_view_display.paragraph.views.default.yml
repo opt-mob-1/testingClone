@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.views.field_libraries
-    - field.field.paragraph.views.field_views
+    - field.field.paragraph.views.field_views_block
+    - field.field.paragraph.views.field_wrapper_class
     - paragraphs.paragraphs_type.views
+  module:
+    - block_field
 id: paragraph.views.default
 targetEntityType: paragraph
 bundle: views
@@ -13,18 +16,25 @@ mode: default
 content:
   field_libraries:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  field_views:
-    weight: 0
+  field_views_block:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+  field_wrapper_class:
+    weight: 5
     label: above
     settings:
-      link: true
+      link_to_entity: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: string
     region: content
 hidden: {  }

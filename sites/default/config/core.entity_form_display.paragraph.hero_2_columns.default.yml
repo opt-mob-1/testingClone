@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.hero_2_columns.field_background_image
-    - field.field.paragraph.hero_2_columns.field_button
+    - field.field.paragraph.hero_2_columns.field_buttons
     - field.field.paragraph.hero_2_columns.field_headline
     - field.field.paragraph.hero_2_columns.field_image
     - field.field.paragraph.hero_2_columns.field_libraries
@@ -16,8 +16,8 @@ dependencies:
     - image.style.thumbnail
     - paragraphs.paragraphs_type.hero_2_columns
   module:
-    - entity_reference_revisions
     - image
+    - paragraphs
     - text
 id: paragraph.hero_2_columns.default
 targetEntityType: paragraph
@@ -32,14 +32,17 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_button:
+  field_buttons:
+    type: entity_reference_paragraphs
     weight: 9
     settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
-    type: entity_reference_revisions_autocomplete
     region: content
   field_headline:
     weight: 4

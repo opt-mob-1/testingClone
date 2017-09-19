@@ -36,13 +36,12 @@
  * @ingroup themeable
  */
 #}
+{{ attach_library('zeeto/jumbotron') }}
 {{ content.field_libraries }}
-<div class="hero-full-width {{ content.field_wrapper_class|field_value }}">
-  <div class="background-image">
-    <img class="img img-responsive" src="{{ content.field_background_image[0]['#url'].uri }}" alt="{{ content.field_background_image[0]['#item'].alt }}"/>
-  </div>
+
+<div class="jumbotron jumbotron-fluid {{ content.field_wrapper_class|field_value }}" style="background:url('{{ content.field_background_image[0]['#url'].uri }}');">
   <div class="row">
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 hero-content">
       {% if content.field_image|render %}
         {{ content.field_image }}
       {% endif %}
