@@ -2,6 +2,7 @@
 
 // Grabbing data attributes set in variation view
 var variationView = document.querySelector('.js-variation-view');
+var variationProperty = variationView.dataset.property;
 var variationNextPage = variationView.dataset.nextpage;
 var variationPageNumber = variationView.dataset.pagenumber;
 var funnellength = variationView.dataset.funnellength;
@@ -29,3 +30,6 @@ for (var i = 0; i < link.length; i++) {
     link[i].setAttribute("href", variationNextPage);
 }
 
+if(variationProperty) {
+    Visit.property = variationProperty
+}

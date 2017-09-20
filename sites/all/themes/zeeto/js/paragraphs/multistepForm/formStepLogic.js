@@ -19,8 +19,8 @@ function initializeFormStepLogic() {
       inputs: ['#edit-first-name', '#edit-last-name', '#edit-zip'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-
         /* end custom functionality */
+        Visit.setComponent('step1');
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
@@ -28,7 +28,9 @@ function initializeFormStepLogic() {
         // this.addHiddenInputToUserData('#leadid_token');
         // this.addHiddenInputToUserData('#email_opt');
         //this.addSampleImage();
+
         /* end custom functionality */
+        Visit.setComponent('step1', 'complete', true);
         loadNextStep.call(this);
       }
     }, {
@@ -38,8 +40,10 @@ function initializeFormStepLogic() {
       inputs: ['#edit-address', '#edit-city', '#edit-state'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-        this.prepopZip();
+        // this.prepopZip();
+        Visit.setStartTime();
         /* end custom functionality */
+        Visit.setComponent('step2');
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
@@ -47,6 +51,7 @@ function initializeFormStepLogic() {
         //this.addHiddenInputToUserData('#sample-image');
 
         /* end custom functionality */
+        Visit.setComponent('step2', 'complete', true);
         loadNextStep.call(this);
       }
     }, {
@@ -56,6 +61,8 @@ function initializeFormStepLogic() {
       inputs: ['#edit-email'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
+        Visit.setStartTime();
+        Visit.setComponent('step3');
 
         /* end custom functionality */
         attachListeners.call(this);
@@ -69,6 +76,7 @@ function initializeFormStepLogic() {
         // place callbacks here if needed to complete before loading next step
         //});
         /* end custom functionality */
+        Visit.setComponent('step3', 'complete', true);
         loadNextStep.call(this);
       }
     }, {
@@ -78,8 +86,10 @@ function initializeFormStepLogic() {
       inputs: ['#edit-test-date-list-month', '#edit-test-date-list-day', '#edit-test-date-list-year'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-
+        Visit.setStartTime();
+        Visit.setComponent('step4');
         /* end custom functionality */
+
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
@@ -92,6 +102,7 @@ function initializeFormStepLogic() {
         //   // place callbacks here if needed to complete before loading next step
         // });
         /* end custom functionality */
+        Visit.setComponent('step4', 'complete', true);
         loadNextStep.call(this);
       }
     }, {
@@ -101,8 +112,10 @@ function initializeFormStepLogic() {
       inputs: ['#edit-mobile-phone'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-
+        Visit.setStartTime();
+        Visit.setComponent('step5');
         /* end custom functionality */
+
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
@@ -115,6 +128,7 @@ function initializeFormStepLogic() {
         // });
         //appendTokenToRedirectUrl();
         /* end custom functionality */
+        Visit.setComponent('step5', 'complete', true);
         loadNextStep.call(this);
       }
     }, {
@@ -124,6 +138,8 @@ function initializeFormStepLogic() {
       inputs: ['#edit-gender-f', '#edit-gender-m'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
+        Visit.setStartTime();
+        Visit.setComponent('step6');
         //this.gaClientId();
 
         //if returning user = true
@@ -161,6 +177,7 @@ function initializeFormStepLogic() {
         //var uf = parameters.uf;
         // var addToRedirect = variationNextPage; //+ '?uf=' + uf;
         // field_next_page_url - Global Var pulled from signup node field
+        Visit.setComponent('step6', 'complete', true);
         if (variationNextPage) {
           window.location = variationNextPage;
         } else {
