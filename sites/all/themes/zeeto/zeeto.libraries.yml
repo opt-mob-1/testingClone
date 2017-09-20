@@ -159,15 +159,6 @@ dynamicImage:
     - zeeto/variationView
 
 # Library for ZAN
-zan:
-  header: true
-  version: 1.0
-  js:
-    js/paragraphs/zan/zan.js: {}
-  dependencies:
-    - core/jquery
-
-# Library for ZAN
 zanFooter:
   version: 1.0
   js:
@@ -175,7 +166,7 @@ zanFooter:
   dependencies:
     - core/jquery
 
-######## Custom Child Themes ########
+################ Custom Child Themes ################
 
 theme1:
   version: 1.0

@@ -122,11 +122,13 @@ zan.push({
 
 zan.on('zeeto.placementReady', function() {
   zan.push({ name: 'zeeto.start' });
-  // TODO: Add Tracking
+  Visit.setStartTime();
+  Visit.setComponent('zan','start',true);
 });
 
 zan.on('zeeto.placementEnd', function(data) {
   // Define what happens once a visitor completes the placement. Examples are redirect, load content, further registration, etc.
-  // TODO: Add Tracking
+  Visit.setComponent('zan','complete',true);
   // TODO: Handle placement end functionality
 });
+

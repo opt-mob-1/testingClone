@@ -4,31 +4,18 @@ var $ = jQuery;
 (function () {
   
   // Grabs redirect URL
-  var fieldUrl = document.querySelector('.js-modal');
-  var fieldUrl_value = fieldUrl.dataset.redirecturl;
+  var modal = document.querySelector('.js-modal');
+  var fieldID = modal.dataset.fieldid;
+  var delaytime = modal.dataset.delaytime;
+  var fieldID = "#" + fieldID;
   
-  // Loops through each element with class modal
-  $('.modal').each(function () {
-    var $modal = $(this);
-    // When you click that element
-    $modal.on("click", function () {
-      // if there is a URL in the redirecturl, then redirect there
-      $modal.show();
-      if (fieldUrl_value) {
-        setTimeout(function () {
-          window.location = fieldrUrl_value;
-        }, 1000);
-        // } else {
-    
-        //   setTimeout(function () {
-        //     window.location = variationNextPage;
-        //   }, 1000);
-        // }
-      }
-      
-    });//end on click
-    
-  });//end each
+  // if the class model-timer is added (when the timer boolean is checked, then use setTimeout to start the modal
+  if($('.modal-timer')) {
+    setTimeout(function() {
+      $(fieldID).modal();
+    }, delaytime);
+    Visit.setComponent('modal-timer','start',true);
+  }
   
 })();//end self-invoking function
 
