@@ -39,5 +39,5 @@
 {{ content.field_libraries }}
 <span class="{{ content.field_wrapper_class|field_value }}">
   {#<a href="{{ content.field_url[0]['#title'] }}" class="btn button {{ content.field_button_class|field_value }}">{{ content.field_button_text|field_value }}</a>#}
-  <a href="{{ content.field_url[0]['#url'].uri }}" role="button" class="btn btn-default {{ content.field_button_class|field_value }}">{{ content.field_button_text|field_value }}</a>
+  <a href="{{ content.field_url[0]['#url'].uri }}" role="button" class="btn btn-default {{ content.field_button_class|field_value }}"  onclick="Visit.setComponent('button','click')">{{ content.field_button_text|field_value }}</a>
 </span>

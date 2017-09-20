@@ -52,6 +52,7 @@ var main = (function () {
         return generatedId;
     }
 
+
     /**
      * Save a visit.
      * @memberOf Visit
@@ -59,7 +60,7 @@ var main = (function () {
      * @param {object} attributes An object of properties to be sent to Visit API.
      * @param {function} callback
      */
-    Visit.prototype.save = function (callback, macroEvent = false) {
+    Visit.prototype.save = function (callback) {
         var self = this;
 
         callback = callback || noop;
@@ -70,9 +71,6 @@ var main = (function () {
 
         this.cookies.set('visitId', this.visitId, {expires: 30});
         this.setEndTime();
-        if( macroEvent ){
-            this.macroEvent = macroEvent;
-        }
 
         if (this.cookies.get('apiVisitorId')) {
             this.visitorId = this.cookies.get('apiVisitorId');
@@ -205,6 +203,27 @@ var main = (function () {
     };
 
     /**
+     * Sets visit's component and action values.
+     * @memberOf Visit
+     *
+     * @param {string} component
+     * @param {string} action
+     * @param {boolean} isPost
+     * @param {string} value
+     * @param {string} optional1
+     * @param {string} optional2
+     */
+    Visit.prototype.setComponent = function (component, action = 'windowunload', isPost = false, value = '', optional1 = '', optional2 = '') {
+        this.component = component;
+        this.action = action;
+        if(isPost){
+            console.log('isPost');
+           this.save();
+        }
+        // value, optional1 & optional2 are undefined
+    };
+
+    /**
      *
      * Sets visit's endTime.
      * @memberOf Visit
@@ -249,8 +268,11 @@ var main = (function () {
         this.milestone = undefined;
         this.startTime = undefined;
         this.endTime = undefined;
+        this.publisher = undefined;
+        this.property = undefined;
         this.acquisition = undefined;
-        this.macroEvent = undefined;
+        this.component = undefined;
+        this.action = undefined;
         this.technology = undefined;
         //this.microEvent = undefined;
     }
@@ -276,8 +298,11 @@ var main = (function () {
 
         this.setMilestone();
 
-        this.startTime = getCurrentTimeUTC();
+        // // REMOVE THIS
+        //this.publisher = 'samples';
 
+        this.startTime = getCurrentTimeUTC();
+        this.action = 'windowunload';
         var pathName = window.location.pathname.split('/');
         this.acquisition = {
             hostName: window.location.hostname,
@@ -309,18 +334,27 @@ var main = (function () {
         self.technology['deviceType'] = navigator.platform;
         // Triggers Save upon window unfocus
         window.addEventListener("blur", function(event) {
+            self.action = 'windowblur';
             self.save(function(){});
         }, false);
 
         // Sets Start time on window focus
         window.addEventListener("focus", function(event) {
             self.setStartTime();
+            self.action = 'windowunload';
         }, false);
 
         // Triggers Save before window unload
-        $(window).bind('beforeunload', function(){
+
+
+        window.onbeforeunload = function(e) {
             self.save(function(){});
-        });
+        };
+        /*  $(window).bind('beforeunload', function(){
+
+            console.log('inside beforeunload');
+            self.save(function(){});
+        }); */
 
         //this.microEvent = [];
     };

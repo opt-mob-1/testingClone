@@ -11,6 +11,7 @@ use Drupal\Core\StringTranslation\StringTranslationTrait;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Drupal\Core\Database\Database;
 
 class Controller extends ControllerBase {
 
@@ -23,22 +24,27 @@ class Controller extends ControllerBase {
 
         $client = new \GuzzleHttp\Client();
         $headers['Content-Type'] = 'application/json';
-        $apiKey = $this->fetchAPIKey();
-        if($apiKey == 'ERRORAPIKEY') {
+        $apiValues = $this->fetchAPIValuesFromDatabase();
+        if(!isset($apiValues['visit_api_key']) || !isset($apiValues['publisher_name'])) {
             \Drupal::logger('visit_api')->notice('API key not set. Please add a key value in the visit_api table.');
             return new Response('API key not set. Please add a key value in the visit_api table.');
         }
-        $headers['x-api-key'] = $apiKey;
+        $headers['x-api-key'] = $apiValues['visit_api_key'];
         $url =  self::URL;
-        $body = $request->getContent();
-      //  $bodyJSON = json_encode($body);
+        $body = $request->getContent(false);
+        $bodyJSON = json_encode($body);
 
-        \Drupal::logger('visit_api')->notice($body);
+        $bodyJSON = str_replace("milestone",'publisher\\":\\"'. $apiValues['publisher_name'] .'\\",\\"milestone',$bodyJSON);
+        $decoded = json_decode($bodyJSON);
+
+        //  $tempArr['publisher'] = $apiValues['publisher_name'];
+        //$bodyJSON .= "\"publisher\":\"samples\"";
+      //  \Drupal::logger('visit_api')->notice($decoded);
         try {
             $res = $client->post($url, [
                 'http_errors' => false,
                 'headers' => $headers,
-                'body' => $body
+                'body' => $decoded
             ]);
         } catch (RequestException $e) {
             return new Response($e);
@@ -49,14 +55,13 @@ class Controller extends ControllerBase {
     /*
      * Function to return the API key value from visit_api table
      */
-    private function fetchAPIKey(){
-        $query = \Drupal::database()->select('visit_api', 'vpi');
-        $query->addField('vpi', 'visit_api_key');
-        $query->range(0, 1);
-        $apiKey = $query->execute()->fetchField();
-        if($apiKey == '') {
-            return 'ERRORAPIKEY';
-        }
-        return $apiKey;
+    private function fetchAPIValuesFromDatabase(){
+        $conn = Database::getConnection();
+        $record = array();
+        $query = $conn->select('visit_api', 'm')
+            ->orderBy('id', 'DESC')
+            ->fields('m');
+        $record = $query->execute()->fetchAssoc();
+        return $record;
     }
 }

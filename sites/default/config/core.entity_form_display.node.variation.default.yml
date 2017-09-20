@@ -3,12 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.variation.field_funnel_length
     - field.field.node.variation.field_page_1
     - field.field.node.variation.field_page_2
     - field.field.node.variation.field_page_3
     - field.field.node.variation.field_page_4
     - field.field.node.variation.field_page_5
     - field.field.node.variation.field_page_6
+    - field.field.node.variation.field_property
+    - field.field.node.variation.field_redirect_url
     - field.field.node.variation.field_status
     - field.field.node.variation.field_theme
     - field.field.node.variation.field_zvr_variationid
@@ -18,6 +21,13 @@ targetEntityType: node
 bundle: variation
 mode: default
 content:
+  field_funnel_length:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
   field_page_1:
     weight: 2
     settings:
@@ -71,6 +81,23 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_property:
+    weight: 10
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_redirect_url:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_status:
     weight: 8
