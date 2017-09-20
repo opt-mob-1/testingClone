@@ -1,0 +1,21 @@
+uuid: 1a67a03c-7710-44fa-8ad0-b280284c8096
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_delay_time
+    - paragraphs.paragraphs_type.modal
+id: paragraph.modal.field_delay_time
+field_name: field_delay_time
+entity_type: paragraph
+bundle: modal
+label: 'Delay Time'
+description: 'Selecting Modal Type "Time" will allow the modal to display after a certain amount of time has passed. <strong>Use this field to specify the time in milliseconds that the modal will display on the screen.</strong>'
+required: false
+translatable: false
+default_value:
+  -
+    value: '5000'
+default_value_callback: ''
+settings: {  }
+field_type: string

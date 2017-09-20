@@ -42,7 +42,7 @@ class BlockFieldManager implements BlockFieldManagerInterface {
       // Core and component plugins can be context-aware
       // https://www.drupal.org/node/1938688
       // @see \Drupal\ctools\Plugin\Block\EntityView
-      if (isset($definition['context'])) {
+      if (isset($definition['context']) && ($definition['provider'] != 'views')) {
         continue;
       }
 

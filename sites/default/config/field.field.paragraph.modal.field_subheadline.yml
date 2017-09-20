@@ -1,0 +1,21 @@
+uuid: ab4063c7-585c-4a04-ae46-e9d14533fb2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subheadline
+    - paragraphs.paragraphs_type.modal
+  module:
+    - text
+id: paragraph.modal.field_subheadline
+field_name: field_subheadline
+entity_type: paragraph
+bundle: modal
+label: Subheadline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

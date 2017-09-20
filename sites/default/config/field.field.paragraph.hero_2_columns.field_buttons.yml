@@ -1,21 +1,21 @@
-uuid: 1674e096-cc40-4280-933c-f4dd1fe70274
+uuid: c2b0343c-421a-4435-81c0-5c3211490701
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_button
+    - field.storage.paragraph.field_buttons
     - paragraphs.paragraphs_type.button
     - paragraphs.paragraphs_type.hero_2_columns
   module:
     - entity_reference_revisions
-id: paragraph.hero_2_columns.field_button
-field_name: field_button
+id: paragraph.hero_2_columns.field_buttons
+field_name: field_buttons
 entity_type: paragraph
 bundle: hero_2_columns
 label: Button
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -25,78 +25,117 @@ settings:
       button: button
     target_bundles_drag_drop:
       1_column_full_width:
-        weight: 26
+        weight: 39
         enabled: false
       2_column_25_75_:
-        weight: 27
+        weight: 40
         enabled: false
       2_column_75_25_:
-        weight: 28
+        weight: 41
         enabled: false
       2_column_even:
-        weight: 29
+        weight: 42
         enabled: false
       2_column_even_left_stacked:
-        weight: 30
+        weight: 43
         enabled: false
       2_column_even_right_stacked:
-        weight: 31
-        enabled: false
-      3_column_25_25_50_:
-        weight: 32
-        enabled: false
-      3_column_25_50_25_:
-        weight: 33
-        enabled: false
-      3_column_50_25_25_:
-        weight: 34
+        weight: 44
         enabled: false
       3_columns_even:
-        weight: 35
+        weight: 45
+        enabled: false
+      3_column_25_25_50_:
+        weight: 46
+        enabled: false
+      3_column_25_50_25_:
+        weight: 47
+        enabled: false
+      3_column_50_25_25_:
+        weight: 48
+        enabled: false
+      4_column_even:
+        weight: 49
         enabled: false
       4_column_event:
-        weight: 36
+        weight: 50
         enabled: false
       button:
         enabled: true
-        weight: 37
+        weight: 51
       content:
-        weight: 38
+        weight: 52
         enabled: false
       counter:
-        weight: 39
+        weight: 53
+        enabled: false
+      dynamic_cart:
+        weight: 54
+        enabled: false
+      dynamic_image:
+        weight: 55
+        enabled: false
+      falling_images:
+        weight: 56
         enabled: false
       headline:
-        weight: 40
+        weight: 57
         enabled: false
       hero_2_columns:
-        weight: 41
+        weight: 58
         enabled: false
       hero_full_width:
-        weight: 42
+        weight: 59
         enabled: false
       image:
-        weight: 43
+        weight: 60
+        enabled: false
+      modal:
+        weight: 61
+        enabled: false
+      navigation:
+        weight: 62
+        enabled: false
+      nav_item:
+        weight: 63
         enabled: false
       popunder:
-        weight: 44
+        weight: 64
+        enabled: false
+      progress_bar_steps:
+        weight: 65
+        enabled: false
+      progress_loading_bar:
+        weight: 66
+        enabled: false
+      progress_steps:
+        weight: 67
         enabled: false
       row:
-        weight: 45
+        weight: 68
         enabled: false
       star_rating:
-        weight: 46
+        weight: 69
+        enabled: false
+      steps:
+        weight: 70
         enabled: false
       subheadline:
-        weight: 47
+        weight: 71
         enabled: false
       testimonial:
-        weight: 48
+        weight: 72
         enabled: false
       timer:
-        weight: 49
+        weight: 73
         enabled: false
       views:
-        weight: 50
+        weight: 74
+        enabled: false
+      webform:
+        weight: 75
+        enabled: false
+      zan_placement:
+        weight: 76
         enabled: false
 field_type: entity_reference_revisions

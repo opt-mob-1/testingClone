@@ -1,0 +1,21 @@
+uuid: 0fe4fc47-a686-474a-953d-9265239accb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_field_id
+    - paragraphs.paragraphs_type.modal
+id: paragraph.modal.field_field_id
+field_name: field_field_id
+entity_type: paragraph
+bundle: modal
+label: 'Field ID'
+description: 'Type in an ID to reference the modal <em>Note: use all lowercase, no spaces or special characters</em>'
+required: false
+translatable: false
+default_value:
+  -
+    value: modal1
+default_value_callback: ''
+settings: {  }
+field_type: string

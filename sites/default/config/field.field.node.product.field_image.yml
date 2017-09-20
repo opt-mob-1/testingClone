@@ -1,20 +1,20 @@
-uuid: 1cdd703b-1492-4b56-8e31-1b2a8a649d90
+uuid: 0b7c5689-8ff9-4a16-a2bc-a3c6a9123b63
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_image
-    - paragraphs.paragraphs_type.dynamic_image
+    - field.storage.node.field_image
+    - node.type.product
   module:
     - image
-id: paragraph.dynamic_image.field_image
+id: node.product.field_image
 field_name: field_image
-entity_type: paragraph
-bundle: dynamic_image
+entity_type: node
+bundle: product
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

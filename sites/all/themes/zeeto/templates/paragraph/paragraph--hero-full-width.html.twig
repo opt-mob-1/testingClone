@@ -36,33 +36,34 @@
  * @ingroup themeable
  */
 #}
+{{ attach_library('zeeto/jumbotron') }}
 {{ content.field_libraries }}
-<div class="hero-full-width {{ content.field_wrapper_class|field_value }}">
-  <div class="background-image">
-    <img class="img img-responsive" src="{{ content.field_background_image[0]['#url'].uri }}" alt="{{ content.field_background_image[0]['#item'].alt }}"/>
-  </div>
-  <div class="row">
-    <div class="col-xs-12">
-      {% if content.field_image|render %}
-        {{ content.field_image }}
-      {% endif %}
 
-      {{ content.field_views }}
+<div class="jumbotron jumbotron-fluid {{ content.field_wrapper_class|field_value }}" style="background-image:url('{{ content.field_background_image[0]['#url'].uri }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 hero-content">
+        {% if content.field_image|render %}
+          {{ content.field_image }}
+        {% endif %}
 
-      {% if content.field_headline is not empty %}
-        {{ content.field_headline }}
-      {% endif %}
+        {{ content.field_views }}
 
-      {% if content.field_subheadline is not empty %}
-        {{ content.field_subheadline }}
-      {% endif %}
+        {% if content.field_headline is not empty %}
+          {{ content.field_headline }}
+        {% endif %}
 
-      {{ content.field_wysiwyg }}
+        {% if content.field_subheadline is not empty %}
+          {{ content.field_subheadline }}
+        {% endif %}
 
-      <p class="text">{{ content.field_text }}</p>
+        {{ content.field_wysiwyg }}
 
-      {{ content.field_button }}
+        <p class="text">{{ content.field_text }}</p>
 
+        {{ content.field_button }}
+
+      </div>
     </div>
   </div>
 </div>

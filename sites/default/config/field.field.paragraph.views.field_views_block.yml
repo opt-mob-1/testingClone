@@ -1,0 +1,25 @@
+uuid: 2fcf8795-6162-433b-b44d-99a8f6304ff7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_views_block
+    - paragraphs.paragraphs_type.views
+  module:
+    - block_field
+id: paragraph.views.field_views_block
+field_name: field_views_block
+entity_type: paragraph
+bundle: views
+label: 'Views Block'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: 'views_block:dynamic_images-block_1'
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.hero_2_columns.field_background_image
-    - field.field.paragraph.hero_2_columns.field_button
+    - field.field.paragraph.hero_2_columns.field_buttons
     - field.field.paragraph.hero_2_columns.field_headline
     - field.field.paragraph.hero_2_columns.field_image
     - field.field.paragraph.hero_2_columns.field_libraries
@@ -32,14 +32,14 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_button:
+  field_buttons:
+    type: entity_reference_revisions_entity_view
     weight: 9
-    label: hidden
+    label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    type: entity_reference_revisions_entity_view
     region: content
   field_headline:
     weight: 4

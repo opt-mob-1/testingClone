@@ -38,6 +38,11 @@ var paragraphs = gulp.src('./paragraphs/**/*.js')
     presets: ['es2015']
   }))
   .pipe(gulp.dest('./js/paragraphs'));
+var views = gulp.src('./views/**/*.js')
+  .pipe(babel({
+    presets: ['es2015']
+  }))
+  .pipe(gulp.dest('./js/views'));
 var libs = gulp.src('./libs/**/*.js')
   .pipe(babel({
     presets: ['es2015']
@@ -55,6 +60,10 @@ gulp.task('sass', function() {
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(autoprefixer(autoprefixerOptions))
     .pipe(gulp.dest('./css/paragraphs'));
+  var views = gulp.src('./views/**/*.scss')
+    .pipe(sass(sassOptions).on('error', sass.logError))
+    .pipe(autoprefixer(autoprefixerOptions))
+    .pipe(gulp.dest('./css/views'));
   var sassDir = gulp.src('./sass/**/*.scss')
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(autoprefixer(autoprefixerOptions))
@@ -65,7 +74,7 @@ gulp.task('sass', function() {
 gulp.task('watch', function() {
   return gulp
   //An array in future
-    .watch(['./sass/**/*.scss','./blocks/**/*.scss','./paragraphs/**/*.scss','./sass/**/img/*','./blocks/**/img/*','./paragraphs/**/img/*','./blocks/**/*.js','./paragraphs/**/*.js','./libs/**/*.js'], ['sass','babel','imageMin'])
+    .watch(['./sass/**/*.scss','./blocks/**/*.scss','./paragraphs/**/*.scss', './views/**/*.scss','./sass/**/img/*','./blocks/**/img/*','./paragraphs/**/img/*', './views/**/img/*','./blocks/**/*.js','./paragraphs/**/*.js', './views/**/*.js','./libs/**/*.js'], ['sass','babel','imageMin'])
     .on('change', function(event) {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });

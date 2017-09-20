@@ -1,0 +1,23 @@
+uuid: c37189d5-1409-4305-b14f-63ca5bf1b386
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_url
+    - paragraphs.paragraphs_type.modal
+  module:
+    - link
+id: paragraph.modal.field_url
+field_name: field_url
+entity_type: paragraph
+bundle: modal
+label: URL
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

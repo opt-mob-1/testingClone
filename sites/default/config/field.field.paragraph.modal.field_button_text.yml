@@ -1,0 +1,21 @@
+uuid: 1fbe8e66-2b74-4553-8a0f-7fc4f94e4586
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button_text
+    - paragraphs.paragraphs_type.modal
+  module:
+    - text
+id: paragraph.modal.field_button_text
+field_name: field_button_text
+entity_type: paragraph
+bundle: modal
+label: 'Button Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

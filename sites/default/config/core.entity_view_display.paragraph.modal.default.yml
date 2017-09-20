@@ -1,0 +1,97 @@
+uuid: bd427184-e7c0-41bd-9119-97cfe34c232b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.modal.field_button_text
+    - field.field.paragraph.modal.field_content
+    - field.field.paragraph.modal.field_delay_time
+    - field.field.paragraph.modal.field_field_id
+    - field.field.paragraph.modal.field_libraries
+    - field.field.paragraph.modal.field_subheadline
+    - field.field.paragraph.modal.field_type_of_modal
+    - field.field.paragraph.modal.field_url
+    - field.field.paragraph.modal.field_wrapper_class
+    - paragraphs.paragraphs_type.modal
+  module:
+    - link
+    - options
+    - text
+id: paragraph.modal.default
+targetEntityType: paragraph
+bundle: modal
+mode: default
+content:
+  field_button_text:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_content:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_delay_time:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_field_id:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_libraries:
+    weight: 8
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_subheadline:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_type_of_modal:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_url:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_wrapper_class:
+    weight: 7
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

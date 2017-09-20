@@ -1,0 +1,7 @@
+uuid: a5bf070b-d6e1-46be-9573-866ed12a3eb2
+langcode: en
+status: true
+dependencies: {  }
+id: modal
+label: Modal
+behavior_plugins: {  }

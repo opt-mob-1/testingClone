@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.views.field_libraries
-    - field.field.paragraph.views.field_views
+    - field.field.paragraph.views.field_views_block
+    - field.field.paragraph.views.field_wrapper_class
     - paragraphs.paragraphs_type.views
+  module:
+    - block_field
 id: paragraph.views.default
 targetEntityType: paragraph
 bundle: views
@@ -19,14 +22,21 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_views:
-    weight: 0
+  field_views_block:
+    weight: 4
     settings:
-      match_operator: CONTAINS
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  field_wrapper_class:
+    weight: 5
+    settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: string_textfield
     region: content
 hidden:
   created: true

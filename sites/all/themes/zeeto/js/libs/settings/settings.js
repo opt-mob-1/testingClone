@@ -73,30 +73,32 @@ $(document).ready(function () {
     //   $('.footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
     // }
 
-    /* Parses Query Parameters in URL */
-    var parseQueryString = function parseQueryString(queryString) {
-        var params = {},
-            queries,
-            temp,
-            i,
-            l;
-
-        if (!queryString.length) {
-            return params;
-        }
-
-        // Remove first leading '?' then split into key/value pairs
-        queries = queryString.substring(1).split("&");
-
-        // Convert the array of strings into an object
-        for (i = 0, l = queries.length; i < l; i++) {
-            temp = queries[i].split('=');
-            params[temp[0]] = temp[1];
-        }
-
-        return params;
-    };
 
     //  Parses Query Params and puts it into an obj
 
+
 });
+
+/* Parses Query Parameters in URL */
+var parseQueryString = function parseQueryString(queryString) {
+    var params = {},
+        queries,
+        temp,
+        i,
+        l;
+
+    if (!queryString.length) {
+        return params;
+    }
+
+    // Remove first leading '?' then split into key/value pairs
+    queries = queryString.substring(1).split("&");
+
+    // Convert the array of strings into an object
+    for (i = 0, l = queries.length; i < l; i++) {
+        temp = queries[i].split('=');
+        params[temp[0]] = temp[1];
+    }
+
+    return params;
+};

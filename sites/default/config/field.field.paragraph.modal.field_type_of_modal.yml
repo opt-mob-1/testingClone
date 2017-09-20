@@ -1,0 +1,21 @@
+uuid: 51835fd3-0ac8-4d3c-942b-13462ef8a2f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_type_of_modal
+    - paragraphs.paragraphs_type.modal
+  module:
+    - options
+id: paragraph.modal.field_type_of_modal
+field_name: field_type_of_modal
+entity_type: paragraph
+bundle: modal
+label: 'Type of Modal'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
