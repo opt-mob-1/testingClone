@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.zan_placement.field_content
     - field.field.paragraph.zan_placement.field_libraries
+    - field.field.paragraph.zan_placement.field_placement_id
     - field.field.paragraph.zan_placement.field_wrapper_class
     - paragraphs.paragraphs_type.zan_placement
   module:
@@ -23,6 +24,14 @@ content:
     region: content
   field_libraries:
     weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_placement_id:
+    weight: 3
     label: hidden
     settings:
       link_to_entity: false

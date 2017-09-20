@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.dynamic_image.field_libraries
+    - field.field.paragraph.dynamic_image.field_link_path
     - field.field.paragraph.dynamic_image.field_views_block
     - field.field.paragraph.dynamic_image.field_wrapper_class
     - paragraphs.paragraphs_type.dynamic_image
@@ -15,6 +16,14 @@ bundle: dynamic_image
 mode: default
 content:
   field_libraries:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_link_path:
     weight: 1
     settings:
       size: 60
@@ -31,7 +40,7 @@ content:
     type: block_field_default
     region: content
   field_wrapper_class:
-    weight: 2
+    weight: 3
     settings:
       size: 60
       placeholder: ''

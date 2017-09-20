@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.dynamic_image.field_libraries
+    - field.field.paragraph.dynamic_image.field_link_path
     - field.field.paragraph.dynamic_image.field_views_block
     - field.field.paragraph.dynamic_image.field_wrapper_class
     - paragraphs.paragraphs_type.dynamic_image
@@ -16,6 +17,14 @@ mode: default
 content:
   field_libraries:
     weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_link_path:
+    weight: 5
     label: hidden
     settings:
       link_to_entity: false

@@ -51,8 +51,6 @@ visitApi:
       - core/drupalSettings
       - core/jquery
 
-
-
 # This library is called on the Raining Images Block Type
 fallingImages:
   version: 1.0
@@ -160,6 +158,24 @@ dynamicImage:
   dependencies:
     - zeeto/variationView
 
+# Library for ZAN
+zan:
+  header: true
+  version: 1.0
+  js:
+    js/paragraphs/zan/zan.js: {}
+  dependencies:
+    - core/jquery
+
+# Library for ZAN
+zanFooter:
+  version: 1.0
+  js:
+    js/paragraphs/zan/zanFooter.js: {}
+  dependencies:
+    - core/jquery
+
+######## Custom Child Themes ########
 
 theme1:
   version: 1.0

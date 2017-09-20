@@ -37,6 +37,9 @@
  */
 #}
 {{ content.field_libraries }}
-<div class="zan-placement {{ content.field_wrapper_class|field_value }}">
+{{ attach_library('zeeto/zanFooter') }}
+
+<div class="zan-placement js-zan {{ content.field_wrapper_class|field_value }}" data-placementid="{{ content.field_placement_id|field_value }}">
   {{ content.field_content }}
+  <div id="zeeto"></div>
 </div>

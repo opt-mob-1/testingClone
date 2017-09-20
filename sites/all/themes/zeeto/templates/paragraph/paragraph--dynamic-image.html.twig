@@ -40,5 +40,9 @@
 
 
 <div class="dynamicImage {{ content.field_wrapper_class|field_value }}">
-  {{ content.field_views_block }}
+  {% if content.field_link_path is not empty  %}
+    <a href="{% spaceless %}{{ content.field_link_path|field_value }}{% endspaceless %}" class="image-url">{{ content.field_views_block }}</a>
+  {% else %}
+    {{ content.field_views_block }}
+  {% endif %}
 </div>
