@@ -1,0 +1,22 @@
+uuid: 305fbe54-5abc-41d5-a9e9-b5c5c24cf735
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_views_block
+    - paragraphs.paragraphs_type.hero_full_width
+  module:
+    - block_field
+id: paragraph.hero_full_width.field_views_block
+field_name: field_views_block
+entity_type: paragraph
+bundle: hero_full_width
+label: 'Views Block'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

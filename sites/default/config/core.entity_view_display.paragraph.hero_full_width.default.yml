@@ -10,11 +10,11 @@ dependencies:
     - field.field.paragraph.hero_full_width.field_libraries
     - field.field.paragraph.hero_full_width.field_subheadline
     - field.field.paragraph.hero_full_width.field_text
-    - field.field.paragraph.hero_full_width.field_views
+    - field.field.paragraph.hero_full_width.field_views_block
     - field.field.paragraph.hero_full_width.field_wrapper_class
-    - field.field.paragraph.hero_full_width.field_wysiwyg
     - paragraphs.paragraphs_type.hero_full_width
   module:
+    - block_field
     - entity_reference_revisions
     - image
     - text
@@ -43,7 +43,7 @@ content:
     region: content
   field_headline:
     weight: 7
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
@@ -59,7 +59,7 @@ content:
     region: content
   field_libraries:
     weight: 6
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -67,25 +67,24 @@ content:
     region: content
   field_subheadline:
     weight: 8
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_text:
     weight: 9
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_views:
-    weight: 3
+  field_views_block:
+    weight: 10
     label: hidden
-    settings:
-      link: true
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_label
+    type: block_field
     region: content
   field_wrapper_class:
     weight: 0
@@ -94,13 +93,5 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_wysiwyg:
-    weight: 5
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
     region: content
 hidden: {  }

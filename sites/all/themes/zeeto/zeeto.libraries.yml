@@ -148,6 +148,13 @@ modal:
   dependencies:
     - zeeto/variationView
 
+# Library for Progress Steps
+progressSteps:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/progressSteps/progressSteps.css: {}
+
 # Library for Dynamic Image
 dynamicImage:
   version: 1.0

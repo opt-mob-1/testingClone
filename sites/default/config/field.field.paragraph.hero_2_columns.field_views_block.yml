@@ -1,0 +1,22 @@
+uuid: ffb57edf-7552-480f-9394-53c19b2dd953
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_views_block
+    - paragraphs.paragraphs_type.hero_2_columns
+  module:
+    - block_field
+id: paragraph.hero_2_columns.field_views_block
+field_name: field_views_block
+entity_type: paragraph
+bundle: hero_2_columns
+label: 'Views Block'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

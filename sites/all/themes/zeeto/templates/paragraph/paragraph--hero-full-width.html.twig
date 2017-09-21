@@ -45,9 +45,9 @@
       <div class="col-xs-12 hero-content">
         {% if content.field_image|render %}
           {{ content.field_image }}
+        {% else %}
+          {{ content.field_views_block }}
         {% endif %}
-
-        {{ content.field_views }}
 
         {% if content.field_headline is not empty %}
           {{ content.field_headline }}
@@ -57,9 +57,7 @@
           {{ content.field_subheadline }}
         {% endif %}
 
-        {{ content.field_wysiwyg }}
-
-        <p class="text">{{ content.field_text }}</p>
+        <div class="text">{{ content.field_text }}</div>
 
         {{ content.field_button }}
 

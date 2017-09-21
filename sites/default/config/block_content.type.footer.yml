@@ -5,4 +5,4 @@ dependencies: {  }
 id: footer
 label: Footer
 revision: 0
-description: Footer
+description: 'Footer block at the bottom of the page'
