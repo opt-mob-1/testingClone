@@ -76,6 +76,7 @@ var main = function () {
 
         this.cookies.set('visitId', this.visitId, { expires: 30 });
         this.setEndTime();
+        this.setActionTime();
 
         if (this.cookies.get('apiVisitorId')) {
             this.visitorId = this.cookies.get('apiVisitorId');
@@ -182,6 +183,16 @@ var main = function () {
     };
 
     /**
+     * Sets visit's actionTime.
+     * @memberOf Visit
+     *
+     * @param {string} actionTime
+     */
+    Visit.prototype.setActionTime = function () {
+        this.actionTime = getCurrentTimeUTC();
+    };
+
+    /**
      * Sets visit's milestone.
      * @memberOf Visit
      *
@@ -214,20 +225,20 @@ var main = function () {
      * @param {string} optional1
      * @param {string} optional2
      */
-    Visit.prototype.setComponent = function (component) {
-        var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'windowunload';
-        var isPost = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
-        var value = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '';
-        var optional1 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : '';
-        var optional2 = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : '';
+    Visit.prototype.zTrkMacroEvent = function (component) {
+        var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'unload';
+        var componentValue = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : undefined;
+        var isPost = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : true;
 
         this.component = component;
         this.action = action;
+        if (componentValue) {
+            this.componentValue = componentValue;
+        }
+        // Post to visitApi by default
         if (isPost) {
-            console.log('isPost');
             this.save();
         }
-        // value, optional1 & optional2 are undefined
     };
 
     /**
@@ -279,7 +290,9 @@ var main = function () {
         this.property = undefined;
         this.acquisition = undefined;
         this.component = undefined;
+        this.componentValue = undefined;
         this.action = undefined;
+        this.actionTime = undefined;
         this.technology = undefined;
         //this.microEvent = undefined;
     }
@@ -290,7 +303,7 @@ var main = function () {
      *
      * @param callback
      */
-    Visit.prototype.start = function (callback) {
+    Visit.prototype.zMilestoneInit = function (callback) {
         var self = this;
         var visitId = this.cookies.get('visitId');
         if (visitId) {
@@ -305,18 +318,17 @@ var main = function () {
 
         this.setMilestone();
 
-        // // REMOVE THIS
-        //this.publisher = 'samples';
-
         this.startTime = getCurrentTimeUTC();
-        this.action = 'windowunload';
+        this.component = 'window';
+        this.action = 'load';
         var pathName = window.location.pathname.split('/');
+
+        // Saving acquisition attributes
         this.acquisition = {
             hostName: window.location.hostname,
             zVv: pathName[1],
             zVr: pathName[2]
         };
-
         var intialAcquisition = getAllUrlParams(window.location.toString());
         if (intialAcquisition) {
             for (var attribute in intialAcquisition) {
@@ -325,6 +337,7 @@ var main = function () {
             }
         }
 
+        // Saving Technology attributes
         this.technology = {};
         if (typeof ipPromise != 'undefined') {
             ipPromise.then(function (ip) {
@@ -339,30 +352,29 @@ var main = function () {
             self.technology['deviceCategory'] = self.acquisition.zDc;
         }
         self.technology['deviceType'] = navigator.platform;
+
         // Triggers Save upon window unfocus
         window.addEventListener("blur", function (event) {
-            self.action = 'windowblur';
+            self.action = 'blur';
             self.save(function () {});
         }, false);
 
         // Sets Start time on window focus
         window.addEventListener("focus", function (event) {
             self.setStartTime();
-            self.action = 'windowunload';
+            self.action = 'unload';
         }, false);
 
         // Triggers Save before window unload
-
-
         window.onbeforeunload = function (e) {
             self.save(function () {});
         };
-        /*  $(window).bind('beforeunload', function(){
-             console.log('inside beforeunload');
-            self.save(function(){});
-        }); */
 
-        //this.microEvent = [];
+        // Posting the Visit on window load
+        self.save(function () {});
+
+        // Handling window unload case
+        self.action = 'unload';
     };
 
     /*
@@ -463,5 +475,6 @@ var main = function () {
     window.Visit = Visit;
 }.call(undefined);
 
+// Initialize the Visit Object
 window.Visit = new window.Visit();
-Visit.start();
+Visit.zMilestoneInit();

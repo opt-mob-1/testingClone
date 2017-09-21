@@ -222,7 +222,7 @@
 
     // the submitHandler is triggered on the click of the final form submit button, $('#edit-submit')
     submitHandler: function submitHandler(signupForm) {
-        Visit.setComponent('multistepForm','submit');
+        Visit.zTrkMacroEvent('form','submit','multistepForm', false);
     }
   });
 

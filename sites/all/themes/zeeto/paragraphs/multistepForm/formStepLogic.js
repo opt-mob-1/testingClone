@@ -20,14 +20,15 @@ function initializeFormStepLogic() {
         /* begin custom functionality */
         this.prepopZip();
         /* end custom functionality */
-        Visit.setComponent('step1');
+          Visit.zTrkMacroEvent('form','load','multistepForm');
+        Visit.zTrkMacroEvent('formstep','load','1');
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
         /* begin custom functionality */
 
         /* end custom functionality */
-          Visit.setComponent('step1','complete',true);
+          Visit.zTrkMacroEvent('formstep','complete','1');
         loadNextStep.call(this);
 
       }
@@ -38,17 +39,16 @@ function initializeFormStepLogic() {
       inputs: ['#edit-address', '#edit-city', '#edit-state'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-        // this.prepopZip();
-        Visit.setStartTime();
+       // this.prepopZip();
         /* end custom functionality */
-        Visit.setComponent('step2');
+          Visit.zTrkMacroEvent('formstep','load','2');
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
         /* begin custom functionality */
 
         /* end custom functionality */
-        Visit.setComponent('step2','complete',true);
+          Visit.zTrkMacroEvent('formstep','complete','2');
         loadNextStep.call(this);
 
       }
@@ -59,8 +59,7 @@ function initializeFormStepLogic() {
       inputs: ['#edit-email'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-          Visit.setStartTime();
-          Visit.setComponent('step3');
+          Visit.zTrkMacroEvent('formstep','load','3');
 
         /* end custom functionality */
         attachListeners.call(this);
@@ -68,9 +67,9 @@ function initializeFormStepLogic() {
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
         /* begin custom functionality */
         var userData = this.userData;
-        
+
         /* end custom functionality */
-        Visit.setComponent('step3','complete',true);
+          Visit.zTrkMacroEvent('formstep','complete','3');
         loadNextStep.call(this);
       }
     }, {
@@ -80,8 +79,7 @@ function initializeFormStepLogic() {
       inputs: ['#edit-test-date-list-month', '#edit-test-date-list-day', '#edit-test-date-list-year'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-          Visit.setStartTime();
-          Visit.setComponent('step4');
+          Visit.zTrkMacroEvent('formstep','load','4');
         /* end custom functionality */
 
         attachListeners.call(this);
@@ -90,9 +88,9 @@ function initializeFormStepLogic() {
         /* begin custom functionality */
         this.formatDobAndAddToUserData();
         var userData = this.userData;
-        
+
         /* end custom functionality */
-          Visit.setComponent('step4','complete',true);
+          Visit.zTrkMacroEvent('formstep','complete','4');
           loadNextStep.call(this);
       }
     }, {
@@ -102,8 +100,7 @@ function initializeFormStepLogic() {
       inputs: ['#edit-mobile-phone'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-          Visit.setStartTime();
-          Visit.setComponent('step5');
+          Visit.zTrkMacroEvent('formstep','load','5');
         /* end custom functionality */
 
         attachListeners.call(this);
@@ -113,7 +110,7 @@ function initializeFormStepLogic() {
         var userData = this.userData;
 
         /* end custom functionality */
-        Visit.setComponent('step5','complete',true);
+          Visit.zTrkMacroEvent('formstep','complete','5');
         loadNextStep.call(this);
       }
     }, {
@@ -123,8 +120,7 @@ function initializeFormStepLogic() {
       inputs: ['#edit-gender-f', '#edit-gender-m'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-        Visit.setStartTime();
-        Visit.setComponent('step6');
+        Visit.zTrkMacroEvent('formstep','load','6');
 
         $('.form-item-gender .form-radio:checked').focus();
         $('#edit-submit').show();
@@ -136,8 +132,8 @@ function initializeFormStepLogic() {
         /* begin custom functionality */
         var userData = this.userData;
         /* end custom functionality */
-        
-        Visit.setComponent('step6','complete',true);
+
+        Visit.zTrkMacroEvent('formstep','complete','6');
         if (variationNextPage) {
           window.location = variationNextPage;
         } else {
@@ -173,25 +169,25 @@ function initializeFormStepLogic() {
     // populates city and state values based on zip
     prepopZip: function prepopZip() {
       if ($('input[name=zip]') !== '') {
-        
+
         $('#edit-zip').keyup(function(){
           if($(this).val().length == 5){
             var zip = $(this).val();
             var city = '';
             var state = '';
-            
+
             //make a request to the google geocode api
             //county:us restricts zip code responses to united states
             $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?&components=country:US|postal_code:'+zip)
-              
+
               .success(function(response){
                 //find the city and state
                 if (response.results.length > 0) {
                 var address_components = response.results[0].address_components;
-                  
+
                   $.each(address_components, function (index, component) {
                     var types = component.types;
-                    
+
                     $.each(types, function (index, type) {
                       if (type == 'locality') {
                         city = component.long_name;
