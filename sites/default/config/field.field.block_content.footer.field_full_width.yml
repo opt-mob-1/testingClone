@@ -1,0 +1,23 @@
+uuid: 433141a8-c674-4f58-8d31-7be5c8046a52
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer
+    - field.storage.block_content.field_full_width
+id: block_content.footer.field_full_width
+field_name: field_full_width
+entity_type: block_content
+bundle: footer
+label: Full-width
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

@@ -166,7 +166,6 @@ function initializeFormStepLogic() {
       stepSubmittedCustom: function stepSubmittedCustom() {
         /* begin custom functionality */
         var userData = this.userData;
-        console.log('in step submitted');
         //TODO Remove path references
         // path.user.save(userData, function (err, response) {
         //   // place callbacks here if needed to complete before loading next step
@@ -300,7 +299,6 @@ function initializeFormStepLogic() {
       });
       // passes the inputs for that particular step to storeUserData
       if (inputsValid) {
-        console.log('in inputsValid');
         this.storeUserData(inputsArray, stepNumber);
       }
     },

@@ -4,6 +4,8 @@
 html,
 body {
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -30,6 +32,10 @@ header {
   clear: both;
   width: 100%;
   border-bottom: 1px solid #e8e8e8;
+}
+
+header img, header .img-responsive {
+  max-width: 200px;
 }
 
 footer.footer {

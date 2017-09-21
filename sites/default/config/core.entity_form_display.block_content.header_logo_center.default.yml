@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - block_content.type.header_logo_center
+    - field.field.block_content.header_logo_center.field_full_width
     - field.field.block_content.header_logo_center.field_libraries
     - field.field.block_content.header_logo_center.field_logo
     - field.field.block_content.header_logo_center.field_paragraphs
@@ -17,6 +18,13 @@ targetEntityType: block_content
 bundle: header_logo_center
 mode: default
 content:
+  field_full_width:
+    weight: 28
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
   field_libraries:
     weight: 27
     settings:

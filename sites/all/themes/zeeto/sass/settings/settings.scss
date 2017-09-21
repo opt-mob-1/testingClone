@@ -17,6 +17,8 @@ $font-2: 'Montserrat', sans-serif;
 html,
 body {
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 body {
   font-family: $font-1;
@@ -39,7 +41,11 @@ header {
   clear: both;
   width: 100%;
   border-bottom: 1px solid $xlight-gray;
+  img, .img-responsive {
+    max-width: 200px;
+  }
 }
+
 footer.footer {
   background: $dark-gray;
   color: $white;

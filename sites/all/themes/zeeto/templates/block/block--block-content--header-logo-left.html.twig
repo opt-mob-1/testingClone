@@ -47,13 +47,15 @@
 #}
 {{ content.field_libraries }}
 
-<div class="{{ content.field_wrapper_class }}">
-   <div class="row">
-      <div class="col-xs-12 col-sm-6">
-         {{ content.field_logo }}
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        {{ content.navigation }}
+<div class="{{ content.field_full_width }}">
+   <div class="{{ content.field_wrapper_class }}">
+      <div class="row">
+         <div class="col-xs-12 col-sm-6">
+            {{ content.field_logo }}
+         </div>
+         <div class="col-xs-12 col-sm-6">
+           {{ content.navigation }}
+         </div>
       </div>
    </div>
 </div>
