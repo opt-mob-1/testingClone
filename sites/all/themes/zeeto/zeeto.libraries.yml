@@ -130,14 +130,12 @@ multistepForm:
   dependencies:
     - zeeto/variationView
 
-
 # Library for Jumbotron
 jumbotron:
   version: 1.0
   css:
     layout:
       css/paragraphs/jumbotron/jumbotron.css: {}
-
 
 # Library for Modal
 modal:
@@ -161,6 +159,9 @@ dynamicImage:
 # Library for ZAN
 zanFooter:
   version: 1.0
+  css:
+      layout:
+        css/paragraphs/zan/zan.css: {}
   js:
     js/paragraphs/zan/zanFooter.js: {}
   dependencies:
