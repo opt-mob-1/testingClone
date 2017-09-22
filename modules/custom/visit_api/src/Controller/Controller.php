@@ -34,7 +34,7 @@ class Controller extends ControllerBase {
         $body = $request->getContent(false);
         $bodyJSON = json_encode($body);
 
-        $bodyJSON = str_replace("milestone",'publisher\\":\\"'. $apiValues['publisher_name'] .'\\",\\"milestone',$bodyJSON);
+        $bodyJSON = str_replace("milestone",'publisher\\":\\"'. $apiValues['publisher_name'] . '\\",\\"publisherId\\":\\"'. $apiValues['publisher_id'] .'\\",\\"milestone',$bodyJSON);
         $decoded = json_decode($bodyJSON);
 
         //  $tempArr['publisher'] = $apiValues['publisher_name'];

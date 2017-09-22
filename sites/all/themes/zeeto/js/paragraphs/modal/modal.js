@@ -15,6 +15,6 @@ var $ = jQuery;
     setTimeout(function () {
       $(fieldID).modal();
     }, delaytime);
-    Visit.setComponent('modal-timer', 'start', true);
+    Visit.zTrkMacroEvent('modal', 'load', 'timer');
   }
 })(); //end self-invoking function

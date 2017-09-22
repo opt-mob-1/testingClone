@@ -22,22 +22,13 @@ bundle: variation
 mode: default
 content:
   field_funnel_length:
-    weight: 27
+    weight: 12
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
   field_page_1:
-    weight: 2
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
-  field_page_2:
     weight: 3
     settings:
       match_operator: CONTAINS
@@ -46,7 +37,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_page_3:
+  field_page_2:
     weight: 4
     settings:
       match_operator: CONTAINS
@@ -55,7 +46,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_page_4:
+  field_page_3:
     weight: 5
     settings:
       match_operator: CONTAINS
@@ -64,7 +55,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_page_5:
+  field_page_4:
     weight: 6
     settings:
       match_operator: CONTAINS
@@ -73,7 +64,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_page_6:
+  field_page_5:
     weight: 7
     settings:
       match_operator: CONTAINS
@@ -82,24 +73,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_property:
-    weight: 10
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
-  field_redirect_url:
-    weight: 26
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_status:
+  field_page_6:
     weight: 8
     settings:
       match_operator: CONTAINS
@@ -108,8 +82,34 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_theme:
+  field_property:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_redirect_url:
     weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_status:
+    weight: 10
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_theme:
+    weight: 11
     settings:
       size: 60
       placeholder: ''

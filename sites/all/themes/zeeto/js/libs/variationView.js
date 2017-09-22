@@ -4,6 +4,7 @@
 
 var variationView = document.querySelector('.js-variation-view');
 var variationProperty = variationView.dataset.property;
+var variationPropertyId = variationView.dataset.propertyid;
 var variationNextPage = variationView.dataset.nextpage;
 var variationPageNumber = variationView.dataset.pagenumber;
 var funnellength = variationView.dataset.funnellength;
@@ -33,4 +34,7 @@ for (var i = 0; i < link.length; i++) {
 
 if (variationProperty) {
     Visit.property = variationProperty;
+}
+if (variationPropertyId) {
+    Visit.propertyId = variationPropertyId;
 }
