@@ -26,63 +26,6 @@ var Visitor = {
   }
 };
 
-var Visit = {
-  "visitId": "123456789",
-  "visitorId": "123456789",
-  "visitorType": "unknown",
-  "milestone": "registration",
-  "component": "Form Step Three",
-  "action": "click",
-  "startTime": "2017-08 -19T12:08:23",
-  "endTime": "2017-08-19T12:08:23",
-  "totalDuration": "234",
-  "publisher": "samples",
-  "property": "getitfree",
-  "referral": "Form Step Two",
-  "technology": {
-    "browser": "chrome",
-    "browserVersion": "v2.3",
-    "operatingSystem": "mac",
-    "deviceCategory": "mobile",
-    "deviceType": "iPhone 7",
-    "userAgent": "Chrome 50.0.0",
-    "ipAddress": "111.111.111.111"
-  },
-  "acquisition": {
-    "utmSource": "tide",
-    "utmCampaign": "tide",
-    "utmContent": "tide",
-    "utmMedium": "tide",
-    "utmTerm": "tide",
-    "hostName": "aws.elasticbeanstalk.com",
-    "zVr": "123456",
-    "zVv": "a",
-    "zRid": "AA",
-    "zDc": "Desktop",
-    "zEx": "123"
-  },
-  "metadata": {
-    "drupalVersion": "8.3.6",
-    "variationName": "MultiStep Signup",
-    "theme": "getitfree",
-    "template": "page.yml",
-    "components": {
-      "form": {
-        "id": "123",
-        "title": "FormTitle"
-      }
-    }
-  },
-  "microEvents": [
-    {
-      "eventName" : "firstNameInput",
-      "sequence": "1",
-      "start": "2017-08-19T12:08:23",
-      "end": "2017-08-19T12:08:24"
-    }
-  ]
-};
-
 var visitorAttributes = {
   firstName: Visitor.visitorAttributes.firstName,
   lastName: Visitor.visitorAttributes.lastName,

@@ -173,6 +173,7 @@ zanFooter:
     js/paragraphs/zan/zanFooter.js: {}
   dependencies:
     - core/jquery
+    - zeeto/visitApi
 
 ################ Custom Child Themes ################
 

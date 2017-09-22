@@ -9,7 +9,7 @@ var $ = jQuery;
  as callback to fireTracking
  - For stepSubmittedCustom always call loadNextStep after custom code or pass loadNextStep as a callback to a function
  **/
-//TODO: add variable for
+//TODO: add variable for 
 function initializeFormStepLogic() {
   var formLogic = {
     formSteps: [{
