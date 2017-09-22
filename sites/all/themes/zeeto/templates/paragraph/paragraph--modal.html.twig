@@ -42,7 +42,7 @@
 <!-- Button trigger modal -->
 
 {% if content.field_type_of_modal[0]['#markup'] == 'Button' %}
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{% spaceless %}{{ content.field_field_id|field_value }}{% endspaceless %}" onclick="Visit.setComponent('modal-button','click', true)">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{% spaceless %}{{ content.field_field_id|field_value }}{% endspaceless %}" onclick="Visit.zTrkMacroEvent('modal','click','button')">
     {{ content.field_button_text }}
   </button>
 {% endif %}
