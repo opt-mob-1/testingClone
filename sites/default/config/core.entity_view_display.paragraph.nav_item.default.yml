@@ -3,25 +3,29 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.nav_item.field_url
+    - field.field.paragraph.nav_item.field_link_path
+    - field.field.paragraph.nav_item.field_text
     - paragraphs.paragraphs_type.nav_item
   module:
-    - link
+    - text
 id: paragraph.nav_item.default
 targetEntityType: paragraph
 bundle: nav_item
 mode: default
 content:
-  field_url:
-    weight: 0
-    label: above
+  field_link_path:
+    weight: 2
+    label: hidden
     settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
+      link_to_entity: false
     third_party_settings: {  }
-    type: link
+    type: string
+    region: content
+  field_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
 hidden: {  }

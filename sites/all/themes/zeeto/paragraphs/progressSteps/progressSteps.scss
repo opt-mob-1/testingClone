@@ -1,0 +1,8 @@
+.steps {
+  display: inline;
+  float: left;
+  padding: 0 5px;
+  &.active {
+    font-weight: bold;
+  }
+}

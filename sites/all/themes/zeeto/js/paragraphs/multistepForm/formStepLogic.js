@@ -1,5 +1,6 @@
 'use strict';
 
+var $ = jQuery;
 /**
  - Each object in the formSteps array houses the information and custom functionality for each step
  - StepLoadedCustom is called when the step loads and you can pass in custom functionality there
@@ -9,7 +10,6 @@
  - For stepSubmittedCustom always call loadNextStep after custom code or pass loadNextStep as a callback to a function
  **/
 //TODO: add variable for 
-
 function initializeFormStepLogic() {
   var formLogic = {
     formSteps: [{
@@ -19,15 +19,13 @@ function initializeFormStepLogic() {
       inputs: ['#edit-first-name', '#edit-last-name', '#edit-zip'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
+        this.prepopZip();
         /* end custom functionality */
         Visit.setComponent('step1');
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
         /* begin custom functionality */
-        // this.addHiddenInputToUserData('#leadid_token');
-        // this.addHiddenInputToUserData('#email_opt');
-        //this.addSampleImage();
 
         /* end custom functionality */
         Visit.setComponent('step1', 'complete', true);
@@ -48,7 +46,6 @@ function initializeFormStepLogic() {
       },
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
         /* begin custom functionality */
-        //this.addHiddenInputToUserData('#sample-image');
 
         /* end custom functionality */
         Visit.setComponent('step2', 'complete', true);
@@ -71,10 +68,6 @@ function initializeFormStepLogic() {
         /* begin custom functionality */
         var userData = this.userData;
 
-        //TODO Remove path references
-        //path.user.save(userData, function (error, response) {
-        // place callbacks here if needed to complete before loading next step
-        //});
         /* end custom functionality */
         Visit.setComponent('step3', 'complete', true);
         loadNextStep.call(this);
@@ -97,10 +90,6 @@ function initializeFormStepLogic() {
         this.formatDobAndAddToUserData();
         var userData = this.userData;
 
-        //TODO Remove path references
-        // path.user.save(userData, function (error, response) {
-        //   // place callbacks here if needed to complete before loading next step
-        // });
         /* end custom functionality */
         Visit.setComponent('step4', 'complete', true);
         loadNextStep.call(this);
@@ -122,11 +111,6 @@ function initializeFormStepLogic() {
         /* begin custom functionality */
         var userData = this.userData;
 
-        //TODO Remove path references
-        // path.user.save(userData, function (error, response) {
-        //   // place callbacks here if needed to complete before loading next step
-        // });
-        //appendTokenToRedirectUrl();
         /* end custom functionality */
         Visit.setComponent('step5', 'complete', true);
         loadNextStep.call(this);
@@ -140,21 +124,6 @@ function initializeFormStepLogic() {
         /* begin custom functionality */
         Visit.setStartTime();
         Visit.setComponent('step6');
-        //this.gaClientId();
-
-        //if returning user = true
-        // if (window.userIsReturning && window.userEditsInfo) {
-        // DO SOMETHING
-
-        //brite verify and preping
-        //path.options.page = 'pinguser';
-        //path.pixels();
-        //} else {
-        //else firetacking 3
-        //this.fireTracking('signup2', 3, function () {
-        // place callbacks here if needed to complete before loading next step
-        //});
-        //}
 
         $('.form-item-gender .form-radio:checked').focus();
         $('#edit-submit').show();
@@ -165,17 +134,8 @@ function initializeFormStepLogic() {
       stepSubmittedCustom: function stepSubmittedCustom() {
         /* begin custom functionality */
         var userData = this.userData;
-        //TODO Remove path references
-        // path.user.save(userData, function (err, response) {
-        //   // place callbacks here if needed to complete before loading next step
-        // });
         /* end custom functionality */
 
-        // variationNextPage set in variationView
-        //var parameters = parseQueryString(window.location.search);
-        //var uf = parameters.uf;
-        // var addToRedirect = variationNextPage; //+ '?uf=' + uf;
-        // field_next_page_url - Global Var pulled from signup node field
         Visit.setComponent('step6', 'complete', true);
         if (variationNextPage) {
           window.location = variationNextPage;
@@ -212,32 +172,40 @@ function initializeFormStepLogic() {
     // populates city and state values based on zip
     prepopZip: function prepopZip() {
       if ($('input[name=zip]') !== '') {
-        this.getZipData($('input[name=zip]').val(), function (data) {
-          if (typeof data.zip !== 'undefined' && data.city !== 'undefined' && data.state !== 'undefined') {
-            $('#edit-zip').val(data.zip);
-            $('#edit-state').val(data.state);
-            $('#edit-city').val(data.city);
+
+        $('#edit-zip').keyup(function () {
+          if ($(this).val().length == 5) {
+            var zip = $(this).val();
+            var city = '';
+            var state = '';
+
+            //make a request to the google geocode api
+            //county:us restricts zip code responses to united states
+            $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?&components=country:US|postal_code:' + zip).success(function (response) {
+              //find the city and state
+              if (response.results.length > 0) {
+                var address_components = response.results[0].address_components;
+
+                $.each(address_components, function (index, component) {
+                  var types = component.types;
+
+                  $.each(types, function (index, type) {
+                    if (type == 'locality') {
+                      city = component.long_name;
+                    }
+                    if (type == 'administrative_area_level_1') {
+                      state = component.short_name;
+                    }
+                  });
+                });
+                //pre-fill the city and state
+                $('#edit-city').val(city);
+                $('#edit-state').val(state);
+              }
+            });
           }
         });
       }
-    },
-
-    getZipData: function getZipData(zipcode, callback) {
-      $.ajax({
-        type: 'GET',
-        url: '//zadsy.com/api/zip-search/' + zipcode + '?callback=?',
-        dataType: 'jsonp',
-        success: function success(data) {
-          if (data.status) {
-            callback({});
-          } else {
-            callback(data);
-          }
-        },
-        error: function error() {
-          callback({});
-        }
-      });
     },
 
     loadNextStep: function loadNextStep(stepNumber) {

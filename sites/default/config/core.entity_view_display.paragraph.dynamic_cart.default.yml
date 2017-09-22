@@ -12,10 +12,11 @@ dependencies:
     - field.field.paragraph.dynamic_cart.field_text
     - field.field.paragraph.dynamic_cart.field_title
     - field.field.paragraph.dynamic_cart.field_total
-    - field.field.paragraph.dynamic_cart.field_views
+    - field.field.paragraph.dynamic_cart.field_views_block
     - field.field.paragraph.dynamic_cart.field_wrapper_class
     - paragraphs.paragraphs_type.dynamic_cart
   module:
+    - block_field
     - image
     - text
 id: paragraph.dynamic_cart.default
@@ -32,7 +33,7 @@ content:
     region: content
   field_headline:
     weight: 12
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
@@ -63,7 +64,7 @@ content:
     region: content
   field_subheadline:
     weight: 11
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
@@ -89,13 +90,12 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_views:
-    weight: 0
+  field_views_block:
+    weight: 13
     label: hidden
-    settings:
-      link: true
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_label
+    type: block_field
     region: content
   field_wrapper_class:
     weight: 9

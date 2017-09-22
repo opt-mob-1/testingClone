@@ -1,0 +1,19 @@
+uuid: 9c31cf63-d5e0-47db-bed0-a635e453719b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_path
+    - paragraphs.paragraphs_type.nav_item
+id: paragraph.nav_item.field_link_path
+field_name: field_link_path
+entity_type: paragraph
+bundle: nav_item
+label: 'Link Path'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 79edfc0a-ddeb-4151-8b1d-c41d9a0e99d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_views_block
+    - paragraphs.paragraphs_type.dynamic_cart
+  module:
+    - block_field
+id: paragraph.dynamic_cart.field_views_block
+field_name: field_views_block
+entity_type: paragraph
+bundle: dynamic_cart
+label: 'Views Block'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

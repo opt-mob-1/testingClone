@@ -34,40 +34,7 @@
   };
 
   handleInputActiveClass();
-
-  // var prepopForm = function prepopForm(user) {
-  //
-  //   var formInputs;
-  //
-  //   if ($("form").length > 0) {
-  //     formInputs = $("form :input");
-  //   } else {
-  //     formInputs = $("form :input");
-  //   }
-
-  //   $(formInputs).each(function () {
-  //     var input = $(this);
-  //     if (user.attributes[input.attr('name')] && input.attr('name') !== "gender") {
-  //       $(input).val(user.attributes[input.attr('name')]);
-  //     }
-  //   });
-  //   setGender(user);
-  //
-  //   if (user.attributes.date_of_birth) {
-  //     $("#edit-test-date-list-month").val(user.attributes.date_of_birth.month || null);
-  //     $("#edit-test-date-list-day").val(user.attributes.date_of_birth.day || null);
-  //     $("#edit-test-date-list-year").val(user.attributes.date_of_birth.year || null);
-  //   }
-  // };
-  //
-  //var setGender = function setGender() {
-    // if (user.attributes.gender === "F") {
-      //$("#edit-gender-f").click();
-    // } else {
-    //   $("#edit-gender-m").click();
-    // }
-  //};
-
+  
   var maskPhone = function maskPhone() {
     var maskMethod = '999-999-9999';
     $('#edit-mobile-phone').mask(maskMethod);
@@ -104,87 +71,7 @@
     }); // On year change (for leap years)
   };
 
-  var getCardValues = function getCardValues() {
-    return $('#returningUserCard [id^="ru-"]');
-  };
-
-  // var prepopUserCard = function prepopUserCard(user) {
-  //
-  //   // get all form inputs using jquery
-  //
-  //   var $userValues = getCardValues();
-  //   var userAttributes = user.attributes;
-  //   var userAttributeEmpty = false;
-  //
-  //   $userValues.each(function () {
-  //     var that = $(this);
-  //     var userAttr = that.attr('id').slice(3);
-  //     that.html(userAttributes[userAttr]);
-  //
-  //     // re-assigns the users chosen sample to the user attribute
-  //     //TODO Update this to exclude form input noPrepop
-  //     if ($(this).hasClass('form_input-noPrepop')) {
-  //       $userValues.splice(index, 1);
-  //       if (userAttr === 'redemption_sample_image') {
-  //         userAttributes[userAttr] = that.value;
-  //       }
-  //     }
-  //
-  //     if (userAttr == 'first_name_edit') {
-  //       that.html(userAttributes['first_name']);
-  //     }
-  //
-  //     if ($.inArray(userAttr, ['month', 'day', 'year']) !== -1) {
-  //       if (userAttributes.date_of_birth) {
-  //         that.html(userAttributes['date_of_birth'][userAttr]);
-  //       }
-  //       //normal inputs
-  //     }
-  //
-  //     var userSpanIdArray = ['first_name', 'last_name', 'first_name_edit', 'date_of_birth'];
-  //
-  //     if ($.inArray(userAttr, userSpanIdArray) == -1) {
-  //       if (that.is(':empty')) {
-  //         userAttributeEmpty = true;
-  //       }
-  //     }
-  //   });
-  //
-  //   if (userAttributeEmpty) {
-  //     initializeFormStepLogic();
-  //     window.userEditsInfo = false;
-  //   } else {
-  //     showReturningUserCard();
-  //   }
-  //
-  //   $("#ru-button-edit").bind("click", function (e) {
-  //     e.preventDefault();
-  //     $('.cardWrap').hide();
-  //     initializeFormStepLogic();
-  //     window.userEditsInfo = true;
-  //   });
-  // };
-
-  // var showReturningUserCard = function showReturningUserCard() {
-  //   // show returning user card
-  //   $('.cardWrap').show();
-  //
-  //   // firing off the page pixel if returning user
-  //   setTimeout(function () {
-  //     path.options.page = 'signup2';
-  //     path.pixels();
-  //     path.trackPageView(3);
-  //   }, 1000);
-  // };
-
-  // var handleReturningUser = function handleReturningUser(user) {
-  //   prepopForm(user);
-  //   prepopHeadline(user);
-  //   prepopUserCard(user);
-  // };
-  
-
-  // This is to apply a disabled attribute to first option in the select element to the elements below 
+  // This is to apply a disabled attribute to first option in the select element to the elements below
   document.getElementById("edit-state").options[0].disabled = true;
   document.getElementById("edit-test-date-list-month").options[0].disabled = true;
   document.getElementById("edit-test-date-list-day").options[0].disabled = true;
@@ -339,38 +226,10 @@
     }
   });
 
-  
-  // $("#ru-button-submit").bind("click", function (e) {
-  //   e.preventDefault();
-  //
-  //   $("#ru-button-submit-hidden").submit();
-  //
-  //   // variationNextPage set in variationView
-  //   var parameters = parseQueryString(window.location.search);
-  //   var uf = parameters.uf;
-  //   var addToRedirect = variationNextPage + '?uf=' + uf;
-  //   // field_next_page_url - Global Var pulled from signup node field
-  //   if (variationNextPage) {
-  //     window.location = addToRedirect;
-  //   } else {
-  //     //need to remove and update fallback
-  //     window.location = '/survey?uf=' + uf;
-  //   }
-  // });
-
   handleMonthChanged();
+  
+  $("#edit-gender-f").prop("checked", true);
 
-  // This creates a returning user headline if the user is a returning user &
-  // Prepopulates the form
-  // path.user.fetch(function (err, user) {
-  //   if (!err) {
-  //     window.userIsReturning = true;
-  //     handleReturningUser(user);
-  //   } else {
-       $("#edit-gender-f").prop("checked", true);
-  //     window.userIsReturning = false;
-  //     initializeFormStepLogic();
-  //   }
-  // });
 }());
-    initializeFormStepLogic();
+
+  initializeFormStepLogic();

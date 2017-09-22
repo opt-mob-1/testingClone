@@ -3,5 +3,5 @@ langcode: en
 status: true
 dependencies: {  }
 id: progress_bar_steps
-label: 'Progress Bar Steps'
+label: 'DO NOT USE #2'
 behavior_plugins: {  }

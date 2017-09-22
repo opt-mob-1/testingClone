@@ -37,5 +37,5 @@
  */
 #}
 
-<li class="nav-item">{{ content.field_url }}</li>
+<li class="nav-item"><a href="{{ content.field_link_path|field_value }}" class="nav-item-link">{{ content.field_text }}</a></li>
 

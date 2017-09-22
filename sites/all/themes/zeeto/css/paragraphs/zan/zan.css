@@ -1,0 +1,20 @@
+.zan-placement li.zan-answer {
+  padding: 10px 21px;
+  height: auto;
+}
+
+.zan-placement li.zan-answer label {
+  font-size: 15px;
+}
+
+.zan-placement li.zan-answer.answer-skip label {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  .zan-placement li.zan-answer.answer-skip label {
+    display: inline;
+  }
+}

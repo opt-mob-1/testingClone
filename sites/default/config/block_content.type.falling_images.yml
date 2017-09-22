@@ -5,4 +5,4 @@ dependencies: {  }
 id: falling_images
 label: 'Falling Images'
 revision: 0
-description: ''
+description: 'Add up to four images to "make it rain" down the page.'

@@ -13,9 +13,7 @@ label: 'Field ID'
 description: 'Type in an ID to reference the modal <em>Note: use all lowercase, no spaces or special characters</em>'
 required: false
 translatable: false
-default_value:
-  -
-    value: modal1
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: string

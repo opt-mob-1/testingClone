@@ -46,8 +46,11 @@
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-6">
-      {{ content.field_image }}
-      {{ content.field_views }}
+      {% if content.field_image|render %}
+        {{ content.field_image }}
+      {% else %}
+        {{ content.field_views_block }}
+      {% endif %}
     </div>
     <div class="col-xs-12 col-sm-6">
       {{ content.field_title }}

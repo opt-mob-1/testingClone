@@ -10,11 +10,11 @@ dependencies:
     - field.field.paragraph.hero_2_columns.field_libraries
     - field.field.paragraph.hero_2_columns.field_subheadline
     - field.field.paragraph.hero_2_columns.field_text
-    - field.field.paragraph.hero_2_columns.field_views
+    - field.field.paragraph.hero_2_columns.field_views_block
     - field.field.paragraph.hero_2_columns.field_wrapper_class
-    - field.field.paragraph.hero_2_columns.field_wysiwyg
     - paragraphs.paragraphs_type.hero_2_columns
   module:
+    - block_field
     - entity_reference_revisions
     - image
     - text
@@ -35,7 +35,7 @@ content:
   field_buttons:
     type: entity_reference_revisions_entity_view
     weight: 9
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: ''
@@ -79,13 +79,12 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_views:
-    weight: 0
+  field_views_block:
+    weight: 10
     label: hidden
-    settings:
-      link: true
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_label
+    type: block_field
     region: content
   field_wrapper_class:
     weight: 7
@@ -94,13 +93,5 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_wysiwyg:
-    weight: 1
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
     region: content
 hidden: {  }
