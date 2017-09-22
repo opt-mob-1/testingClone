@@ -11,7 +11,7 @@ function visit_api_schema() {
                 'length' => 255,
             ),
             'visit_api_key' => array(
-                'description' => 'The visits api key.',
+                'description' => 'The visit\'s api key.',
                 'type' => 'varchar',
                 'length' => 255,
                 'not null' => TRUE,
@@ -19,6 +19,13 @@ function visit_api_schema() {
             ),
             'publisher_name' => array(
                 'description' => 'The name of the publisher.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'publisher_id' => array(
+                'description' => 'The id of the publisher.',
                 'type' => 'varchar',
                 'length' => 255,
                 'not null' => TRUE,

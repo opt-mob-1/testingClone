@@ -282,7 +282,9 @@ var main = (function () {
         this.startTime = undefined;
         this.endTime = undefined;
         this.publisher = undefined;
+        this.publisherId = undefined;
         this.property = undefined;
+        this.propertyId = undefined;
         this.acquisition = undefined;
         this.component = undefined;
         this.componentValue = undefined;
@@ -378,7 +380,9 @@ var main = (function () {
      */
     function getCurrentTimeUTC(){
         var currentDate = new Date();
-        return currentDate.getUTCFullYear() + '-' + currentDate.getUTCMonth() + '-' + currentDate.getUTCDate()+'T'+currentDate.getUTCHours() + ":" + currentDate.getUTCMinutes() + ":" + currentDate.getUTCSeconds();
+        // Javascript's month is between 0 to 11
+        var currentMonth = currentDate.getUTCMonth() + 1;
+        return currentDate.getUTCFullYear() + '-' + currentMonth + '-' + currentDate.getUTCDate()+'T'+currentDate.getUTCHours() + ":" + currentDate.getUTCMinutes() + ":" + currentDate.getUTCSeconds();
     }
 
 

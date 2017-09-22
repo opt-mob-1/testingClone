@@ -447,6 +447,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_property_1:
+          id: field_property_1
+          table: node__field_property
+          field: field_property
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_entity_id
+          settings: {  }
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       filters:
         status:
           value: '1'
@@ -628,7 +690,7 @@ display:
           empty: false
           tokenize: true
           content:
-            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/2" data-pagenumber="1" data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}"></div>'
+            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/2" data-pagenumber="1" data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}" data-propertyid="{% spaceless %}{{ field_property_1|striptags }}{% endspaceless %}"></div>'
             format: full_html
           plugin_id: text
       arguments:
@@ -1082,6 +1144,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_property_1:
+          id: field_property_1
+          table: node__field_property
+          field: field_property
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_entity_id
+          settings: {  }
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       footer:
         area:
           id: area
@@ -1093,7 +1217,7 @@ display:
           empty: false
           tokenize: true
           content:
-            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/3" data-pagenumber="2"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}"></div>'
+            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/3" data-pagenumber="2"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}" data-propertyid="{% spaceless %}{{ field_property_1|striptags }}{% endspaceless %}"></div>'
             format: full_html
           plugin_id: text
     cache_metadata:
@@ -1505,6 +1629,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_property_1:
+          id: field_property_1
+          table: node__field_property
+          field: field_property
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_entity_id
+          settings: {  }
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       footer:
         area:
           id: area
@@ -1516,7 +1702,7 @@ display:
           empty: false
           tokenize: true
           content:
-            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/4" data-pagenumber="3"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}"></div>'
+            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/4" data-pagenumber="3"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}" data-propertyid="{% spaceless %}{{ field_property_1|striptags }}{% endspaceless %}"></div>'
             format: full_html
           plugin_id: text
     cache_metadata:
@@ -1928,6 +2114,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_property_1:
+          id: field_property_1
+          table: node__field_property
+          field: field_property
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_entity_id
+          settings: {  }
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       footer:
         area:
           id: area
@@ -1939,7 +2187,7 @@ display:
           empty: false
           tokenize: true
           content:
-            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/5" data-pagenumber="4"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}"></div>'
+            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/5" data-pagenumber="4"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}" data-propertyid="{% spaceless %}{{ field_property_1|striptags }}{% endspaceless %}"></div>'
             format: full_html
           plugin_id: text
     cache_metadata:
@@ -2351,6 +2599,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_property_1:
+          id: field_property_1
+          table: node__field_property
+          field: field_property
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_entity_id
+          settings: {  }
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       footer:
         area:
           id: area
@@ -2362,7 +2672,7 @@ display:
           empty: false
           tokenize: true
           content:
-            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/6" data-pagenumber="5"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %} data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}""></div>'
+            value: '<div class="js-variation-view" data-nextpage="/a/{{ raw_arguments.field_zvr_variationid_value }}/6" data-pagenumber="5"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %} data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}" data-propertyid="{% spaceless %}{{ field_property_1|striptags }}{% endspaceless %}"></div>'
             format: full_html
           plugin_id: text
     cache_metadata:
@@ -2774,6 +3084,69 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_property_1:
+          id: field_property_1
+          table: node__field_property
+          field: field_property
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       footer:
         area:
           id: area
@@ -2785,7 +3158,7 @@ display:
           empty: false
           tokenize: true
           content:
-            value: '<div class="js-variation-view" data-pagenumber="6"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}"></div>'
+            value: '<div class="js-variation-view" data-pagenumber="6"  data-redirecturl="{% spaceless %}{{ field_redirect_url|striptags }}{% endspaceless %}" data-funnellength="{% spaceless %}{{ field_funnel_length|striptags }}{% endspaceless %}" data-property="{% spaceless %}{{ field_property|striptags }}{% endspaceless %}" data-propertyid="{% spaceless %}{{ field_property_1|striptags }}{% endspaceless %}"></div>'
             format: full_html
           plugin_id: text
     cache_metadata:
