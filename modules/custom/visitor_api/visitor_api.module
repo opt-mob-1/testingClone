@@ -1,8 +1,8 @@
 <?php
-function visit_api_schema() {
-    $schema['visit_api'] = array(
+function visitor_api_schema() {
+    $schema['visitor_api'] = array(
     // Example (partial) specification for table "node".
-        'description' => 'The table for the visit api.',
+        'description' => 'The table for the visitor api.',
         'fields' => array(
             'id' => array(
                 'description' => 'An auto-incremented id.',
@@ -10,14 +10,14 @@ function visit_api_schema() {
                 'not null' => TRUE,
                 'length' => 255,
             ),
-            'visit_api_key' => array(
-                'description' => 'The visit\'s api key.',
+            'visitor_api_key' => array(
+                'description' => 'The visitor\'s api key.',
                 'type' => 'varchar',
                 'length' => 255,
                 'not null' => TRUE,
                 'default' => '',
             ),
-            'visit_api_url' => array(
+            'visitor_api_url' => array(
                 'description' => 'The URL of the Visit API.',
                 'type' => 'varchar',
                 'length' => 255,

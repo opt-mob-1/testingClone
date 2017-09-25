@@ -67,6 +67,7 @@ class PublisherAdminForm extends ConfigFormBase {
             ->orderBy('id', 'DESC')
             ->fields('m');
         $record = $query->execute()->fetchAssoc();
+        $moduleHandler = \Drupal::service('module_handler');
 
         // Publisher Name
         $form['publisher_custom']['publisher_name'] = array(
@@ -93,16 +94,49 @@ class PublisherAdminForm extends ConfigFormBase {
         );
 
         // Zeeto API Key
-        $form['publisher_custom']['publisher_zeeto_key'] = array(
-            'publisher_zeeto_key' => array(
+        $form['publisher_custom']['publisher_api_key'] = array(
+            'publisher_api_key' => array(
                 '#type' => 'textfield',
-                '#title' => t('Zeeto API Key'),
+                '#title' => t('API Key'),
                 '#maxlength' => 255,
                 '#description' => t('Enter the API key given by Zeeto.'),
                 '#default_value' => (isset($record['visit_api_key']) ? $record['visit_api_key']:''),
                 '#required' => TRUE,
             ),
         );
+
+        // Zeeto Visit API URL
+        $form['publisher_custom']['publisher_visit_api_url'] = array(
+            'publisher_visit_api_url' => array(
+                '#type' => 'textfield',
+                '#title' => t('Visit API URL'),
+                '#maxlength' => 255,
+                '#description' => t('Enter the Visit API URL given by Zeeto.'),
+                '#default_value' => (isset($record['visit_api_url']) ? $record['visit_api_url']:''),
+                '#required' => TRUE,
+            ),
+        );
+
+
+        if ($moduleHandler->moduleExists('visitor_api')) {
+            // Zeeto Visitor API URL
+            $visitorRecord = array();
+            $visitorQuery = $conn->select('visitor_api', 'm')
+                ->orderBy('id', 'DESC')
+                ->fields('m');
+            $visitorRecord = $visitorQuery->execute()->fetchAssoc();
+
+            $form['publisher_custom']['publisher_visitor_api_url'] = array(
+                'publisher_visitor_api_url' => array(
+                    '#type' => 'textfield',
+                    '#title' => t('Visitor API URL'),
+                    '#maxlength' => 255,
+                    '#description' => t('Enter the Visitor API URL given by Zeeto.'),
+                    '#default_value' => (isset($visitorRecord['visitor_api_url']) ? $visitorRecord['visitor_api_url'] : ''),
+                    '#required' => TRUE,
+                ),
+            );
+        }
 
         return parent::buildForm($form, $form_state);
     }
@@ -123,16 +157,39 @@ class PublisherAdminForm extends ConfigFormBase {
         $field=$form_state->getValues();
         $publisher_name = $field['publisher_name'];
         $publisher_id = $field['publisher_id'];
-        $publisher_zeeto_key = $field['publisher_zeeto_key'];
-        $fields  = array(
+        $publisher_api_key = $field['publisher_api_key'];
+        $publisher_visit_api_url = $field['publisher_visit_api_url'];
+        $visitFields  = array(
             'publisher_name'   => $publisher_name,
             'publisher_id'   => $publisher_id,
-            'visit_api_key' =>  $publisher_zeeto_key,
+            'visit_api_key' =>  $publisher_api_key,
+            'visit_api_url' =>  $publisher_visit_api_url,
         );
         $query = \Drupal::database();
         $query ->insert('visit_api')
-            ->fields($fields)
+            ->fields($visitFields)
             ->execute();
+
+
+        $moduleHandler = \Drupal::service('module_handler');
+        if ($moduleHandler->moduleExists('visitor_api')){
+
+            $publisher_visitor_api_url = $field['publisher_visitor_api_url'];
+            $visitorFields  = array(
+                'publisher_name'   => $publisher_name,
+                'publisher_id'   => $publisher_id,
+                'visitor_api_key' =>  $publisher_api_key,
+                'visitor_api_url' =>  $publisher_visitor_api_url,
+            );
+            $query = \Drupal::database();
+            $query ->insert('visitor_api')
+                ->fields($visitorFields)
+                ->execute();
+
+        }
+
+
+
         drupal_set_message("succesfully saved");
         parent::submitForm($form, $form_state);
     }
