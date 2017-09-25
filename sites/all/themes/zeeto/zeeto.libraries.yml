@@ -35,13 +35,13 @@ global-js:
 variationView:
   version: 1.0
   js:
-    js/libs/variationView.js: {}
+    js/libs/variationView.js: {weight:-40}
   dependencies:
       - core/drupalSettings
-      - core/jquery
       - zeeto/visitApi
+      - zeeto/visitorApi
 
-# Variation library for legacy variation view (z)
+# Visit library for Visit Tracking(z)
 visitApi:
   version: 1.0
   js:
@@ -50,6 +50,16 @@ visitApi:
   dependencies:
       - core/drupalSettings
       - core/jquery
+
+# Visitor library for Visitor Tracking(z)
+visitorApi:
+  version: 1.0
+  js:
+    js/libs/visitorAPI.js: {}
+  dependencies:
+      - core/drupalSettings
+      - core/jquery
+      - zeeto/visitApi
 
 # This library is called on the Raining Images Block Type
 fallingImages:
@@ -170,7 +180,7 @@ zanFooter:
       layout:
         css/paragraphs/zan/zan.css: {}
   js:
-    js/paragraphs/zan/zanFooter.js: {}
+    js/paragraphs/zan/zanFooter.js: {weight:-30}
   dependencies:
     - core/jquery
     - zeeto/visitApi

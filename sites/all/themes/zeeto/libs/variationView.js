@@ -31,9 +31,15 @@ for (var i = 0; i < link.length; i++) {
     link[i].setAttribute("href", variationNextPage);
 }
 
-if(variationProperty) {
+
+// Checking for event visitReady to fire
+window.addEventListener('visitReady', function (e) {
+  if(variationProperty) {
     Visit.property = variationProperty
-}
-if(variationPropertyId) {
-  Visit.propertyId = variationPropertyId
-}
+  }
+  if(variationPropertyId) {
+    Visit.propertyId = variationPropertyId
+  }
+}, false);
+
+

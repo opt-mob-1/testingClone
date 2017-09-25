@@ -303,6 +303,11 @@ var main = (function () {
     Visit.prototype.zMilestoneInit = function (callback) {
         var self = this;
         var visitId = this.cookies.get('visitId');
+
+        // Create and dispatch event to trigger visit dependent functionality
+        var visitReadyEvent = new Event('visitReady');
+        window.dispatchEvent(visitReadyEvent);
+
         if ( visitId ) {
             this.visitId = visitId;
         } else {

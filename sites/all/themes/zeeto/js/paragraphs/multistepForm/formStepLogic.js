@@ -66,7 +66,14 @@ function initializeFormStepLogic() {
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
         /* begin custom functionality */
         var userData = this.userData;
-
+        Visitor.fetchByEmail(userData.email, function (error, response) {
+          if (response.status == 'SUCCESS') {
+            Visitor.id = response.visitor[0]._id;
+            Visitor.update(userData, function (error, response) {});
+          } else {
+            Visitor.save(userData, function (error, response) {});
+          }
+        });
         /* end custom functionality */
         Visit.zTrkMacroEvent('formstep', 'complete', '3');
         loadNextStep.call(this);
@@ -87,7 +94,7 @@ function initializeFormStepLogic() {
         /* begin custom functionality */
         this.formatDobAndAddToUserData();
         var userData = this.userData;
-
+        Visitor.update(userData, function (error, response) {});
         /* end custom functionality */
         Visit.zTrkMacroEvent('formstep', 'complete', '4');
         loadNextStep.call(this);
@@ -107,7 +114,7 @@ function initializeFormStepLogic() {
       stepSubmittedCustom: function stepSubmittedCustom(loadNextStep) {
         /* begin custom functionality */
         var userData = this.userData;
-
+        Visitor.update(userData, function (error, response) {});
         /* end custom functionality */
         Visit.zTrkMacroEvent('formstep', 'complete', '5');
         loadNextStep.call(this);
@@ -123,13 +130,13 @@ function initializeFormStepLogic() {
 
         $('.form-item-gender .form-radio:checked').focus();
         $('#edit-submit').show();
-
         /* end custom functionality */
         attachListeners.call(this);
       },
       stepSubmittedCustom: function stepSubmittedCustom() {
         /* begin custom functionality */
         var userData = this.userData;
+        Visitor.update(userData, function (error, response) {});
         /* end custom functionality */
 
         Visit.zTrkMacroEvent('formstep', 'complete', '6');
@@ -161,7 +168,7 @@ function initializeFormStepLogic() {
 
       // remove unneeded day/month/year values from userData object
       delete this.userData['test_date_list[day]'];
-      delete this.userData['test_date_list[month'];
+      delete this.userData['test_date_list[month]'];
       delete this.userData['test_date_list[year]'];
     },
 

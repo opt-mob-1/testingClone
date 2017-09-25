@@ -15,8 +15,6 @@ use Drupal\Core\Database\Database;
 
 class Controller extends ControllerBase {
 
-    const URL = 'https://78xrvxra6b.execute-api.us-west-2.amazonaws.com/Firehose';
-
     /**
      * Creates a visit in the db of visit api
      */
@@ -30,7 +28,7 @@ class Controller extends ControllerBase {
             return new Response('API key not set. Please add a key value in the visit_api table.');
         }
         $headers['x-api-key'] = $apiValues['visit_api_key'];
-        $url =  self::URL;
+        $url =  $apiValues['visit_api_url'];
         $body = $request->getContent(false);
         $bodyJSON = json_encode($body);
 

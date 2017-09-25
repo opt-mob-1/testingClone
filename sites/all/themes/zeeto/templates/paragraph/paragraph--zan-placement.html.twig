@@ -38,6 +38,7 @@
 #}
 {{ content.field_libraries }}
 {{ attach_library('zeeto/zanFooter') }}
+{{ attach_library('zeeto/visitorApi') }}
 
 <script>
   (function(w,d,s,p,a){
@@ -50,7 +51,7 @@
 
 </script>
 
-<div class="zan-placement js-zan {{ content.field_wrapper_class|field_value }}">
+<div class="zan-placement js-zan {{ content.field_wrapper_class|field_value }}" data-placementId={{ content.field_placement_id|field_value }}>
   {{ content.field_content }}
   <div id="zeeto"></div>
 </div>
