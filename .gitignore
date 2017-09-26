@@ -3,6 +3,8 @@ sites/*/files
 sites/*/private
 files/*
 sites/*/settings.local.php
+
+sites/*/settings.local.phpfadsfadsfds
 sites/*/services.local.yml
 /sites/default/**/files
 /sites/default/**/private
