@@ -763,17 +763,20 @@ $settings['file_scan_ignore_directories'] = [
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'publishercms',
-  'username' => 'admin',
-  'password' => 'admin',
-  'prefix' => '',
-  'host' => '127.0.0.1',
-  'port' => '3306',
-    'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+} else {
+  $databases['default']['default'] = array (
+      'database' => $_SERVER['RDS_DB_NAME'],
+      'username' => $_SERVER['RDS_USER_NAME'],
+      'password' => $_SERVER['RDS_PASSWORD'],
+      'prefix' => '',
+      'host' => $_SERVER['RDS_HOSTNAME'],
+      'port' => '3306',
+      'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+      'driver' => 'mysql',
+  );
+}
 $settings['install_profile'] = 'standard';
 //$config_directories['sync'] = 'sites/default/files/config_GxW5hbIKXbbmIg09nc-LKuZ4Mie_Wd2CMymjxvKjjWn6pM--MZyr_tWVagh-ZFiWB3CtaW3JAg/sync';
 $config_directories['sync'] = 'sites/default/config';
