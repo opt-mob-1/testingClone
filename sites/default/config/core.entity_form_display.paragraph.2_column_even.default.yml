@@ -3,20 +3,30 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.2_column_even.field_blocks
     - field.field.paragraph.2_column_even.field_full_width
     - field.field.paragraph.2_column_even.field_left
     - field.field.paragraph.2_column_even.field_right
     - field.field.paragraph.2_column_even.field_wrapper_class
     - paragraphs.paragraphs_type.2_column_even
   module:
+    - block_field
     - paragraphs
 id: paragraph.2_column_even.default
 targetEntityType: paragraph
 bundle: 2_column_even
 mode: default
 content:
-  field_full_width:
+  field_blocks:
     weight: 2
+    settings:
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  field_full_width:
+    weight: 3
     settings:
       display_label: true
     third_party_settings: {  }
@@ -47,7 +57,7 @@ content:
     third_party_settings: {  }
     region: content
   field_wrapper_class:
-    weight: 3
+    weight: 4
     settings:
       size: 60
       placeholder: ''

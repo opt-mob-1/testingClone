@@ -18,7 +18,7 @@ bundle: 2_column_75_25_
 mode: default
 content:
   field_blocks:
-    weight: 0
+    weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
@@ -35,7 +35,7 @@ content:
     type: boolean
     region: content
   field_left:
-    weight: 1
+    weight: 0
     label: hidden
     settings:
       view_mode: default
@@ -44,7 +44,7 @@ content:
     type: entity_reference_revisions_entity_view
     region: content
   field_right:
-    weight: 2
+    weight: 1
     label: hidden
     settings:
       view_mode: default

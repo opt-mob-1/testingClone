@@ -1,19 +1,19 @@
-uuid: 9cb99322-4448-422c-b863-26ee37728654
+uuid: f2b07fc8-5613-4815-a9be-4b60901ee03a
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-    - views
-id: paragraph.field_views
-field_name: field_views
+id: paragraph.field_percent_complete
+field_name: field_percent_complete
 entity_type: paragraph
-type: entity_reference
+type: integer
 settings:
-  target_type: view
+  unsigned: false
+  size: normal
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

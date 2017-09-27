@@ -61,23 +61,23 @@ function getAllUrlParams(url) {
 
     return obj;
 }
-$(document).ready(function() {
 
-  // var docHeight = $(window).height();
-  // var footerHeight = $('.footer').height();
-  // var footerTop = $('.footer').position().top + footerHeight;
-  //
-  // if (footerTop < docHeight) {
-  //   $('.footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
-  // }
+/* Sticky Footer */
+var winHeight = function(){
+  var offset = 181 + 45,
+    winHeight = $(window).height(),
+    windowHeightOffset = winHeight - offset;
   
-  
-  
-//  Parses Query Params and puts it into an obj
-  
+  $('.js-milestone').css('min-height', windowHeightOffset + 'px');
+};
 
-  
-  
+$( document ).ready(function() {
+  winHeight();
+});
+
+$(window).resize(function(){
+  //mainContentHeight();
+  winHeight();
 });
 
 /* Parses Query Parameters in URL */

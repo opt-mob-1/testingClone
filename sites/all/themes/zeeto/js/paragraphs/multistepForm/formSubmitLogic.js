@@ -116,11 +116,11 @@
 
     errorPlacement: function errorPlacement(error, element) {
       if (element.attr('name') === 'test_date_list[month]') {
-        error.insertAfter(element.parents().siblings('.js-monthHook'));
+        error.insertAfter('.js-monthHook');
       } else if (element.attr('name') === 'test_date_list[day]') {
-        error.insertAfter(element.parents().siblings('.js-dayHook'));
+        error.insertAfter('.js-dayHook');
       } else if (element.attr('name') === 'test_date_list[year]') {
-        error.insertAfter(element.parents().siblings('.js-yearHook'));
+        error.insertAfter('.js-yearHook');
       } else if (element.attr('name') === 'gender') {
         error.insertAfter(element.parents('#edit-gender'));
       } else if (element.attr('type') === 'checkbox' && element.attr('name') === 'terms') {

@@ -48,14 +48,17 @@
 {{ content.field_libraries }}
 {%
 set classes = 'block-center'
+
 %}
 <div class="{{ content.field_full_width }}">
-   <div class="{{ content.field_wrapper_class }}">
+   <div class="{{ content.field_wrapper_class|field_value }}">
+      {% if content.field_logo|render %}
       <div class="row">
          <div class="col-xs-offset-3 col-xs-6">
             {{ content.field_logo }}
          </div>
       </div>
+      {% endif %}
       <div class="row">
          <div class="col-xs-12">
             {{ content.field_paragraphs }}

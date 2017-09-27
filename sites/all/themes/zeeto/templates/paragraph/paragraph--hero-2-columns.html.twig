@@ -39,7 +39,7 @@
 {{ attach_library('zeeto/jumbotron') }}
 {{ content.field_libraries }}
 
-<div class="jumbotron jumbotron-fluid {{ content.field_wrapper_class|field_value }}" style="background:url('{{ content.field_background_image[0]['#url'].uri }}');">
+<div class="jumbotron jumbotron-fluid {{ content.field_wrapper_class|field_value }}" {% if content.field_background_image|render %}style="background:url('{{ content.field_background_image[0]['#url'].uri }}');"{% endif %}>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6 hero-content">
@@ -60,7 +60,7 @@
 
         <div class="text">{{ content.field_text }}</div>
 
-        {{ content.field_buttons }}
+          {{ content.field_buttons }}
 
       </div>
     </div>

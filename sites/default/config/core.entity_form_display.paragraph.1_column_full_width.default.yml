@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.1_column_full_width.field_blocks
     - field.field.paragraph.1_column_full_width.field_full_width
     - field.field.paragraph.1_column_full_width.field_paragraphs
-    - field.field.paragraph.1_column_full_width.field_views
     - field.field.paragraph.1_column_full_width.field_wrapper_class
     - paragraphs.paragraphs_type.1_column_full_width
   module:
@@ -18,7 +17,7 @@ bundle: 1_column_full_width
 mode: default
 content:
   field_blocks:
-    weight: 2
+    weight: 1
     settings:
       plugin_id: ''
       settings: {  }
@@ -43,15 +42,6 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
-    region: content
-  field_views:
-    weight: 1
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
     region: content
   field_wrapper_class:
     weight: 4
