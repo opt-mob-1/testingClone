@@ -59,5 +59,8 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpdocumentor/reflection-docblock": "^2.0"
+    }
 }
