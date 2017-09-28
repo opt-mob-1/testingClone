@@ -207,7 +207,6 @@ var main = function () {
             data: visitorData
         }).done(function (data) {
             console.log(data);
-            console.log('asdasdas');
             if (data.status == 'SUCCESS') {
                 handleResponse(self, data, function () {
                     if (visitorDataObject) {
