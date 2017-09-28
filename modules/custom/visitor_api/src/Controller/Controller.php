@@ -112,7 +112,7 @@ class Controller extends ControllerBase {
             return new Response('API key not set. Please add a key value in the visitor_api table.');
         }
         $headers['x-api-key'] = $apiValues['visitor_api_key'];
-        $url =  $apiValues['visitor_api_url'] . '/' . $visitorId;
+        $url =  $apiValues['visitor_api_url']  . '/'. $apiValues['publisher_id'] . '/' . $visitorId;
 
         try {
             $res = $client->put($url, [
