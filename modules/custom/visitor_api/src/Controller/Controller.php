@@ -27,7 +27,7 @@ class Controller extends ControllerBase {
             return new Response('API key not set. Please add a key value in the visitor_api table.');
         }
         $headers['x-api-key'] = $apiValues['visitor_api_key'];
-        $url =  $apiValues['visitor_api_url'] . '/' . $visitorId;
+        $url =  $apiValues['visitor_api_url'] . '/'. $apiValues['publisher_id'] . '/' . $visitorId;
         try {
             $res = $client->get($url, [
                 'http_errors' => false,
@@ -52,7 +52,7 @@ class Controller extends ControllerBase {
             return new Response('API key not set. Please add a key value in the visitor_api table.');
         }
         $headers['x-api-key'] = $apiValues['visitor_api_key'];
-        $url =  $apiValues['visitor_api_url'] . '/' . $email;
+        $url =  $apiValues['visitor_api_url'] . '/'. $apiValues['publisher_id'] . '/' . $email;
         try {
             $res = $client->get($url, [
                 'http_errors' => false,
@@ -79,14 +79,20 @@ class Controller extends ControllerBase {
         }
         $headers['x-api-key'] = $apiValues['visitor_api_key'];
         $url =  $apiValues['visitor_api_url'];
+        $body = $request->getContent(false);
+        $bodyJSON = json_encode($body);
 
-       // print_r(json_decode($request->getContent()));
+        $bodyJSON = str_replace("email",'publisher\\":\\"'. $apiValues['publisher_name'] . '\\",\\"publisherId\\":\\"'. $apiValues['publisher_id'] .'\\",\\"email',$bodyJSON);
+
+        $decoded = json_decode($bodyJSON);
+
+        // print_r(json_decode($request->getContent()));
        // die();
         try {
             $res = $client->post($url, [
                 'http_errors' => false,
                 'headers' => $headers,
-                'body' => $request->getContent()
+                'body' => $decoded
             ]);
         } catch (RequestException $e) {
             return new Response($e);
