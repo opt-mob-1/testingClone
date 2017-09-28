@@ -1,0 +1,52 @@
+uuid: a723d8b1-b728-4662-925a-ac3271a542fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.progress_percentage_bar.field_libraries
+    - field.field.paragraph.progress_percentage_bar.field_percent_complete
+    - field.field.paragraph.progress_percentage_bar.field_text
+    - field.field.paragraph.progress_percentage_bar.field_wrapper_class
+    - paragraphs.paragraphs_type.progress_percentage_bar
+  module:
+    - text
+id: paragraph.progress_percentage_bar.default
+targetEntityType: paragraph
+bundle: progress_percentage_bar
+mode: default
+content:
+  field_libraries:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_percent_complete:
+    weight: 0
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_wrapper_class:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

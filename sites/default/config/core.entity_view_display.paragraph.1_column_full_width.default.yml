@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.1_column_full_width.field_blocks
     - field.field.paragraph.1_column_full_width.field_full_width
     - field.field.paragraph.1_column_full_width.field_paragraphs
-    - field.field.paragraph.1_column_full_width.field_views
     - field.field.paragraph.1_column_full_width.field_wrapper_class
     - paragraphs.paragraphs_type.1_column_full_width
   module:
@@ -26,7 +25,7 @@ content:
     region: content
   field_full_width:
     weight: 3
-    label: above
+    label: hidden
     settings:
       format: default
       format_custom_false: ''
@@ -43,17 +42,9 @@ content:
       link: ''
     third_party_settings: {  }
     region: content
-  field_views:
-    weight: 1
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   field_wrapper_class:
     weight: 4
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

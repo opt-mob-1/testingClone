@@ -10,7 +10,7 @@
  *
  */
 (function () {
-  var page = document.querySelector('#js-page');
+  // var page = document.querySelector('#js-page');
 
   function carouselInit() {
     var progress = $('#progress');
@@ -19,7 +19,6 @@
 
     var fallbackPage = bar.dataset.redirectpage;
 
-    //var redirectTime = 5000;
     var val = 0;
     var incrementTime = redirectTime / 100;
     var interval = setInterval(function () {

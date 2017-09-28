@@ -1,0 +1,7 @@
+uuid: 652a0cd7-e664-4f60-97c0-8bb72d212ef3
+langcode: en
+status: true
+dependencies: {  }
+id: progress_percentage_bar
+label: 'Progress Percentage Bar'
+behavior_plugins: {  }

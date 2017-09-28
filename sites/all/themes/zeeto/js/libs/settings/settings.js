@@ -63,20 +63,23 @@ function getAllUrlParams(url) {
 
     return obj;
 }
+
+/* Sticky Footer */
+var winHeight = function winHeight() {
+    var offset = 181 + 45,
+        winHeight = $(window).height(),
+        windowHeightOffset = winHeight - offset;
+
+    $('.js-milestone').css('min-height', windowHeightOffset + 'px');
+};
+
 $(document).ready(function () {
+    winHeight();
+});
 
-    // var docHeight = $(window).height();
-    // var footerHeight = $('.footer').height();
-    // var footerTop = $('.footer').position().top + footerHeight;
-    //
-    // if (footerTop < docHeight) {
-    //   $('.footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
-    // }
-
-
-    //  Parses Query Params and puts it into an obj
-
-
+$(window).resize(function () {
+    //mainContentHeight();
+    winHeight();
 });
 
 /* Parses Query Parameters in URL */

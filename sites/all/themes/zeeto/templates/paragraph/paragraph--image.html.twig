@@ -37,18 +37,5 @@
  */
 #}
 <div class="{{ content.field_wrapper_class|field_value }}">
-  <div class="region-grp">
-    <div class="{% spaceless %}{{ content.field_full_width }}{% endspaceless %}">
-      <div class="row">
-        <div class="col-xs-12">
-          {{ content|without('field_full_width','field_blocks','field_wrapper_class') }}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          {{ content.field_blocks }}
-        </div>
-      </div>
-    </div>
-  </div>
+{{ content|without('field_wrapper_class') }}
 </div>

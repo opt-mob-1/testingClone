@@ -72,10 +72,12 @@
 #}
 
 {{ content.field_libraries }}
-
+{% if content.field_header|render %}
 <header>
   {{ content.field_header }}
 </header>
+{% endif %}
+
 {{ content.field_extra_blocks }}
 
 <div class="{{ content.field_wrapper_class|field_value }} js-milestone" data-milestone="{{ content.field_milestone|field_value }}">

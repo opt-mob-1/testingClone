@@ -1,0 +1,25 @@
+uuid: 73df2444-f956-4403-8fe8-5137049b604a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_percent_complete
+    - paragraphs.paragraphs_type.progress_percentage_bar
+id: paragraph.progress_percentage_bar.field_percent_complete
+field_name: field_percent_complete
+entity_type: paragraph
+bundle: progress_percentage_bar
+label: 'Percent Complete'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 30
+default_value_callback: ''
+settings:
+  min: 0
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

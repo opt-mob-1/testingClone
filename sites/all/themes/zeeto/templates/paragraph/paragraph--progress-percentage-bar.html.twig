@@ -36,19 +36,12 @@
  * @ingroup themeable
  */
 #}
-<div class="{{ content.field_wrapper_class|field_value }}">
-  <div class="region-grp">
-    <div class="{% spaceless %}{{ content.field_full_width }}{% endspaceless %}">
-      <div class="row">
-        <div class="col-xs-12">
-          {{ content|without('field_full_width','field_blocks','field_wrapper_class') }}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          {{ content.field_blocks }}
-        </div>
-      </div>
-    </div>
-  </div>
+{{ content.field_libraries }}
+
+<div id="progressBar" class="progress-loading-bar progress progress-striped progress-bar-wrap-striped active js-progressBar {{ content.field_wrapper_class|field_value }}" data-percentage="{{ content.field_percent_complete|field_value }}">
+  <div class="progress-bar progress-bar-info bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="percent-wrap">
+  <div class="percentage"></div>
+  <div class="text">{{ content.field_text }}</div>
 </div>

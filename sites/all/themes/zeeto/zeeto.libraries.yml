@@ -125,6 +125,17 @@ progressLoadingBar:
   dependencies:
     - zeeto/variationView
 
+# Library for Static Progress Percentage Bar
+progressPercentageBar:
+  version: 1.0
+  css:
+    layout:
+      css/paragraphs/progressPercentageBar/progressPercentageBar.css: {}
+  js:
+    js/paragraphs/progressPercentageBar/progressPercentageBar.js: {}
+  dependencies:
+    - zeeto/variationView
+
 # Library for the Multistep Form
 multistepForm:
   version: 1.0
@@ -191,4 +202,4 @@ theme1:
   version: 1.0
   css:
     layout:
-      css/childThemes/theme1.css: {}
+      css/childThemes/Theme1/theme1.css: {}

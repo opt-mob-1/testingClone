@@ -5,4 +5,7 @@
     <exe-path />
     <config-path />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/sites/all/themes/zeeto/css/paragraphs/progressPercentageBar/progressPercentageBa.css" />
+  </component>
 </project>
