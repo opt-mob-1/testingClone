@@ -208,7 +208,6 @@ var main = function () {
             url: '/postVisitor',
             data: visitorData
         }).done(function (data) {
-            console.log(data);
             if (data.status == 'SUCCESS') {
                 handleResponse(self, data, function () {
                     if (visitorDataObject) {

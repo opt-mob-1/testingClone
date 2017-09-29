@@ -56,10 +56,11 @@ window.addEventListener('visitorUndefined', function (e) {
 }, false);
 
 zan.on('zeeto.placementReady', function() {
-  zan.push({ name: 'zeeto.start' });
+  setTimeout(function() {
+    zan.push({ name: 'zeeto.start' });
+  }, 2500);
   Visit.zTrkMacroEvent('zan','load', zanPlacementId);
 });
-
 
 // Redirect after ZAN
 zan.on('zeeto.placementEnd', function(data) {
