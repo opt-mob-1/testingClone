@@ -56,9 +56,7 @@ window.addEventListener('visitorUndefined', function (e) {
 }, false);
 
 zan.on('zeeto.placementReady', function() {
-  setTimeout(function() {
     zan.push({ name: 'zeeto.start' });
-  }, 2500);
   Visit.zTrkMacroEvent('zan','load', zanPlacementId);
 });
 
