@@ -6,21 +6,22 @@ var zanPlacementId = zanPlacement.dataset.placementid;
 
 // Checking for event visitorReady to fire,
 // Load ZAN if visitorReady
+
 window.addEventListener('visitorReady', function (e) {
   var visitorAttributes = {
-    visitorId: Visitor.id,
-    firstName: Visitor.attributes.visitorAttributes.firstName,
-    lastName: Visitor.attributes.visitorAttributes.lastName,
-    email: Visitor.attributes.email,
-    address: Visitor.attributes.visitorAttributes.address.street1,
-    address2: Visitor.attributes.visitorAttributes.address.street2,
-    city: Visitor.attributes.visitorAttributes.address.city,
-    state: Visitor.attributes.visitorAttributes.address.stateInitials,
-    zipCode: Visitor.attributes.visitorAttributes.address.postal,
-    country: Visitor.attributes.visitorAttributes.address.country,
-    phone: Visitor.attributes.visitorAttributes.phone,
-    gender: Visitor.attributes.visitorAttributes.gender,
-    dob: Visitor.attributes.visitorAttributes.dob // 'yyyy-MM-dd'
+    "visitorId": Visitor.id,
+    "firstName": Visitor.attributes.visitorAttributes.firstName,
+    "lastName": Visitor.attributes.visitorAttributes.lastName,
+    "email": Visitor.attributes.email,
+    "address": Visitor.attributes.visitorAttributes.address.street1,
+    "address2": Visitor.attributes.visitorAttributes.address.street2,
+    "city": Visitor.attributes.visitorAttributes.address.city,
+    "state": Visitor.attributes.visitorAttributes.address.stateInitials,
+    "zipCode": Visitor.attributes.visitorAttributes.address.postal,
+    "country": Visitor.attributes.visitorAttributes.address.country,
+    "phone": Visitor.attributes.visitorAttributes.phone,
+    "gender": Visitor.attributes.visitorAttributes.gender,
+    "dob": Visitor.attributes.visitorAttributes.dateOfBirth // 'yyyy-MM-dd'
   };
 
   var publisherAttributes = {
@@ -28,16 +29,15 @@ window.addEventListener('visitorReady', function (e) {
     //   c2: 'yourCustomAttribute',
     //   c3: 'yourCustomAttribute',
     //   c4: 'yourCustomAttribute',
-    c5: Visit.visitId,
-    utm_source: Visit.acquisition.utmSource,
-    utm_campaign: Visit.acquisition.utmCampaign,
-    utm_medium: Visit.acquisition.utmMedium,
-    utm_term: Visit.acquisition.utmTerm,
-    utm_content: Visit.acquisition.utmContent,
+    c5: window.Visit.visitId,
+    utm_source: window.Visit.acquisition.utmSource,
+    utm_campaign: window.Visit.acquisition.utmCampaign,
+    utm_medium: window.Visit.acquisition.utmMedium,
+    utm_term: window.Visit.acquisition.utmTerm,
+    utm_content: window.Visit.acquisition.utmContent,
     ga_client_id: Visitor.gaClientId,
     ga_user_id: Visitor.gaUserId
   };
-
 
   zan.push({
     name: 'zeeto.init',

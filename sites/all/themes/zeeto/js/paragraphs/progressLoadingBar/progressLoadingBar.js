@@ -10,7 +10,6 @@
  *
  */
 (function () {
-  // var page = document.querySelector('#js-page');
 
   function carouselInit() {
     var progress = $('#progress');

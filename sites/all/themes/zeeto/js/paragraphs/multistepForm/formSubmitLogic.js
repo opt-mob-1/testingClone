@@ -72,7 +72,7 @@
   };
 
   // This is to apply a disabled attribute to first option in the select element to the elements below
-  document.getElementById("edit-state").options[0].disabled = true;
+  document.getElementById("edit-state-initials").options[0].disabled = true;
   document.getElementById("edit-test-date-list-month").options[0].disabled = true;
   document.getElementById("edit-test-date-list-day").options[0].disabled = true;
   document.getElementById("edit-test-date-list-year").options[0].disabled = true;
@@ -144,18 +144,21 @@
         required: true,
         customemail: true
       },
-      mobile_phone: {
+      phone: {
         required: true,
         phoneUS: true,
         maskedPhone: true
       },
-      address: {
+      street1: {
+        required: true
+      },
+      state_initials: {
         required: true
       },
       city: {
         required: true
       },
-      zip: {
+      postal: {
         required: true,
         zipcodeUS: true
       },
@@ -188,18 +191,21 @@
         required: 'Please enter an email address',
         customemail: 'Please enter a valid email address'
       },
-      mobile_phone: {
+      phone: {
         required: 'Please enter your phone number',
         phoneUS: 'Please specify a valid US phone number',
         maskedPhone: 'Please enter your phone number'
       },
-      address: {
+      street1: {
         required: 'Please enter your street address'
+      },
+      state_initials: {
+        required: 'Please select your state'
       },
       city: {
         required: 'Please enter your city'
       },
-      zip: {
+      postal: {
         required: 'Please enter your zip',
         zipcodeUS: 'Zip must be 5 digits'
       },

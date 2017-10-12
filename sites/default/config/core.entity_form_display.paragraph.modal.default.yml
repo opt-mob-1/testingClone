@@ -8,13 +8,12 @@ dependencies:
     - field.field.paragraph.modal.field_delay_time
     - field.field.paragraph.modal.field_field_id
     - field.field.paragraph.modal.field_libraries
+    - field.field.paragraph.modal.field_link_path
     - field.field.paragraph.modal.field_subheadline
     - field.field.paragraph.modal.field_type_of_modal
-    - field.field.paragraph.modal.field_url
     - field.field.paragraph.modal.field_wrapper_class
     - paragraphs.paragraphs_type.modal
   module:
-    - link
     - text
 id: paragraph.modal.default
 targetEntityType: paragraph
@@ -61,6 +60,14 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_link_path:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_subheadline:
     weight: 8
     settings:
@@ -74,14 +81,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
-    region: content
-  field_url:
-    weight: 1
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
     region: content
   field_wrapper_class:
     weight: 2

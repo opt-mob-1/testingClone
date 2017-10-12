@@ -11,7 +11,7 @@ entity_type: node
 bundle: variation
 label: 'Redirect URL'
 description: 'Include a redirect URL for the end of path'
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

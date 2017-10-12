@@ -18,7 +18,10 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
+  overflow: auto;
+  overflow-x:hidden;
+  -webkit-overflow-scrolling: touch;
+  position:relative;
 }
 body {
   font-family: $font-1;

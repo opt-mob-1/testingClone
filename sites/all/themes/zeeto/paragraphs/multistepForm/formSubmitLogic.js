@@ -17,29 +17,29 @@
     $(subheadline).show();
     $(formSubheadline).hide();
   };
-
+  
   var handleInputActiveClass = function handleInputActiveClass() {
-
+    
     $('form input').blur(function () {
       $(this).parent().find("label").removeClass("active");
     }).focus(function () {
       $(this).parent().find("label").addClass("active");
     });
-
+    
     $('form .select-wrapper').blur(function () {
       $(this).parent().find("label").removeClass("active");
     }).focus(function () {
       $(this).parent().find("label").addClass("active");
     });
   };
-
+  
   handleInputActiveClass();
   
   var maskPhone = function maskPhone() {
     var maskMethod = '999-999-9999';
     $('#edit-mobile-phone').mask(maskMethod);
   };
-
+  
   /**
    * Handle cases where we have leap years and fewer days in a month
    **/
@@ -70,27 +70,27 @@
       handleMonthChanged();
     }); // On year change (for leap years)
   };
-
+  
   // This is to apply a disabled attribute to first option in the select element to the elements below
-  document.getElementById("edit-state").options[0].disabled = true;
+  document.getElementById("edit-state-initials").options[0].disabled = true;
   document.getElementById("edit-test-date-list-month").options[0].disabled = true;
   document.getElementById("edit-test-date-list-day").options[0].disabled = true;
   document.getElementById("edit-test-date-list-year").options[0].disabled = true;
-
+  
   // TODO : COMMENT WHAT THIS DOES
   //dataLayer.push({ 'event': 'progression', 'phase': 'completedLandingPage' });
-
+  
   jQuery.validator.addMethod('maskedPhone', function (value, element) {
     var el2 = element.value;
     el2 = el2.replace(/\D/g, '');
     return el2;
   }, '*Required');
-
+  
   jQuery.validator.addMethod('customemail', function (value) {
     return (/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(value)
     );
   });
-
+  
   var signupForm = $("form");
   $(signupForm).submit(function (event) {
     event.preventDefault();
@@ -113,7 +113,7 @@
         $(element).valid();
       }
     },
-
+    
     errorPlacement: function errorPlacement(error, element) {
       if (element.attr('name') === 'test_date_list[month]') {
         error.insertAfter('.js-monthHook');
@@ -144,18 +144,21 @@
         required: true,
         customemail: true
       },
-      mobile_phone: {
+      phone: {
         required: true,
         phoneUS: true,
         maskedPhone: true
       },
-      address: {
+      street1: {
+        required: true
+      },
+      state_initials: {
         required: true
       },
       city: {
         required: true
       },
-      zip: {
+      postal: {
         required: true,
         zipcodeUS: true
       },
@@ -188,18 +191,21 @@
         required: 'Please enter an email address',
         customemail: 'Please enter a valid email address'
       },
-      mobile_phone: {
+      phone: {
         required: 'Please enter your phone number',
         phoneUS: 'Please specify a valid US phone number',
         maskedPhone: 'Please enter your phone number'
       },
-      address: {
+      street1: {
         required: 'Please enter your street address'
+      },
+      state_initials: {
+        required: 'Please select your state'
       },
       city: {
         required: 'Please enter your city'
       },
-      zip: {
+      postal: {
         required: 'Please enter your zip',
         zipcodeUS: 'Zip must be 5 digits'
       },
@@ -219,17 +225,17 @@
         required: '*Required'
       }
     },
-
+    
     // the submitHandler is triggered on the click of the final form submit button, $('#edit-submit')
     submitHandler: function submitHandler(signupForm) {
-        Visit.zTrkMacroEvent('form','submit','multistepForm', false);
+      Visit.zTrkMacroEvent('form','submit','multistepForm', false);
     }
   });
-
+  
   handleMonthChanged();
   
   $("#edit-gender-f").prop("checked", true);
-
+  
 }());
 
-  initializeFormStepLogic();
+initializeFormStepLogic();

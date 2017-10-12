@@ -22,7 +22,7 @@ mode: default
 content:
   field_blocks:
     weight: 6
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: block_field
@@ -47,7 +47,7 @@ content:
     region: content
   field_full_width:
     weight: 7
-    label: above
+    label: hidden
     settings:
       format: default
       format_custom_false: ''
@@ -57,7 +57,7 @@ content:
     region: content
   field_libraries:
     weight: 4
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -83,7 +83,7 @@ content:
     region: content
   field_wrapper_class:
     weight: 5
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

@@ -11,12 +11,11 @@ dependencies:
     - field.field.paragraph.falling_images.field_image_two
     - field.field.paragraph.falling_images.field_interval_speed
     - field.field.paragraph.falling_images.field_libraries
-    - field.field.paragraph.falling_images.field_url
+    - field.field.paragraph.falling_images.field_link_path
     - image.style.thumbnail
     - paragraphs.paragraphs_type.falling_images
   module:
     - image
-    - link
 id: paragraph.falling_images.default
 targetEntityType: paragraph
 bundle: falling_images
@@ -84,13 +83,13 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_url:
-    weight: 7
+  field_link_path:
+    weight: 9
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: link_default
+    type: string_textfield
     region: content
 hidden:
   created: true

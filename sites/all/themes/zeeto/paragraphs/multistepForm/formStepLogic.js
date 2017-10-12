@@ -8,14 +8,13 @@ var $ = jQuery;
  as callback to fireTracking
  - For stepSubmittedCustom always call loadNextStep after custom code or pass loadNextStep as a callback to a function
  **/
-//TODO: add variable for 
 function initializeFormStepLogic() {
   var formLogic = {
     formSteps: [{
       stepNumber: 1,
       stepElement: '#edit-multi-step-section-1',
       submitButton: '#next-step-1',
-      inputs: ['#edit-first-name', '#edit-last-name', '#edit-zip'],
+      inputs: ['#edit-first-name', '#edit-last-name', '#edit-postal'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
         this.prepopZip();
@@ -36,10 +35,9 @@ function initializeFormStepLogic() {
       stepNumber: 2,
       stepElement: '#edit-multi-step-section-2',
       submitButton: '#next-step-2',
-      inputs: ['#edit-address', '#edit-city', '#edit-state'],
+      inputs: ['#edit-street1', '#edit-city', '#edit-state-initials'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
-       // this.prepopZip();
         /* end custom functionality */
           Visit.zTrkMacroEvent('formstep','load','2');
         attachListeners.call(this);
@@ -106,7 +104,7 @@ function initializeFormStepLogic() {
       stepNumber: 5,
       stepElement: '#edit-multi-step-section-5',
       submitButton: '#next-step-5',
-      inputs: ['#edit-mobile-phone'],
+      inputs: ['#edit-phone'],
       stepLoadedCustom: function stepLoadedCustom(attachListeners) {
         /* begin custom functionality */
           Visit.zTrkMacroEvent('formstep','load','5');
@@ -177,9 +175,9 @@ function initializeFormStepLogic() {
 
     // populates city and state values based on zip
     prepopZip: function prepopZip() {
-      if ($('input[name=zip]') !== '') {
+      if ($('input[name=postal]') !== '') {
 
-        $('#edit-zip').keyup(function(){
+        $('#edit-postal').keyup(function(){
           if($(this).val().length == 5){
             var zip = $(this).val();
             var city = '';
@@ -208,7 +206,7 @@ function initializeFormStepLogic() {
                   });
                   //pre-fill the city and state
                   $('#edit-city').val(city);
-                  $('#edit-state').val(state);
+                  $('#edit-state-initials').val(state);
                 }
               });
              }

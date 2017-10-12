@@ -9,7 +9,6 @@ var main = function () {
     var doc = document,
         head = doc.getElementsByTagName('head')[0],
         noop = function noop() {};
-
     /**
      * Returns age in years.
      * @memberOf Visit
@@ -41,19 +40,21 @@ var main = function () {
     }
 
     /**
+     * Returns a random integer between min (inclusive) and max (inclusive)
+     * Using Math.round() will give you a non-uniform distribution!
+     */
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    /**
      * Returns random visitId.
      * @memberOf Visit
      *
      * @returns string
      */
     function generateVisitId() {
-        // birthday is a string
-        var array = new Uint32Array(3);
-        window.crypto.getRandomValues(array);
-        var generatedId = '';
-        for (var i = 0; i < array.length; i++) {
-            generatedId += array[i] + "-";
-        }
+        var generatedId = getRandomInt(1000000000, 9999999999) + '-' + getRandomInt(1000000000, 9999999999) + '-' + getRandomInt(1000000000, 9999999999) + '-';
         generatedId += Date.now().toString();
         return generatedId;
     }
@@ -271,6 +272,21 @@ var main = function () {
     };
 
     /**
+     * Adds attribute to customAttribute.
+     * @memberOf Visit
+     *
+     * @param {array} value
+     */
+    Visit.prototype.setCustomAttributes = function (value) {
+        this.customAttributes.push(value);
+        for (var attributeKey in value) {
+            if (value.hasOwnProperty(attributeKey)) {
+                this.cookies.set('visitCustomAttribute-' + attributeKey, value[attributeKey], { expires: 30 });
+            }
+        }
+    };
+
+    /**
      * The Visit constructor.
      * @class Visit
      * @namespace Visit
@@ -295,6 +311,7 @@ var main = function () {
         this.action = undefined;
         this.actionTime = undefined;
         this.technology = undefined;
+        this.customAttributes = undefined;
         //this.microEvent = undefined;
     }
 
@@ -307,6 +324,9 @@ var main = function () {
     Visit.prototype.zMilestoneInit = function (callback) {
         var self = this;
         var visitId = this.cookies.get('visitId');
+
+        var parser = new UAParser();
+        var result = parser.getResult();
 
         // Create and dispatch event to trigger visit dependent functionality
         var visitReadyEvent = new Event('visitReady');
@@ -333,31 +353,43 @@ var main = function () {
         this.acquisition = {
             hostName: window.location.hostname,
             zVv: pathName[1],
-            zVr: pathName[2]
+            zVr: pathName[2],
+            utmSource: null,
+            utmCampaign: null,
+            utmContent: null,
+            utmMedium: null,
+            utmTerm: null,
+            zRid: null,
+            zDc: null,
+            zEx: null
         };
+
         var intialAcquisition = getAllUrlParams(window.location.toString());
         if (intialAcquisition) {
             for (var attribute in intialAcquisition) {
                 this.acquisition[snakeToCamelCase(attribute)] = intialAcquisition[attribute];
+                this.cookies.set(snakeToCamelCase(attribute), intialAcquisition[attribute], { expires: 30 });
                 // this.acquisition.utm_campaign = zeeto_test
+            }
+        }
+        // Sets acquisition from cookies
+        for (var acqAttribute in this.acquisition) {
+            if (window.cookies.get(acqAttribute)) {
+                this.acquisition[acqAttribute] = window.cookies.get(acqAttribute);
             }
         }
 
         // Saving Technology attributes
         this.technology = {};
-        if (typeof ipPromise != 'undefined') {
-            ipPromise.then(function (ip) {
-                self.technology['ipAddress'] = ip;
-            });
-        }
 
-        self.technology['operatingSystem'] = getOS().name;
-        self.technology['browser'] = getBrowser()[0];
-        self.technology['browserVersion'] = getBrowser()[1];
+        self.technology['ipAddress'] = null;
+        self.technology['operatingSystem'] = result.os.name;
+        self.technology['browser'] = result.browser.name;
+        self.technology['browserVersion'] = result.browser.version;
         if (self.acquisition.zDc) {
             self.technology['deviceCategory'] = self.acquisition.zDc;
         }
-        self.technology['deviceType'] = navigator.platform;
+        self.technology['deviceType'] = result.device.type || null;
 
         // Triggers Save upon window unfocus
         window.addEventListener("blur", function (event) {
@@ -370,6 +402,20 @@ var main = function () {
             self.setStartTime();
             self.action = 'unload';
         }, false);
+
+        var allCookies = this.cookies.all();
+        var customAttributesObject = {};
+        for (var cookieKey in allCookies) {
+            if (allCookies.hasOwnProperty(cookieKey) && cookieKey.includes("visitCustomAttribute-")) {
+                var cleanedCookieKey = cookieKey.substr(21);
+                customAttributesObject[cleanedCookieKey] = allCookies[cookieKey];
+            }
+        }
+
+        this.customAttributes = [];
+        if (Object.keys(customAttributesObject).length > 0) {
+            this.customAttributes.push(customAttributesObject);
+        }
 
         // Triggers Save before window unload
         window.onbeforeunload = function (e) {

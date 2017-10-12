@@ -1,0 +1,19 @@
+uuid: e6b2d71a-da6a-4c81-aeeb-9c5f02c8d74a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_path
+    - paragraphs.paragraphs_type.popunder
+id: paragraph.popunder.field_link_path
+field_name: field_link_path
+entity_type: paragraph
+bundle: popunder
+label: 'Link Path'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

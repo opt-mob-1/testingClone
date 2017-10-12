@@ -12,9 +12,9 @@ function popUnder() {
     var fieldUrl_value = fieldUrl.dataset.fieldurl;
     var $anchor = $(this);
     $anchor.attr("target", "_blank");
-    $anchor.on("click", function () { 
+    $anchor.on("click", function () {
       setTimeout(function () {
-        window.location = fieldrUrl_value;
+        window.location = fieldUrl_value;
       }, 1000);
     });
   });

@@ -66,24 +66,20 @@ var main = function () {
     */
     function buildRequestData(data) {
         var value = {};
-        var addressAttr = ['address', 'city', 'state', 'zip'];
+        var addressAttr = ['street1', 'city', 'stateInitials', 'postal'];
         var primaryAttr = ['email', 'gaClientId', 'gaUserId', 'visitorAttributes', 'customAttributes', 'completedForm', 'deleted', 'creationDate', 'modifyDate'];
-        var visitorAttr = ['firstName', 'lastName', 'gaClientId', 'gaUserId', 'dateOfBirth', 'mobilePhone', 'gender'];
+        var visitorAttr = ['firstName', 'lastName', 'gaClientId', 'gaUserId', 'dateOfBirth', 'phone', 'gender'];
         value['visitorAttributes'] = {};
         value['visitorAttributes']['address'] = {};
         value['customAttributes'] = {};
         for (var attribute in data) {
             var sanitizedAttribute = attribute.includes('_') ? toCamelCase(attribute) : attribute;
             if (addressAttr.includes(sanitizedAttribute)) {
-                sanitizedAttribute = sanitizedAttribute == 'state' ? 'stateInitials' : sanitizedAttribute;
-                sanitizedAttribute = sanitizedAttribute == 'address' ? 'street1' : sanitizedAttribute;
                 value['visitorAttributes']['address'][sanitizedAttribute] = data[attribute];
             } else if (primaryAttr.includes(sanitizedAttribute)) {
                 value[sanitizedAttribute] = data[attribute];
             } else if (visitorAttr.includes(sanitizedAttribute)) {
-                if (sanitizedAttribute == 'mobilePhone') {
-                    value['visitorAttributes']['phone'] = data[attribute];
-                } else if (sanitizedAttribute == 'gender') {
+                if (sanitizedAttribute == 'gender') {
                     value['visitorAttributes'][sanitizedAttribute] = data[attribute] == 'M' ? 'MALE' : 'FEMALE';
                 } else {
                     value['visitorAttributes'][sanitizedAttribute] = data[attribute];
@@ -212,7 +208,6 @@ var main = function () {
                         self.setAttributes(visitorDataObject);
                         callback(false, self);
                     } else {
-
                         callback(response.errors instanceof Array || {});
                     }
                 });
@@ -304,7 +299,7 @@ var main = function () {
      * Get a visitor.
      * @memberOf Visitor
      *
-     * @param {object} attribute Visitor attributes like dob, zip code, email, etc.
+     * @param {object} attribute Visitor attributes like dob, postal, email, etc.
      * @param def
      *
      * @returns {*}
@@ -338,8 +333,31 @@ var main = function () {
 
             attributes.visitorAttributes.dateOfBirth = new DateOfBirth(new Date(attributes.visitorAttributes.dateOfBirth * 1000));
         }
-
-        this.attributes = attributes || {};
+        if (!attributes.status) {
+            this.attributes = {
+                'completedForm': attributes.completedForm || null,
+                'creationDate': attributes.creationDate || null,
+                'customAttributes': attributes.customAttributes || null,
+                'deleted': attributes.deleted || null,
+                'modifyDate': attributes.modifyDate || null,
+                'email': attributes.email || null,
+                'visitorAttributes': {
+                    'firstName': attributes.visitorAttributes.firstName || null,
+                    'lastName': attributes.visitorAttributes.lastName || null,
+                    'phone': attributes.visitorAttributes.phone || null,
+                    'dateOfBirth': attributes.visitorAttributes.dateOfBirth || null,
+                    'gender': attributes.visitorAttributes.gender || null,
+                    'address': {
+                        'postal': attributes.visitorAttributes.address.postal || null,
+                        'street1': attributes.visitorAttributes.address.street1 || null,
+                        'city': attributes.visitorAttributes.address.city || null,
+                        'stateInitials': attributes.visitorAttributes.address.stateInitials || null
+                    }
+                }
+            };
+        } else {
+            this.attributes = {};
+        }
     };
 
     /**
@@ -353,7 +371,22 @@ var main = function () {
      */
     function Visitor(options) {
         this.id = undefined;
-        this.attributes = {};
+        this.attributes = {
+            'email': null,
+            'visitorAttributes': {
+                'firstName': null,
+                'lastName': null,
+                'phone': null,
+                'dateOfBirth': null,
+                'gender': null,
+                'address': {
+                    'postal': null,
+                    'street1': null,
+                    'city': null,
+                    'stateInitials': null
+                }
+            }
+        };
     }
 
     /**

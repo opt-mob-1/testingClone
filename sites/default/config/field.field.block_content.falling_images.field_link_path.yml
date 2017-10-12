@@ -1,23 +1,19 @@
-uuid: 8abceadf-6d44-4d2a-8dbd-b90f931d27fd
+uuid: a65a71ec-f534-4a15-b251-822b3edb3073
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.falling_images
-    - field.storage.block_content.field_url
-  module:
-    - link
-id: block_content.falling_images.field_url
-field_name: field_url
+    - field.storage.block_content.field_link_path
+id: block_content.falling_images.field_link_path
+field_name: field_link_path
 entity_type: block_content
 bundle: falling_images
-label: URL
+label: 'Link Path'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  link_type: 17
-  title: 0
-field_type: link
+settings: {  }
+field_type: string

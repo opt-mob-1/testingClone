@@ -10,17 +10,16 @@ var $ = jQuery;
   var falling_image4_value = falling_image.dataset.fallingimage4;
   var falling_image_cycle_value = falling_image.dataset.fallingimagecycle;
   var falling_image_speed_value = falling_image.dataset.fallingimagespeed;
-  // refactor variable so it points to default link?
   var falling_image_link_value = falling_image.dataset.fallingimagelink;
   var falling_image_class_value = falling_image.dataset.fallingimageclass;
   var falling_image_append_value = falling_image.dataset.fallingimageappend;
   // Grabbing variationPageNumber and variationPageType set in variationView.js
 
   // var parameters = parseQueryString(window.location.search);
-  // var uf = parameters.utm_content;
+  // var utm = parameters.utm_content;
 
-  // if (uf === undefined || uf === '') {
-  //   uf = 'bundle';
+  // if (utm === undefined || utm === '') {
+  //   utm = 'default';
   // }
 
   // let it fall! plugin for falling or "raining/snowing" images

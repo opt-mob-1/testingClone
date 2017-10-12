@@ -1,5 +1,5 @@
 global-styling:
-  version: 1.0
+  version: 1.1
   fonts:
     css:
       theme:
@@ -25,15 +25,17 @@ global-styling:
 
 # Add any external libraries and custom components below
 global-js:
-  version: 1.x
+  version: 1.1
   js:
     js/libs/settings/settings.js: {}
+    //cdn.polyfill.io/v2/polyfill.min.js?features=default,Element.prototype.dataset: { type: external, weight:-41 }
+    //cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js: { type: external, weight:-41 }
   dependencies:
       - core/jquery
 
 # Variation library for legacy variation view (z)
 variationView:
-  version: 1.0
+  version: 1.1
   js:
     js/libs/variationView.js: {weight:-40}
   dependencies:
@@ -43,9 +45,9 @@ variationView:
 
 # Visit library for Visit Tracking(z)
 visitApi:
-  version: 1.0
+  version: 1.1
   js:
-    js/libs/vendor/techDetection.js: {}
+    js/libs/vendor/uaparser.js: {}
     js/libs/visitAPI.js: {}
   dependencies:
       - core/drupalSettings
@@ -53,7 +55,7 @@ visitApi:
 
 # Visitor library for Visitor Tracking(z)
 visitorApi:
-  version: 1.0
+  version: 1.1
   js:
     js/libs/visitorAPI.js: {}
   dependencies:
@@ -138,7 +140,7 @@ progressPercentageBar:
 
 # Library for the Multistep Form
 multistepForm:
-  version: 1.0
+  version: 1.1
   css:
     layout:
       css/paragraphs/multistepForm/multistepForm.css: {}
@@ -186,10 +188,10 @@ dynamicImage:
 
 # Library for ZAN
 zanFooter:
-  version: 1.0
+  version: 1.1
   css:
-      layout:
-        css/paragraphs/zan/zan.css: {}
+    layout:
+      css/paragraphs/zan/zan.css: {}
   js:
     js/paragraphs/zan/zanFooter.js: {weight:-30}
   dependencies:

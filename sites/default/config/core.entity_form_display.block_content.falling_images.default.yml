@@ -13,11 +13,10 @@ dependencies:
     - field.field.block_content.falling_images.field_image_two
     - field.field.block_content.falling_images.field_interval_speed
     - field.field.block_content.falling_images.field_libraries
-    - field.field.block_content.falling_images.field_url
+    - field.field.block_content.falling_images.field_link_path
     - image.style.thumbnail
   module:
     - image
-    - link
     - text
 id: block_content.falling_images.default
 targetEntityType: block_content
@@ -95,13 +94,13 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_url:
-    weight: 5
+  field_link_path:
+    weight: 26
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: link_default
+    type: string_textfield
     region: content
   info:
     type: string_textfield

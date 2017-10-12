@@ -4,10 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.popunder.field_libraries
-    - field.field.paragraph.popunder.field_url
+    - field.field.paragraph.popunder.field_link_path
     - paragraphs.paragraphs_type.popunder
-  module:
-    - link
 id: paragraph.popunder.default
 targetEntityType: paragraph
 bundle: popunder
@@ -21,13 +19,13 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_url:
-    weight: 0
+  field_link_path:
+    weight: 2
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: link_default
+    type: string_textfield
     region: content
 hidden:
   created: true

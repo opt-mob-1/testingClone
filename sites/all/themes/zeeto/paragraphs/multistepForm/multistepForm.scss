@@ -17,6 +17,9 @@ FORM ELEMENTS
 #edit-multi-step-section-6 {
   display: none;
 }
+select-wrapper:after {
+  content:'\25bc';
+}
 
 /********************************************
 /********************************************

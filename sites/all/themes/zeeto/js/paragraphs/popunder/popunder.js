@@ -14,7 +14,7 @@ function popUnder() {
     $anchor.attr("target", "_blank");
     $anchor.on("click", function () {
       setTimeout(function () {
-        window.location = fieldrUrl_value;
+        window.location = fieldUrl_value;
       }, 1000);
     });
   });
