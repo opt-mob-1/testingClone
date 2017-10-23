@@ -1,0 +1,12 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/ZeetoOptimization/zPubCore
+[submodule ".ebextensions"]
+	path = .ebextensions
+	url = https://github.com/ZeetoOptimization/zPubElasticBeanstalk
+[submodule "modules/zPub"]
+	path = modules/zPub
+	url = https://github.com/ZeetoOptimization/zPubModules
+[submodule "sites/all/themes"]
+	path = sites/all/themes
+	url = https://github.com/ZeetoOptimization/zPubThemes
